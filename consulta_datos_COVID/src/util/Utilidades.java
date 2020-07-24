@@ -15,38 +15,88 @@ import model.Caso;
 
 public class Utilidades {
 	
-	public static Stream <JSONObject> crearStream(){
+	public static Stream <Caso> crearStream(){
 		final String RUTA ="datos_ccaas.json";
 		JSONParser parse = new JSONParser();
 		try {
 			JSONArray array = (JSONArray)parse.parse(new FileReader(RUTA));
-			return (Stream <JSONObject>)array.stream();
+			Stream <JSONObject> streamJSON = (Stream <JSONObject>)array.stream();
+			return streamJSON.map(c-> Utilidades.crearCaso(c));
 		} catch (IOException | ParseException e) {
 			e.printStackTrace();
 			return null;
 		}
 	}
 	
+	private static String nombreComunidad(JSONObject jo) {
+		String nombreComunidad ="";
+		
+		switch ((String)jo.get("ccaa_iso")){
+		 case "AN":
+			 nombreComunidad="Andalucia";
+			 break;
+		 case "AR":
+			 nombreComunidad="Aragon";
+			 break;
+		 case "AS":
+			 nombreComunidad="Asturias";
+			 break;
+		 case "IB":
+			 nombreComunidad="Baleares";
+			 break;
+		 case "CN":
+			 nombreComunidad="Canarias";
+			 break;
+		 case "CB":
+			 nombreComunidad="Cantabria";
+			 break;
+		 case "CM":
+			 nombreComunidad="Castilla la Mancha";
+			 break;
+		 case "CL":
+			 nombreComunidad="Castilla Leon";
+			 break;
+		 case "CT":
+			 nombreComunidad="Cataluña";
+			 break;
+		 case "VC":
+			 nombreComunidad="Valencia";
+			 break;
+		 case "EX":
+			 nombreComunidad="Extremadura";
+			 break;
+		 case "GA":
+			 nombreComunidad="Galicia";
+			 break;
+		 case "RI":
+			 nombreComunidad="La Rioja";
+			 break;
+		 case "MD":
+			 nombreComunidad="Madrid";
+			 break;
+		 case "PV":
+			 nombreComunidad="Pais Vasco";
+			 break;
+		 case "MC":
+			 nombreComunidad="Murcia";
+			 break;
+		}
+		return nombreComunidad;
+	}
+	
 public static Caso crearCaso(JSONObject jo) {
 	
 	SimpleDateFormat sdt = new SimpleDateFormat("yyyy-MM-dd");
 	Date nuevaFecha=null;
-	String nombreComunidad;
+	String nombreComunidad=nombreComunidad(jo);
 	
-	 switch ((String)jo.get("ccaa_iso")){
-	 case "AN":
-		 nombreComunidad="Andalucia";
-		 break;
-		 
-		
-	}
 	try {
 		nuevaFecha = sdt.parse((String) jo.get("fecha"));
 	} catch (java.text.ParseException e) {
 		e.printStackTrace();
 	}
 	
-		return new Caso((String)jo.get("ccaa_iso")
+		return new Caso(nombreComunidad
 				,nuevaFecha
 				,(int)jo.get("num_casos"));
 	}

@@ -15,20 +15,20 @@ public class CovidService {
 	}
 	
 	public List<Caso> listaCasos (Date fecha1, Date fecha2){
-		return Utilidades.crearStream().map(c-> Utilidades.crearCaso(c))
+		return Utilidades.crearStream()
 		.filter(c -> c.getFecha().before(fecha1)&&c.getFecha().after(fecha2))
 		.collect(Collectors.toList());
 	}
 	
 	public int totalPositivosDia (Date fecha) {
-		return Utilidades.crearStream().map(c-> Utilidades.crearCaso(c))
+		return Utilidades.crearStream()
 		.filter(c -> c.getFecha().equals(fecha))
 		.max((c1,c2) -> c1.getPositivos()-c2.getPositivos())
 		.orElse(null).getPositivos();
 	}
 	
 	public Date picoContagios () {
-		return Utilidades.crearStream().map(c->Utilidades.crearCaso(c))
+		return Utilidades.crearStream()
 		.max((c1,c2) -> c1.getPositivos()-c2.getPositivos())
 		.orElse(null).getFecha();
 		
@@ -36,21 +36,22 @@ public class CovidService {
 	
 	public double mediaPositivosDiarios() {
 		return Utilidades.crearStream()
-				.mapToDouble(c -> (double)c.get("num_casos"))
+				.mapToDouble(c -> (double)c.getPositivos())
 				.average().orElse(0);
 		
 	}
 	
 	public int totalPositivosComunidad(String comunidad) {
 		return Utilidades.crearStream()
-				.filter(c -> c.get("ccaa_iso").equals(comunidad))
-				.mapToInt(c -> (int)c.get("num_casos"))
+				.filter(c -> c.getNombreComunidad().toLowerCase()
+						.contains(comunidad.toLowerCase()))
+				.mapToInt(c -> c.getPositivos())
 				.sum();
 		
 	}
 	
 	public Map<String,List<Caso>> listaCasosComunidad(){
-		return Utilidades.crearStream().map(c-> Utilidades.crearCaso(c))
+		return Utilidades.crearStream()
 		.collect(Collectors.groupingBy(c -> c.getNombreComunidad()));
 	}
 }
