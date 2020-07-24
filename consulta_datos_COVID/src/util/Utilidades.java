@@ -3,6 +3,9 @@ package util;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.stream.Stream;
 
@@ -100,5 +103,11 @@ public static Caso crearCaso(JSONObject jo) {
 				,nuevaFecha
 				,(long)jo.get("num_casos"));
 	}
+
+public static LocalDate dateToLocalDate(Date d) {
+	return Instant.ofEpochMilli(d.getTime()) //Instant
+			.atZone(ZoneId.systemDefault()) //ZoneDateTime
+			.toLocalDate(); //a LocalDate
+}
 
 }
