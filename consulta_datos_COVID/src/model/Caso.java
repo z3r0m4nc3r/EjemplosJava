@@ -5,8 +5,8 @@ import java.util.Date;
 public class Caso {
 	private String nombreComunidad;
 	private Date fecha;
-	private int positivos;
-	public Caso(String nombreComunidad, Date fecha, int positivos) {
+	private long positivos;
+	public Caso(String nombreComunidad, Date fecha, long positivos) {
 		super();
 		this.nombreComunidad = nombreComunidad;
 		this.fecha = fecha;
@@ -24,10 +24,10 @@ public class Caso {
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
-	public int getPositivos() {
+	public long getPositivos() {
 		return positivos;
 	}
-	public void setPositivos(int positivos) {
+	public void setPositivos(long positivos) {
 		this.positivos = positivos;
 	}
 	

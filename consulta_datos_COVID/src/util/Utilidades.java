@@ -98,7 +98,7 @@ public static Caso crearCaso(JSONObject jo) {
 	
 		return new Caso(nombreComunidad
 				,nuevaFecha
-				,(int)jo.get("num_casos"));
+				,(long)jo.get("num_casos"));
 	}
 
 }
