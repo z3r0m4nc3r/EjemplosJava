@@ -60,7 +60,7 @@ public class Utilidades {
 			 nombreComunidad="Castilla Leon";
 			 break;
 		 case "CT":
-			 nombreComunidad="Cataluña";
+			 nombreComunidad="Cataluï¿½a";
 			 break;
 		 case "VC":
 			 nombreComunidad="Valencia";
@@ -82,6 +82,15 @@ public class Utilidades {
 			 break;
 		 case "MC":
 			 nombreComunidad="Murcia";
+			 break;
+		 case "ML":
+			 nombreComunidad="Melilla";
+			 break;
+		 case "CE":
+			 nombreComunidad="Ceuta";
+			 break;
+		 case "NC":
+			 nombreComunidad="Navarra";
 			 break;
 		}
 		return nombreComunidad;
@@ -108,6 +117,12 @@ public static LocalDate dateToLocalDate(Date d) {
 	return Instant.ofEpochMilli(d.getTime()) //Instant
 			.atZone(ZoneId.systemDefault()) //ZoneDateTime
 			.toLocalDate(); //a LocalDate
+}
+
+public static Date localDateToDate (LocalDate ld) {
+	return Date.from(
+			ld.atStartOfDay(ZoneId.systemDefault())
+			.toInstant());
 }
 
 }

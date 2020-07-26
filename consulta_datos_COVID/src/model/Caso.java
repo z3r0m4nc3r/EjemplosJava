@@ -31,4 +31,5 @@ public class Caso {
 		this.positivos = positivos;
 	}
 	
+	
 }

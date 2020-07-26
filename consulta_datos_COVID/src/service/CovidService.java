@@ -16,7 +16,7 @@ public class CovidService {
 	
 	public List<Caso> listaCasos (Date fecha1, Date fecha2){
 		return Utilidades.crearStream()
-		.filter(c -> c.getFecha().before(fecha1)&&c.getFecha().after(fecha2))
+		.filter(c -> c.getFecha().getTime()>fecha1.getTime()&&c.getFecha().getTime()<fecha2.getTime())
 		.collect(Collectors.toList());
 	}
 	
