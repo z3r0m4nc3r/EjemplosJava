@@ -43,8 +43,8 @@ public class CovidService {
 	
 	public long totalPositivosComunidad(String comunidad) {
 		return Utilidades.crearStream()
-				.filter(c -> c.getNombreComunidad().toLowerCase()
-						.contains(comunidad.toLowerCase()))
+				.filter(c -> c.getNombreComunidad().toLowerCase().contentEquals(comunidad.toLowerCase())
+						|c.getNombreComunidad().toLowerCase().endsWith(comunidad))
 				.mapToLong(c -> c.getPositivos())
 				.sum();
 		

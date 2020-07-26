@@ -60,7 +60,7 @@ public class Utilidades {
 			 nombreComunidad="Castilla Leon";
 			 break;
 		 case "CT":
-			 nombreComunidad="Cataluï¿½a";
+			 nombreComunidad="Cataluña";
 			 break;
 		 case "VC":
 			 nombreComunidad="Valencia";

@@ -17,10 +17,15 @@ public class Test {
 	public static void main(String[] args) {
 		
 int opcion=0;
+SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 		
-System.out.println("*************************************************");
-System.out.println("* Sistema de gestion de datos pandemia COVID-19 *");
-System.out.println("*************************************************");
+System.out.println("*******************************************************");
+System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
+System.out.println("* Datos disponibles desde "+sdt.format(
+		Utilidades.crearStream().map(c -> c.getFecha()).findFirst().get())
++" Hasta "+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
+		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+"*");
+System.out.println("*******************************************************");
 
 		do{		
 			opcion = menu();
@@ -64,7 +69,7 @@ System.out.println("*************************************************");
 	
 		LocalDate dia = Utilidades.dateToLocalDate(service.picoContagios());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		System.out.println("Fecha en la que se notificaron mï¿½s contagios: "
+		System.out.println("Fecha en la que se notificaron más contagios: "
 		+dia.format(dtf)+
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
@@ -81,7 +86,8 @@ System.out.println("*************************************************");
 		String ciudad;
 		try {
 			ciudad = bf.readLine();
-			System.out.println("El total de casos notificados en "+ciudad+" es de "+service.totalPositivosComunidad(ciudad));
+			System.out.println("El total de casos notificados en "+ciudad+" es de "
+			+service.totalPositivosComunidad(ciudad));
 		} catch (IOException e) {
 			
 			e.printStackTrace();
@@ -96,6 +102,7 @@ System.out.println("*************************************************");
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		System.out.println("Lista de casos notificados entre dos fechas:");
 		System.out.println("Introduzca las fechas en formato dd/MM/yyyy\n");
+		System.out.println("");
 		
 		try {
 			System.out.println("Introduzca fecha inicial dd/MM/yyyy : ");
@@ -129,9 +136,10 @@ System.out.println("*************************************************");
 		BufferedReader bf=new BufferedReader(isr);
 		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 		System.out.println("Introduzca fecha en formato dd/MM/yyyy : ");
+		System.out.println("");
 		try {
 			Date fecha = sdt.parse(bf.readLine());
-			System.out.println("Totalde positivos : "+service.totalPositivosDia(fecha));
+			System.out.println("Total de positivos : "+service.totalPositivosDia(fecha));
 		} catch (ParseException e) {
 			
 			e.printStackTrace();
