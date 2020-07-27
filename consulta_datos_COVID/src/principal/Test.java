@@ -172,7 +172,7 @@ System.out.println("*******************************************************");
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		
+		System.out.println("Lista creada en el archivo "+archCSV);
 		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
