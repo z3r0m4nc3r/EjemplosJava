@@ -7,6 +7,7 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
+import java.util.Scanner;
 import java.util.stream.Stream;
 
 import org.json.simple.JSONArray;
@@ -123,6 +124,20 @@ public static Date localDateToDate (LocalDate ld) {
 	return Date.from(
 			ld.atStartOfDay(ZoneId.systemDefault())
 			.toInstant());
+}
+
+public static void pulsarTeclaParaContinuar()
+{
+    String seguir;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("");
+    System.out.println("Pulsa Enter para continuar...");
+    try
+    {
+        seguir = sc.nextLine();
+    }
+    catch(Exception e)
+    {}
 }
 
 }

@@ -1,8 +1,10 @@
 package principal;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -73,10 +75,16 @@ System.out.println("*******************************************************");
 		+dia.format(dtf)+
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
+		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
 	static void mediaPositivosDiarios() {
-		System.out.println("La media de positivos diarios hasta el 20/07/2020 es de: "+service.mediaPositivosDiarios());
+		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
+		System.out.println("La media de positivos diarios hasta el "
+		+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
+				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
+	+Math.round(service.mediaPositivosDiarios()*100d)/100d);
+		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
 	static void totalPositivosComunidad() {
@@ -92,6 +100,7 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
+		Utilidades.pulsarTeclaParaContinuar();
 			
 	}
 	
@@ -126,7 +135,7 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
-		
+		Utilidades.pulsarTeclaParaContinuar();
 		
 		
 	}
@@ -147,10 +156,22 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
+		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
 	static void listaCasosComunidad() {
-		service.listaCasosComunidad();
+		
+		String rutaArchivo="Casos_por_Comunidad.txt";
+		
+		try {
+			PrintStream out = new PrintStream(rutaArchivo);
+			out.println(service.listaCasosComunidad());
+		} catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+		
+		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
 static int menu() {
