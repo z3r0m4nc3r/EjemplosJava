@@ -130,8 +130,8 @@ public static Date localDateToDate (LocalDate ld) {
 public static void pulsarTeclaParaContinuar(){
     
    
-    try(Scanner sc = new Scanner(System.in)){
-    	
+    try{
+    	Scanner sc = new Scanner(System.in);
     	 System.out.println("");
     	 System.out.println("Pulsa Enter para continuar...");
          String seguir = sc.nextLine();

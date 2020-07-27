@@ -20,17 +20,15 @@ public class CovidService {
 		.collect(Collectors.toList());
 	}
 	
-	public long totalPositivosDia (Date fecha) {
-		return Utilidades.crearStream()
-		.filter(c -> c.getFecha().equals(fecha))
-		.max((c1,c2) -> c1.getPositivos()<c2.getPositivos()?-1:1)
-		.orElse(null).getPositivos();
-	}
+	
 	
 	public Date picoContagios () {
-		return Utilidades.crearStream()
-		.max((c1,c2) -> c1.getPositivos()<c2.getPositivos()?-1:1)
-		.orElse(null).getFecha();
+		
+		return Utilidades.crearStream().collect(Collectors.groupingBy(c -> c.getFecha()))
+				.values().stream()
+				.max((c1,c2) -> c1.stream().mapToLong(e -> e.getPositivos()).sum() 
+						< c2.stream().mapToLong(e -> e.getPositivos()).sum()?-1:1)
+				.get().get(0).getFecha();
 		
 	}
 	
@@ -45,9 +43,14 @@ public class CovidService {
 		return Utilidades.crearStream()
 				.filter(c -> c.getNombreComunidad().toLowerCase().contentEquals(comunidad.toLowerCase())
 						|c.getNombreComunidad().toLowerCase().endsWith(comunidad))
-				.mapToLong(c -> c.getPositivos())
-				.sum();
+				.mapToLong(c -> c.getPositivos()).sum();
 		
+	}
+	
+	public long totalPositivosDia (Date fecha) {
+		return Utilidades.crearStream().collect(Collectors.groupingBy(c -> c.getFecha()))
+				.get(fecha).stream().mapToLong(e -> e.getPositivos()).sum();
+				
 	}
 	
 	public long totalPositivosPais() {
