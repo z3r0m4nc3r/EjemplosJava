@@ -50,6 +50,12 @@ public class CovidService {
 		
 	}
 	
+	public long totalPositivosPais() {
+		return Utilidades.crearStream()
+				.mapToLong(c -> c.getPositivos())
+				.sum();
+	}
+	
 	public Map<String,List<Caso>> listaCasosComunidad(){
 		return Utilidades.crearStream()
 		.collect(Collectors.groupingBy(c -> c.getNombreComunidad()));

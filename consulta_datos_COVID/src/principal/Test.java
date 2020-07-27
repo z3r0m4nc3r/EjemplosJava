@@ -28,7 +28,7 @@ System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
 System.out.println("* Datos disponibles desde "+sdt.format(
 		Utilidades.crearStream().map(c -> c.getFecha()).findFirst().get())
 +" Hasta "+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
-		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+"*");
+		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" *");
 System.out.println("*******************************************************");
 
 		do{		
@@ -97,7 +97,10 @@ System.out.println("*******************************************************");
 		try {
 			ciudad = bf.readLine();
 			System.out.println("El total de casos notificados en "+ciudad+" es de "
-			+service.totalPositivosComunidad(ciudad));
+			+service.totalPositivosComunidad(ciudad)+" Total en España: "+service.totalPositivosPais());
+			System.out.println("Porcentaje de contagiados de "+ciudad
+					+" respecto del total en España "+(service.totalPositivosComunidad(ciudad)*100)
+					/service.totalPositivosPais()+"%");
 		} catch (IOException e) {
 			
 			e.printStackTrace();
