@@ -1,15 +1,16 @@
 package principal;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+
+import com.opencsv.CSVWriter;
 
 import service.CovidService;
 import util.Utilidades;
@@ -161,18 +162,15 @@ System.out.println("*******************************************************");
 	}
 	
 	static void listaCasosComunidad() {
-		
-		String rutaArchivo="Casos_por_Comunidad.txt";
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		try(PrintStream out = new PrintStream(rutaArchivo)) {
+		String archCSV = "Casos_por_Comunidad.csv";
+		try (CSVWriter writer = new CSVWriter(new FileWriter(archCSV))){
+			String [] cabecera = {"nombreComunidad","fecha","positivos"};
+			writer.writeNext(cabecera);
 			
 			service.listaCasosComunidad().values().stream()
-			.forEach(c -> c.forEach(d -> out.println(d.getNombreComunidad()
-					+" "+Utilidades.dateToLocalDate(d.getFecha()).format(dtf)+" "
-					+d.getPositivos()+" positivos")));
-		} catch (FileNotFoundException e) {
-			
-			e.printStackTrace();
+			.forEach(c -> c.forEach(d -> writer.writeNext(Utilidades.mapToArray(d))));
+		} catch (IOException e1) {
+			e1.printStackTrace();
 		}
 		
 		Utilidades.pulsarTeclaParaContinuar();

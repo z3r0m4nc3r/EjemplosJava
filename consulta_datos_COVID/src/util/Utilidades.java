@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -143,4 +144,13 @@ public static double redondearDouble(double d) {
 	return (double) Math.round(d*100d/100d);
 }
 
-}
+public static String [] mapToArray (Caso c) {
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+	String [] mapa = {c.getNombreComunidad(),Utilidades.dateToLocalDate(c.getFecha()).format(dtf).toString(),String.valueOf(c.getPositivos())};
+	return mapa;
+
+	}
+	}
+
+
