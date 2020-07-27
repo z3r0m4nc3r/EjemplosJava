@@ -16,6 +16,7 @@ import util.Utilidades;
 
 public class Test {
 	static CovidService service = new CovidService();
+	
 	public static void main(String[] args) {
 		
 int opcion=0;
@@ -83,7 +84,7 @@ System.out.println("*******************************************************");
 		System.out.println("La media de positivos diarios hasta el "
 		+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
 				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
-	+Math.round(service.mediaPositivosDiarios()*100d)/100d);
+	+Utilidades.redondearDouble(service.mediaPositivosDiarios()));
 		Utilidades.pulsarTeclaParaContinuar();
 	}
 	

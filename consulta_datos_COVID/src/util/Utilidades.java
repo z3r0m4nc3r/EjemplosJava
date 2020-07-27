@@ -126,8 +126,7 @@ public static Date localDateToDate (LocalDate ld) {
 			.toInstant());
 }
 
-public static void pulsarTeclaParaContinuar()
-{
+public static void pulsarTeclaParaContinuar(){
     String seguir;
     Scanner sc = new Scanner(System.in);
     System.out.println("");
@@ -138,6 +137,10 @@ public static void pulsarTeclaParaContinuar()
     }
     catch(Exception e)
     {}
+}
+
+public static double redondearDouble(double d) {
+	return (double) Math.round(d*100d/100d);
 }
 
 }
