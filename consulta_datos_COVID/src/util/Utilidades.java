@@ -128,16 +128,18 @@ public static Date localDateToDate (LocalDate ld) {
 }
 
 public static void pulsarTeclaParaContinuar(){
-    String seguir;
-    Scanner sc = new Scanner(System.in);
-    System.out.println("");
-    System.out.println("Pulsa Enter para continuar...");
-    try
-    {
-        seguir = sc.nextLine();
+    
+   
+    try(Scanner sc = new Scanner(System.in)){
+    	
+    	 System.out.println("");
+    	 System.out.println("Pulsa Enter para continuar...");
+         String seguir = sc.nextLine();
+        
     }
-    catch(Exception e)
-    {}
+    catch(Exception e){
+    	
+    }
 }
 
 public static double redondearDouble(double d) {
@@ -147,7 +149,9 @@ public static double redondearDouble(double d) {
 public static String [] mapToArray (Caso c) {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-	String [] mapa = {c.getNombreComunidad(),Utilidades.dateToLocalDate(c.getFecha()).format(dtf).toString(),String.valueOf(c.getPositivos())};
+	String [] mapa = {c.getNombreComunidad()
+			,Utilidades.dateToLocalDate(c.getFecha()).format(dtf).toString()
+			,String.valueOf(c.getPositivos())};
 	return mapa;
 
 	}
