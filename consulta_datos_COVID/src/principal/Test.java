@@ -163,8 +163,7 @@ System.out.println("*******************************************************");
 		
 		String rutaArchivo="Casos_por_Comunidad.txt";
 		
-		try {
-			PrintStream out = new PrintStream(rutaArchivo);
+		try(PrintStream out = new PrintStream(rutaArchivo)) {
 			out.println(service.listaCasosComunidad());
 		} catch (FileNotFoundException e) {
 			
@@ -177,7 +176,6 @@ System.out.println("*******************************************************");
 static int menu() {
 		
 		int op=0;
-		System.out.println("");
 		System.out.println("1.- Lista de Casos entre dos fechas");
 		System.out.println("2.- Total de casos en un dia");
 		System.out.println("3.- Fecha del pico de contagios");
