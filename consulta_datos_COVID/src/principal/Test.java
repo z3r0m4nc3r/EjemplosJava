@@ -163,9 +163,13 @@ System.out.println("*******************************************************");
 	static void listaCasosComunidad() {
 		
 		String rutaArchivo="Casos_por_Comunidad.txt";
-		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		try(PrintStream out = new PrintStream(rutaArchivo)) {
-			out.println(service.listaCasosComunidad());
+			
+			service.listaCasosComunidad().values().stream()
+			.forEach(c -> c.forEach(d -> out.println(d.getNombreComunidad()
+					+" "+Utilidades.dateToLocalDate(d.getFecha()).format(dtf)+" "
+					+d.getPositivos()+" positivos")));
 		} catch (FileNotFoundException e) {
 			
 			e.printStackTrace();

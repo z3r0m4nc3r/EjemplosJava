@@ -1,1 +1,3192 @@
-{La Rioja=[model.Caso@6576fe71, model.Caso@76fb509a, model.Caso@300ffa5d, model.Caso@1f17ae12, model.Caso@4d405ef7, model.Caso@6193b845, model.Caso@2e817b38, model.Caso@c4437c4, model.Caso@433c675d, model.Caso@3f91beef, model.Caso@1a6c5a9e, model.Caso@37bba400, model.Caso@179d3b25, model.Caso@254989ff, model.Caso@5d099f62, model.Caso@37f8bb67, model.Caso@49c2faae, model.Caso@20ad9418, model.Caso@31cefde0, model.Caso@439f5b3d, model.Caso@1d56ce6a, model.Caso@5197848c, model.Caso@17f052a3, model.Caso@2e0fa5d3, model.Caso@5010be6, model.Caso@685f4c2e, model.Caso@7daf6ecc, model.Caso@2e5d6d97, model.Caso@238e0d81, model.Caso@31221be2, model.Caso@377dca04, model.Caso@728938a9, model.Caso@21b8d17c, model.Caso@6433a2, model.Caso@5910e440, model.Caso@6267c3bb, model.Caso@533ddba, model.Caso@246b179d, model.Caso@7a07c5b4, model.Caso@26a1ab54, model.Caso@3d646c37, model.Caso@41cf53f9, model.Caso@5a10411, model.Caso@2ef1e4fa, model.Caso@306a30c7, model.Caso@b81eda8, model.Caso@68de145, model.Caso@27fa135a, model.Caso@46f7f36a, model.Caso@421faab1, model.Caso@2b71fc7e, model.Caso@5ce65a89, model.Caso@25f38edc, model.Caso@1a86f2f1, model.Caso@3eb07fd3, model.Caso@506c589e, model.Caso@69d0a921, model.Caso@446cdf90, model.Caso@799f7e29, model.Caso@4b85612c, model.Caso@277050dc, model.Caso@5c29bfd, model.Caso@7aec35a, model.Caso@67424e82, model.Caso@42110406, model.Caso@531d72ca, model.Caso@22d8cfe0, model.Caso@579bb367, model.Caso@1de0aca6, model.Caso@255316f2, model.Caso@41906a77, model.Caso@4b9af9a9, model.Caso@5387f9e0, model.Caso@6e5e91e4, model.Caso@2cdf8d8a, model.Caso@30946e09, model.Caso@5cb0d902, model.Caso@46fbb2c1, model.Caso@1698c449, model.Caso@5ef04b5, model.Caso@5f4da5c3, model.Caso@443b7951, model.Caso@14514713, model.Caso@69663380, model.Caso@5b37e0d2, model.Caso@4459eb14, model.Caso@5a2e4553, model.Caso@28c97a5, model.Caso@6659c656, model.Caso@6d5380c2, model.Caso@45ff54e6, model.Caso@2328c243, model.Caso@bebdb06, model.Caso@7a4f0f29, model.Caso@45283ce2, model.Caso@2077d4de, model.Caso@7591083d, model.Caso@77a567e1, model.Caso@736e9adb, model.Caso@6d21714c, model.Caso@108c4c35, model.Caso@4ccabbaa, model.Caso@4bf558aa, model.Caso@2d38eb89, model.Caso@5fa7e7ff, model.Caso@4629104a, model.Caso@27f8302d, model.Caso@4d76f3f8, model.Caso@2d8e6db6, model.Caso@23ab930d, model.Caso@4534b60d, model.Caso@3fa77460, model.Caso@619a5dff, model.Caso@1ed6993a, model.Caso@7e32c033, model.Caso@7ab2bfe1, model.Caso@497470ed, model.Caso@63c12fb0, model.Caso@b1a58a3, model.Caso@6438a396, model.Caso@e2144e4, model.Caso@6477463f, model.Caso@3d71d552, model.Caso@1cf4f579, model.Caso@18769467, model.Caso@46ee7fe8, model.Caso@7506e922, model.Caso@4ee285c6, model.Caso@621be5d1, model.Caso@573fd745, model.Caso@15327b79, model.Caso@4f2410ac, model.Caso@722c41f4, model.Caso@5b80350b, model.Caso@5d6f64b1, model.Caso@32a1bec0, model.Caso@22927a81, model.Caso@78e03bb5, model.Caso@5e8c92f4, model.Caso@61e4705b, model.Caso@50134894, model.Caso@2957fcb0, model.Caso@1376c05c, model.Caso@51521cc1, model.Caso@1b4fb997, model.Caso@deb6432, model.Caso@28ba21f3, model.Caso@694f9431, model.Caso@f2a0b8e, model.Caso@593634ad, model.Caso@20fa23c1, model.Caso@3581c5f3, model.Caso@6aa8ceb6, model.Caso@2530c12, model.Caso@73c6c3b2, model.Caso@48533e64, model.Caso@64a294a6, model.Caso@7e0b37bc, model.Caso@3b95a09c, model.Caso@6ae40994, model.Caso@1a93a7ca, model.Caso@3d82c5f3, model.Caso@2b05039f, model.Caso@61e717c2, model.Caso@66cd51c3, model.Caso@4dcbadb4, model.Caso@4e515669, model.Caso@17d10166], Pais Vasco=[model.Caso@1b9e1916, model.Caso@ba8a1dc, model.Caso@4f8e5cde, model.Caso@504bae78, model.Caso@3b764bce, model.Caso@759ebb3d, model.Caso@484b61fc, model.Caso@45fe3ee3, model.Caso@4cdf35a9, model.Caso@4c98385c, model.Caso@5fcfe4b2, model.Caso@6bf2d08e, model.Caso@5eb5c224, model.Caso@53e25b76, model.Caso@73a8dfcc, model.Caso@ea30797, model.Caso@7e774085, model.Caso@3f8f9dd6, model.Caso@aec6354, model.Caso@1c655221, model.Caso@58d25a40, model.Caso@1b701da1, model.Caso@726f3b58, model.Caso@442d9b6e, model.Caso@ee7d9f1, model.Caso@15615099, model.Caso@1edf1c96, model.Caso@368102c8, model.Caso@6996db8, model.Caso@1963006a, model.Caso@7fbe847c, model.Caso@41975e01, model.Caso@c2e1f26, model.Caso@dcf3e99, model.Caso@6d9c638, model.Caso@7dc5e7b4, model.Caso@1ee0005, model.Caso@75a1cd57, model.Caso@3d012ddd, model.Caso@6f2b958e, model.Caso@1eb44e46, model.Caso@6504e3b2, model.Caso@515f550a, model.Caso@626b2d4a, model.Caso@5e91993f, model.Caso@1c4af82c, model.Caso@379619aa, model.Caso@cac736f, model.Caso@5e265ba4, model.Caso@156643d4, model.Caso@123a439b, model.Caso@7de26db8, model.Caso@1175e2db, model.Caso@36aa7bc2, model.Caso@76ccd017, model.Caso@182decdb, model.Caso@26f0a63f, model.Caso@4361bd48, model.Caso@53bd815b, model.Caso@2401f4c3, model.Caso@7637f22, model.Caso@4926097b, model.Caso@762efe5d, model.Caso@5d22bbb7, model.Caso@41a4555e, model.Caso@3830f1c0, model.Caso@39ed3c8d, model.Caso@71dac704, model.Caso@123772c4, model.Caso@2d363fb3, model.Caso@7d6f77cc, model.Caso@5aaa6d82, model.Caso@73a28541, model.Caso@6f75e721, model.Caso@69222c14, model.Caso@606d8acf, model.Caso@782830e, model.Caso@470e2030, model.Caso@3fb4f649, model.Caso@33833882, model.Caso@200a570f, model.Caso@16b3fc9e, model.Caso@e2d56bf, model.Caso@244038d0, model.Caso@5680a178, model.Caso@5fdef03a, model.Caso@3b22cdd0, model.Caso@1e81f4dc, model.Caso@4d591d15, model.Caso@65ae6ba4, model.Caso@48cf768c, model.Caso@59f95c5d, model.Caso@5ccd43c2, model.Caso@4aa8f0b4, model.Caso@7960847b, model.Caso@6a6824be, model.Caso@5c8da962, model.Caso@512ddf17, model.Caso@2c13da15, model.Caso@77556fd, model.Caso@368239c8, model.Caso@9e89d68, model.Caso@3b192d32, model.Caso@16f65612, model.Caso@311d617d, model.Caso@7c53a9eb, model.Caso@ed17bee, model.Caso@2a33fae0, model.Caso@707f7052, model.Caso@11028347, model.Caso@14899482, model.Caso@21588809, model.Caso@2aae9190, model.Caso@2f333739, model.Caso@77468bd9, model.Caso@12bb4df8, model.Caso@4cc77c2e, model.Caso@7a7b0070, model.Caso@39a054a5, model.Caso@71bc1ae4, model.Caso@6ed3ef1, model.Caso@2437c6dc, model.Caso@1f89ab83, model.Caso@e73f9ac, model.Caso@61064425, model.Caso@7b1d7fff, model.Caso@299a06ac, model.Caso@383534aa, model.Caso@6bc168e5, model.Caso@7b3300e5, model.Caso@2e5c649, model.Caso@136432db, model.Caso@7382f612, model.Caso@1055e4af, model.Caso@3caeaf62, model.Caso@e6ea0c6, model.Caso@6a38e57f, model.Caso@5577140b, model.Caso@1c6b6478, model.Caso@67f89fa3, model.Caso@4ac68d3e, model.Caso@277c0f21, model.Caso@6073f712, model.Caso@43556938, model.Caso@3d04a311, model.Caso@7a46a697, model.Caso@5f205aa, model.Caso@6d86b085, model.Caso@75828a0f, model.Caso@3abfe836, model.Caso@2ff5659e, model.Caso@77afea7d, model.Caso@161cd475, model.Caso@532760d8, model.Caso@57fa26b7, model.Caso@5f8ed237, model.Caso@2f410acf, model.Caso@47089e5f, model.Caso@4141d797, model.Caso@68f7aae2, model.Caso@4f47d241, model.Caso@4c3e4790, model.Caso@38cccef, model.Caso@5679c6c6, model.Caso@27ddd392, model.Caso@19e1023e, model.Caso@7cef4e59, model.Caso@64b8f8f4], Cataluña=[model.Caso@2db0f6b2, model.Caso@3cd1f1c8, model.Caso@3a4afd8d, model.Caso@1996cd68, model.Caso@3339ad8e, model.Caso@555590, model.Caso@6d1e7682, model.Caso@424c0bc4, model.Caso@3c679bde, model.Caso@16b4a017, model.Caso@8807e25, model.Caso@2a3046da, model.Caso@2a098129, model.Caso@198e2867, model.Caso@12f40c25, model.Caso@3ada9e37, model.Caso@5cbc508c, model.Caso@3419866c, model.Caso@63e31ee, model.Caso@68fb2c38, model.Caso@567d299b, model.Caso@2eafffde, model.Caso@59690aa4, model.Caso@6842775d, model.Caso@574caa3f, model.Caso@64cee07, model.Caso@1761e840, model.Caso@6c629d6e, model.Caso@5ecddf8f, model.Caso@3f102e87, model.Caso@27abe2cd, model.Caso@5f5a92bb, model.Caso@6fdb1f78, model.Caso@51016012, model.Caso@29444d75, model.Caso@2280cdac, model.Caso@1517365b, model.Caso@4fccd51b, model.Caso@44e81672, model.Caso@60215eee, model.Caso@4ca8195f, model.Caso@65e579dc, model.Caso@61baa894, model.Caso@b065c63, model.Caso@768debd, model.Caso@490d6c15, model.Caso@7d4793a8, model.Caso@449b2d27, model.Caso@5479e3f, model.Caso@27082746, model.Caso@66133adc, model.Caso@7bfcd12c, model.Caso@42f30e0a, model.Caso@24273305, model.Caso@5b1d2887, model.Caso@46f5f779, model.Caso@1c2c22f3, model.Caso@18e8568, model.Caso@33e5ccce, model.Caso@5a42bbf4, model.Caso@270421f5, model.Caso@52d455b8, model.Caso@4f4a7090, model.Caso@18ef96, model.Caso@6956de9, model.Caso@769c9116, model.Caso@6aceb1a5, model.Caso@2d6d8735, model.Caso@ba4d54, model.Caso@12bc6874, model.Caso@de0a01f, model.Caso@4c75cab9, model.Caso@1ef7fe8e, model.Caso@6f79caec, model.Caso@67117f44, model.Caso@5d3411d, model.Caso@2471cca7, model.Caso@5fe5c6f, model.Caso@6979e8cb, model.Caso@763d9750, model.Caso@5c0369c4, model.Caso@2be94b0f, model.Caso@d70c109, model.Caso@17ed40e0, model.Caso@50675690, model.Caso@31b7dea0, model.Caso@3ac42916, model.Caso@47d384ee, model.Caso@2d6a9952, model.Caso@22a71081, model.Caso@3930015a, model.Caso@629f0666, model.Caso@1bc6a36e, model.Caso@1ff8b8f, model.Caso@387c703b, model.Caso@224aed64, model.Caso@c39f790, model.Caso@71e7a66b, model.Caso@2ac1fdc4, model.Caso@5f150435, model.Caso@1c53fd30, model.Caso@50cbc42f, model.Caso@75412c2f, model.Caso@282ba1e, model.Caso@13b6d03, model.Caso@f5f2bb7, model.Caso@73035e27, model.Caso@64c64813, model.Caso@3ecf72fd, model.Caso@483bf400, model.Caso@21a06946, model.Caso@77f03bb1, model.Caso@326de728, model.Caso@25618e91, model.Caso@7a92922, model.Caso@71f2a7d5, model.Caso@2cfb4a64, model.Caso@5474c6c, model.Caso@4b6995df, model.Caso@2fc14f68, model.Caso@591f989e, model.Caso@66048bfd, model.Caso@61443d8f, model.Caso@445b84c0, model.Caso@61a52fbd, model.Caso@233c0b17, model.Caso@63d4e2ba, model.Caso@7bb11784, model.Caso@33a10788, model.Caso@7006c658, model.Caso@34033bd0, model.Caso@47fd17e3, model.Caso@7cdbc5d3, model.Caso@3aa9e816, model.Caso@17d99928, model.Caso@3834d63f, model.Caso@1ae369b7, model.Caso@6fffcba5, model.Caso@34340fab, model.Caso@2aafb23c, model.Caso@2b80d80f, model.Caso@3ab39c39, model.Caso@2eee9593, model.Caso@7907ec20, model.Caso@546a03af, model.Caso@721e0f4f, model.Caso@28864e92, model.Caso@6ea6d14e, model.Caso@6ad5c04e, model.Caso@6833ce2c, model.Caso@725bef66, model.Caso@2aaf7cc2, model.Caso@6e3c1e69, model.Caso@1888ff2c, model.Caso@35851384, model.Caso@649d209a, model.Caso@6adca536, model.Caso@357246de, model.Caso@28f67ac7, model.Caso@256216b3, model.Caso@2a18f23c, model.Caso@d7b1517, model.Caso@16c0663d, model.Caso@23223dd8, model.Caso@4ec6a292, model.Caso@1b40d5f0, model.Caso@ea4a92b, model.Caso@3c5a99da], Baleares=[model.Caso@47f37ef1, model.Caso@5a01ccaa, model.Caso@71c7db30, model.Caso@19bb089b, model.Caso@4563e9ab, model.Caso@11531931, model.Caso@5e025e70, model.Caso@1fbc7afb, model.Caso@45c8e616, model.Caso@4cdbe50f, model.Caso@66d33a, model.Caso@7cf10a6f, model.Caso@7e0babb1, model.Caso@6debcae2, model.Caso@5ba23b66, model.Caso@2ff4f00f, model.Caso@c818063, model.Caso@3f0ee7cb, model.Caso@75bd9247, model.Caso@7d417077, model.Caso@7dc36524, model.Caso@35bbe5e8, model.Caso@2c8d66b2, model.Caso@5a39699c, model.Caso@3cb5cdba, model.Caso@56cbfb61, model.Caso@1134affc, model.Caso@d041cf, model.Caso@129a8472, model.Caso@1b0375b3, model.Caso@2f7c7260, model.Caso@2d209079, model.Caso@6bdf28bb, model.Caso@6b71769e, model.Caso@2752f6e2, model.Caso@e580929, model.Caso@1cd072a9, model.Caso@7c75222b, model.Caso@4c203ea1, model.Caso@27f674d, model.Caso@1d251891, model.Caso@48140564, model.Caso@58ceff1, model.Caso@7c30a502, model.Caso@49e4cb85, model.Caso@2133c8f8, model.Caso@43a25848, model.Caso@3ac3fd8b, model.Caso@5594a1b5, model.Caso@6a5fc7f7, model.Caso@3b6eb2ec, model.Caso@1e643faf, model.Caso@6e8dacdf, model.Caso@7a79be86, model.Caso@34ce8af7, model.Caso@b684286, model.Caso@880ec60, model.Caso@3f3afe78, model.Caso@7f63425a, model.Caso@36d64342, model.Caso@39ba5a14, model.Caso@511baa65, model.Caso@340f438e, model.Caso@30c7da1e, model.Caso@5b464ce8, model.Caso@57829d67, model.Caso@19dfb72a, model.Caso@17c68925, model.Caso@7e0ea639, model.Caso@3d24753a, model.Caso@59a6e353, model.Caso@7a0ac6e3, model.Caso@71be98f5, model.Caso@6fadae5d, model.Caso@17f6480, model.Caso@2d6e8792, model.Caso@2812cbfa, model.Caso@2acf57e3, model.Caso@506e6d5e, model.Caso@96532d6, model.Caso@3796751b, model.Caso@67b64c45, model.Caso@4411d970, model.Caso@6442b0a6, model.Caso@60f82f98, model.Caso@35f983a6, model.Caso@7f690630, model.Caso@edf4efb, model.Caso@2f7a2457, model.Caso@566776ad, model.Caso@6108b2d7, model.Caso@1554909b, model.Caso@6bf256fa, model.Caso@6cd8737, model.Caso@22f71333, model.Caso@13969fbe, model.Caso@6aaa5eb0, model.Caso@3498ed, model.Caso@1a407d53, model.Caso@3d8c7aca, model.Caso@5ebec15, model.Caso@21bcffb5, model.Caso@380fb434, model.Caso@668bc3d5, model.Caso@3cda1055, model.Caso@7a5d012c, model.Caso@3fb6a447, model.Caso@79b4d0f, model.Caso@6b2fad11, model.Caso@79698539, model.Caso@73f792cf, model.Caso@2ed94a8b, model.Caso@38082d64, model.Caso@dfd3711, model.Caso@42d3bd8b, model.Caso@26ba2a48, model.Caso@5f2050f6, model.Caso@3b81a1bc, model.Caso@64616ca2, model.Caso@13fee20c, model.Caso@4e04a765, model.Caso@783e6358, model.Caso@17550481, model.Caso@735f7ae5, model.Caso@180bc464, model.Caso@1324409e, model.Caso@2c6a3f77, model.Caso@246ae04d, model.Caso@62043840, model.Caso@5315b42e, model.Caso@2ef9b8bc, model.Caso@5d624da6, model.Caso@1e67b872, model.Caso@60addb54, model.Caso@3f2a3a5, model.Caso@4cb2c100, model.Caso@6fb554cc, model.Caso@614c5515, model.Caso@77b52d12, model.Caso@2d554825, model.Caso@68837a77, model.Caso@6be46e8f, model.Caso@3567135c, model.Caso@327471b5, model.Caso@4157f54e, model.Caso@90f6bfd, model.Caso@47f6473, model.Caso@15975490, model.Caso@6b143ee9, model.Caso@1936f0f5, model.Caso@6615435c, model.Caso@4909b8da, model.Caso@3a03464, model.Caso@2d3fcdbd, model.Caso@617c74e5, model.Caso@6537cf78, model.Caso@67b6d4ae, model.Caso@34b7bfc0, model.Caso@366e2eef, model.Caso@6df97b55, model.Caso@3cbbc1e0, model.Caso@35fb3008, model.Caso@7225790e, model.Caso@54a097cc, model.Caso@36f6e879, model.Caso@5a61f5df, model.Caso@3551a94, model.Caso@531be3c5], Galicia=[model.Caso@52af6cff, model.Caso@735b478, model.Caso@2c9f9fb0, model.Caso@2096442d, model.Caso@9f70c54, model.Caso@234bef66, model.Caso@737996a0, model.Caso@61dc03ce, model.Caso@50f8360d, model.Caso@2cb4c3ab, model.Caso@13c78c0b, model.Caso@12843fce, model.Caso@3dd3bcd, model.Caso@97e1986, model.Caso@26f67b76, model.Caso@153f5a29, model.Caso@7f560810, model.Caso@69d9c55, model.Caso@13a57a3b, model.Caso@7ca48474, model.Caso@337d0578, model.Caso@59e84876, model.Caso@61a485d2, model.Caso@39fb3ab6, model.Caso@6276ae34, model.Caso@7946e1f4, model.Caso@3c09711b, model.Caso@5cc7c2a6, model.Caso@b97c004, model.Caso@4590c9c3, model.Caso@32e6e9c3, model.Caso@5056dfcb, model.Caso@6574b225, model.Caso@2669b199, model.Caso@2344fc66, model.Caso@458ad742, model.Caso@5afa04c, model.Caso@6ea12c19, model.Caso@6a024a67, model.Caso@7921b0a2, model.Caso@174d20a, model.Caso@66d2e7d9, model.Caso@1efbd816, model.Caso@6a2bcfcb, model.Caso@4de8b406, model.Caso@3c756e4d, model.Caso@7c0e2abd, model.Caso@48eff760, model.Caso@402f32ff, model.Caso@573f2bb1, model.Caso@5ae9a829, model.Caso@6d8a00e3, model.Caso@548b7f67, model.Caso@7ac7a4e4, model.Caso@6d78f375, model.Caso@50c87b21, model.Caso@5f375618, model.Caso@1810399e, model.Caso@32d992b2, model.Caso@215be6bb, model.Caso@4439f31e, model.Caso@5dfcfece, model.Caso@23ceabc1, model.Caso@5d5eef3d, model.Caso@56f4468b, model.Caso@6cc4c815, model.Caso@3a82f6ef, model.Caso@100fc185, model.Caso@643b1d11, model.Caso@2ef5e5e3, model.Caso@36d4b5c, model.Caso@6d00a15d, model.Caso@51efea79, model.Caso@5034c75a, model.Caso@396a51ab, model.Caso@51081592, model.Caso@7f9a81e8, model.Caso@9629756, model.Caso@62ee68d8, model.Caso@735b5592, model.Caso@58651fd0, model.Caso@4520ebad, model.Caso@5419f379, model.Caso@7dc7cbad, model.Caso@d2cc05a, model.Caso@4f933fd1, model.Caso@548a9f61, model.Caso@1753acfe, model.Caso@7c16905e, model.Caso@2a2d45ba, model.Caso@2a5ca609, model.Caso@20e2cbe0, model.Caso@68be2bc2, model.Caso@28feb3fa, model.Caso@675d3402, model.Caso@51565ec2, model.Caso@482f8f11, model.Caso@1593948d, model.Caso@1b604f19, model.Caso@7823a2f9, model.Caso@4cc0edeb, model.Caso@457e2f02, model.Caso@5c7fa833, model.Caso@39aeed2f, model.Caso@724af044, model.Caso@4678c730, model.Caso@6767c1fc, model.Caso@29ee9faa, model.Caso@c038203, model.Caso@cc285f4, model.Caso@55f3ddb1, model.Caso@8bd1b6a, model.Caso@18be83e4, model.Caso@cb5822, model.Caso@4b9e13df, model.Caso@2b98378d, model.Caso@475530b9, model.Caso@1d057a39, model.Caso@26be92ad, model.Caso@4c70fda8, model.Caso@224edc67, model.Caso@14acaea5, model.Caso@46d56d67, model.Caso@d8355a8, model.Caso@59fa1d9b, model.Caso@28d25987, model.Caso@4501b7af, model.Caso@523884b2, model.Caso@5b275dab, model.Caso@61832929, model.Caso@29774679, model.Caso@3ffc5af1, model.Caso@5e5792a0, model.Caso@26653222, model.Caso@3532ec19, model.Caso@68c4039c, model.Caso@ae45eb6, model.Caso@59f99ea, model.Caso@27efef64, model.Caso@6f7fd0e6, model.Caso@47c62251, model.Caso@3e6fa38a, model.Caso@66a3ffec, model.Caso@77caeb3e, model.Caso@1e88b3c, model.Caso@42d80b78, model.Caso@3bfdc050, model.Caso@1bce4f0a, model.Caso@5e3a8624, model.Caso@5c3bd550, model.Caso@91161c7, model.Caso@604ed9f0, model.Caso@6a4f787b, model.Caso@685cb137, model.Caso@6a41eaa2, model.Caso@7cd62f43, model.Caso@6d4b1c02, model.Caso@6093dd95, model.Caso@5622fdf, model.Caso@4883b407, model.Caso@7d9d1a19, model.Caso@39c0f4a, model.Caso@1794d431, model.Caso@42e26948, model.Caso@57baeedf, model.Caso@343f4d3d, model.Caso@53b32d7, model.Caso@5442a311], Aragon=[model.Caso@548e7350, model.Caso@1a968a59, model.Caso@4667ae56, model.Caso@77cd7a0, model.Caso@204f30ec, model.Caso@e25b2fe, model.Caso@754ba872, model.Caso@146ba0ac, model.Caso@4dfa3a9d, model.Caso@6eebc39e, model.Caso@464bee09, model.Caso@f6c48ac, model.Caso@13deb50e, model.Caso@239963d8, model.Caso@3abbfa04, model.Caso@57fffcd7, model.Caso@31ef45e3, model.Caso@598067a5, model.Caso@3c0ecd4b, model.Caso@14bf9759, model.Caso@5f341870, model.Caso@553f17c, model.Caso@4f7d0008, model.Caso@271053e1, model.Caso@589838eb, model.Caso@42dafa95, model.Caso@6500df86, model.Caso@402a079c, model.Caso@59ec2012, model.Caso@4cf777e8, model.Caso@2f686d1f, model.Caso@3fee9989, model.Caso@73ad2d6, model.Caso@7085bdee, model.Caso@1ce92674, model.Caso@5700d6b1, model.Caso@6fd02e5, model.Caso@5bcab519, model.Caso@e45f292, model.Caso@5f2108b5, model.Caso@31a5c39e, model.Caso@3f49dace, model.Caso@1e397ed7, model.Caso@490ab905, model.Caso@56ac3a89, model.Caso@27c20538, model.Caso@72d818d1, model.Caso@6e06451e, model.Caso@59494225, model.Caso@6e1567f1, model.Caso@5cb9f472, model.Caso@cb644e, model.Caso@13805618, model.Caso@56ef9176, model.Caso@4566e5bd, model.Caso@1ed4004b, model.Caso@ff5b51f, model.Caso@25bbe1b6, model.Caso@5702b3b1, model.Caso@69ea3742, model.Caso@4b952a2d, model.Caso@3159c4b8, model.Caso@73846619, model.Caso@4bec1f0c, model.Caso@29ca901e, model.Caso@5649fd9b, model.Caso@6adede5, model.Caso@2d928643, model.Caso@5025a98f, model.Caso@49993335, model.Caso@20322d26, model.Caso@192b07fd, model.Caso@64bfbc86, model.Caso@64bf3bbf, model.Caso@55d56113, model.Caso@148080bb, model.Caso@dc24521, model.Caso@10bdf5e5, model.Caso@6e1ec318, model.Caso@7e0b0338, model.Caso@617faa95, model.Caso@1e127982, model.Caso@60c6f5b, model.Caso@2038ae61, model.Caso@3c0f93f1, model.Caso@31dc339b, model.Caso@544fe44c, model.Caso@31610302, model.Caso@71318ec4, model.Caso@21213b92, model.Caso@a67c67e, model.Caso@3327bd23, model.Caso@4e1d422d, model.Caso@66480dd7, model.Caso@52a86356, model.Caso@5ce81285, model.Caso@78c03f1f, model.Caso@5ec0a365, model.Caso@4fe3c938, model.Caso@5383967b, model.Caso@2ac273d3, model.Caso@71423665, model.Caso@20398b7c, model.Caso@6fc6f14e, model.Caso@56235b8e, model.Caso@3632be31, model.Caso@5abca1e0, model.Caso@2286778, model.Caso@4e9ba398, model.Caso@6d7b4f4c, model.Caso@527740a2, model.Caso@13a5fe33, model.Caso@3108bc, model.Caso@370736d9, model.Caso@5f9d02cb, model.Caso@63753b6d, model.Caso@6b09bb57, model.Caso@6536e911, model.Caso@520a3426, model.Caso@18eed359, model.Caso@3e9b1010, model.Caso@6c3708b3, model.Caso@6f1fba17, model.Caso@185d8b6, model.Caso@67784306, model.Caso@335eadca, model.Caso@210366b4, model.Caso@eec5a4a, model.Caso@2b2948e2, model.Caso@6ddf90b0, model.Caso@57536d79, model.Caso@3b0143d3, model.Caso@5a8e6209, model.Caso@4b4523f8, model.Caso@731a74c, model.Caso@369f73a2, model.Caso@1f28c152, model.Caso@7d907bac, model.Caso@7791a895, model.Caso@3a5ed7a6, model.Caso@6325a3ee, model.Caso@1d16f93d, model.Caso@67b92f0a, model.Caso@2b9627bc, model.Caso@65e2dbf3, model.Caso@4f970963, model.Caso@61f8bee4, model.Caso@7b49cea0, model.Caso@887af79, model.Caso@7fac631b, model.Caso@5b87ed94, model.Caso@6e0e048a, model.Caso@5bc79255, model.Caso@47ef968d, model.Caso@23e028a9, model.Caso@3dd4520b, model.Caso@5ae63ade, model.Caso@610694f1, model.Caso@43814d18, model.Caso@5c5a1b69, model.Caso@3701eaf6, model.Caso@627551fb, model.Caso@2b552920, model.Caso@2758fe70, model.Caso@1f36e637, model.Caso@578486a3, model.Caso@551aa95a, model.Caso@35d176f7], Asturias=[model.Caso@1dfe2924, model.Caso@6ebc05a6, model.Caso@6e6c3152, model.Caso@50b494a6, model.Caso@3cef309d, model.Caso@32709393, model.Caso@3d99d22e, model.Caso@49fc609f, model.Caso@cd2dae5, model.Caso@3a883ce7, model.Caso@4973813a, model.Caso@6321e813, model.Caso@79be0360, model.Caso@22a67b4, model.Caso@57855c9a, model.Caso@3b084709, model.Caso@3224f60b, model.Caso@63e2203c, model.Caso@1efed156, model.Caso@6737fd8f, model.Caso@72b6cbcc, model.Caso@a7e666, model.Caso@68bbe345, model.Caso@30b8a058, model.Caso@7494e528, model.Caso@4bbfb90a, model.Caso@7c29daf3, model.Caso@9660f4e, model.Caso@5a8806ef, model.Caso@6c49835d, model.Caso@5e853265, model.Caso@67205a84, model.Caso@7d0587f1, model.Caso@5d76b067, model.Caso@2a17b7b6, model.Caso@4f063c0a, model.Caso@1e6d1014, model.Caso@76707e36, model.Caso@614ddd49, model.Caso@1f554b06, model.Caso@694e1548, model.Caso@1c3a4799, model.Caso@131276c2, model.Caso@26aa12dd, model.Caso@3fd7a715, model.Caso@711f39f9, model.Caso@71bbf57e, model.Caso@7f13d6e, model.Caso@51cdd8a, model.Caso@d44fc21, model.Caso@23faf8f2, model.Caso@2d6eabae, model.Caso@4e7dc304, model.Caso@64729b1e, model.Caso@10bbd20a, model.Caso@48503868, model.Caso@6895a785, model.Caso@184f6be2, model.Caso@56aac163, model.Caso@1f7030a6, model.Caso@5a1c0542, model.Caso@396f6598, model.Caso@394e1a0f, model.Caso@27a5f880, model.Caso@1d29cf23, model.Caso@5f282abb, model.Caso@167fdd33, model.Caso@1e965684, model.Caso@4d95d2a2, model.Caso@53f65459, model.Caso@3b088d51, model.Caso@1786dec2, model.Caso@74650e52, model.Caso@15d0c81b, model.Caso@6acdbdf5, model.Caso@4b1c1ea0, model.Caso@17579e0f, model.Caso@4d41cee, model.Caso@3712b94, model.Caso@2833cc44, model.Caso@33f88ab, model.Caso@27a8c74e, model.Caso@2d8f65a4, model.Caso@1b68ddbd, model.Caso@646d64ab, model.Caso@59e5ddf, model.Caso@536aaa8d, model.Caso@e320068, model.Caso@1f57539, model.Caso@76f2b07d, model.Caso@704a52ec, model.Caso@6ee52dcd, model.Caso@4493d195, model.Caso@2781e022, model.Caso@57e1b0c, model.Caso@4232c52b, model.Caso@1877ab81, model.Caso@305fd85d, model.Caso@458c1321, model.Caso@11438d26, model.Caso@34cd072c, model.Caso@7a1ebcd8, model.Caso@5faeada1, model.Caso@528931cf, model.Caso@ea1a8d5, model.Caso@1563da5, model.Caso@2bbf4b8b, model.Caso@30a3107a, model.Caso@33c7e1bb, model.Caso@34c4973, model.Caso@52feb982, model.Caso@7a765367, model.Caso@76b0bfab, model.Caso@17d677df, model.Caso@3043fe0e, model.Caso@78e67e0a, model.Caso@bd8db5a, model.Caso@2f943d71, model.Caso@80503, model.Caso@4b553d26, model.Caso@69a3d1d, model.Caso@86be70a, model.Caso@480bdb19, model.Caso@2a556333, model.Caso@7d70d1b1, model.Caso@2a742aa2, model.Caso@3cb1ffe6, model.Caso@3dfc5fb8, model.Caso@467aecef, model.Caso@4d50efb8, model.Caso@7e2d773b, model.Caso@2173f6d9, model.Caso@307f6b8c, model.Caso@7a187f14, model.Caso@6f195bc3, model.Caso@51e2adc7, model.Caso@1a8a8f7c, model.Caso@2353b3e6, model.Caso@631330c, model.Caso@42f93a98, model.Caso@c46bcd4, model.Caso@3234e239, model.Caso@3d921e20, model.Caso@36b4cef0, model.Caso@fad74ee, model.Caso@1a1d6a08, model.Caso@37d31475, model.Caso@27808f31, model.Caso@436e852b, model.Caso@32d2fa64, model.Caso@1d8d30f7, model.Caso@3e57cd70, model.Caso@9a7504c, model.Caso@2c039ac6, model.Caso@587d1d39, model.Caso@58c1670b, model.Caso@6b57696f, model.Caso@5bb21b69, model.Caso@6b9651f3, model.Caso@38bc8ab5, model.Caso@687080dc, model.Caso@23d2a7e8, model.Caso@7a9273a8, model.Caso@26a7b76d, model.Caso@4abdb505, model.Caso@7ce6a65d, model.Caso@1500955a, model.Caso@e874448], Castilla la Mancha=[model.Caso@29b5cd00, model.Caso@60285225, model.Caso@7113b13f, model.Caso@45820e51, model.Caso@42d8062c, model.Caso@6043cd28, model.Caso@cb51256, model.Caso@59906517, model.Caso@5bfbf16f, model.Caso@25af5db5, model.Caso@12cdcf4, model.Caso@5bcea91b, model.Caso@5f3a4b84, model.Caso@27f723, model.Caso@670b40af, model.Caso@4923ab24, model.Caso@44c8afef, model.Caso@7b69c6ba, model.Caso@46daef40, model.Caso@12f41634, model.Caso@13c27452, model.Caso@262b2c86, model.Caso@371a67ec, model.Caso@5ed828d, model.Caso@50d0686, model.Caso@7a3d45bd, model.Caso@1e7c7811, model.Caso@77ec78b9, model.Caso@1a3869f4, model.Caso@a38d7a3, model.Caso@77f99a05, model.Caso@63440df3, model.Caso@3aeaafa6, model.Caso@76a3e297, model.Caso@4d3167f4, model.Caso@ed9d034, model.Caso@6121c9d6, model.Caso@87f383f, model.Caso@4eb7f003, model.Caso@eafc191, model.Caso@612fc6eb, model.Caso@1060b431, model.Caso@612679d6, model.Caso@11758f2a, model.Caso@e720b71, model.Caso@1b26f7b2, model.Caso@491cc5c9, model.Caso@74ad1f1f, model.Caso@6a1aab78, model.Caso@462d5aee, model.Caso@69b0fd6f, model.Caso@757942a1, model.Caso@4a87761d, model.Caso@66d1af89, model.Caso@8646db9, model.Caso@37374a5e, model.Caso@4671e53b, model.Caso@2db7a79b, model.Caso@6950e31, model.Caso@b7dd107, model.Caso@42eca56e, model.Caso@52f759d7, model.Caso@7cbd213e, model.Caso@192d3247, model.Caso@3ecd23d9, model.Caso@569cfc36, model.Caso@43bd930a, model.Caso@33723e30, model.Caso@64f6106c, model.Caso@553a3d88, model.Caso@7a30d1e6, model.Caso@5891e32e, model.Caso@cb0ed20, model.Caso@8e24743, model.Caso@74a10858, model.Caso@23fe1d71, model.Caso@28ac3dc3, model.Caso@32eebfca, model.Caso@4e718207, model.Caso@1d371b2d, model.Caso@543c6f6d, model.Caso@13eb8acf, model.Caso@51c8530f, model.Caso@7403c468, model.Caso@43738a82, model.Caso@c81cdd1, model.Caso@1fc2b765, model.Caso@75881071, model.Caso@2a70a3d8, model.Caso@289d1c02, model.Caso@22eeefeb, model.Caso@17d0685f, model.Caso@3891771e, model.Caso@78ac1102, model.Caso@2de8284b, model.Caso@396e2f39, model.Caso@a74868d, model.Caso@12c8a2c0, model.Caso@7e0e6aa2, model.Caso@365185bd, model.Caso@18bf3d14, model.Caso@4fb64261, model.Caso@42607a4f, model.Caso@782663d3, model.Caso@1990a65e, model.Caso@64485a47, model.Caso@25bbf683, model.Caso@6ec8211c, model.Caso@7276c8cd, model.Caso@544a2ea6, model.Caso@2e3fc542, model.Caso@150c158, model.Caso@4524411f, model.Caso@401e7803, model.Caso@10dba097, model.Caso@1786f9d5, model.Caso@704d6e83, model.Caso@43a0cee9, model.Caso@eb21112, model.Caso@2eda0940, model.Caso@3578436e, model.Caso@706a04ae, model.Caso@6eceb130, model.Caso@10a035a0, model.Caso@67b467e9, model.Caso@47db50c5, model.Caso@5c072e3f, model.Caso@4d1b0d2a, model.Caso@954b04f, model.Caso@149494d8, model.Caso@710726a3, model.Caso@646007f4, model.Caso@481a15ff, model.Caso@78186a70, model.Caso@306279ee, model.Caso@545997b1, model.Caso@4cf4d528, model.Caso@77846d2c, model.Caso@548ad73b, model.Caso@4c762604, model.Caso@2641e737, model.Caso@727803de, model.Caso@704921a5, model.Caso@df27fae, model.Caso@24a35978, model.Caso@16f7c8c1, model.Caso@2f0a87b3, model.Caso@319b92f3, model.Caso@fcd6521, model.Caso@27d415d9, model.Caso@5c18298f, model.Caso@31f924f5, model.Caso@5579bb86, model.Caso@5204062d, model.Caso@4fcd19b3, model.Caso@376b4233, model.Caso@2fd66ad3, model.Caso@5d11346a, model.Caso@7a36aefa, model.Caso@17211155, model.Caso@b3d7190, model.Caso@5fdba6f9, model.Caso@10d59286, model.Caso@fe18270, model.Caso@6fb0d3ed, model.Caso@6dde5c8c, model.Caso@5123a213, model.Caso@52525845], Melilla=[model.Caso@3b94d659, model.Caso@24b1d79b, model.Caso@68ceda24, model.Caso@281e3708, model.Caso@35a50a4c, model.Caso@1f021e6c, model.Caso@103f852, model.Caso@587c290d, model.Caso@4516af24, model.Caso@4ae82894, model.Caso@543788f3, model.Caso@6d3af739, model.Caso@1da51a35, model.Caso@16022d9d, model.Caso@7e9a5fbe, model.Caso@44a3ec6b, model.Caso@71623278, model.Caso@768b970c, model.Caso@5a4041cc, model.Caso@15b3e5b, model.Caso@61ca2dfa, model.Caso@4b53f538, model.Caso@134593bf, model.Caso@4bb4de6a, model.Caso@7ba18f1b, model.Caso@2f8f5f62, model.Caso@1068e947, model.Caso@7dc222ae, model.Caso@aecb35a, model.Caso@5fcd892a, model.Caso@8b87145, model.Caso@6483f5ae, model.Caso@b9afc07, model.Caso@382db087, model.Caso@73d4cc9e, model.Caso@80169cf, model.Caso@5427c60c, model.Caso@15bfd87, model.Caso@543e710e, model.Caso@57f23557, model.Caso@3d0f8e03, model.Caso@6366ebe0, model.Caso@44f75083, model.Caso@2698dc7, model.Caso@43d7741f, model.Caso@17baae6e, model.Caso@69379752, model.Caso@27fe3806, model.Caso@5f71c76a, model.Caso@1d7acb34, model.Caso@48a242ce, model.Caso@1e4a7dd4, model.Caso@4f51b3e0, model.Caso@4b9e255, model.Caso@5e57643e, model.Caso@133e16fd, model.Caso@51b279c9, model.Caso@1ad282e0, model.Caso@7f416310, model.Caso@1cab0bfb, model.Caso@5e955596, model.Caso@50de0926, model.Caso@2473b9ce, model.Caso@60438a68, model.Caso@140e5a13, model.Caso@3439f68d, model.Caso@dbd940d, model.Caso@71d15f18, model.Caso@17695df3, model.Caso@6c9f5c0d, model.Caso@de3a06f, model.Caso@76b10754, model.Caso@2bea5ab4, model.Caso@3d8314f0, model.Caso@2df32bf7, model.Caso@530612ba, model.Caso@2a40cd94, model.Caso@f4168b8, model.Caso@3bd94634, model.Caso@58a90037, model.Caso@74294adb, model.Caso@70a9f84e, model.Caso@130f889, model.Caso@1188e820, model.Caso@2f490758, model.Caso@101df177, model.Caso@166fa74d, model.Caso@40f08448, model.Caso@276438c9, model.Caso@588df31b, model.Caso@33b37288, model.Caso@77a57272, model.Caso@7181ae3f, model.Caso@46238e3f, model.Caso@6e2c9341, model.Caso@32464a14, model.Caso@4e4aea35, model.Caso@1442d7b5, model.Caso@1efee8e7, model.Caso@1ee807c6, model.Caso@76a4d6c, model.Caso@517cd4b, model.Caso@6cc7b4de, model.Caso@32cf48b7, model.Caso@679b62af, model.Caso@5cdd8682, model.Caso@d6da883, model.Caso@45afc369, model.Caso@799d4f69, model.Caso@49c43f4e, model.Caso@290dbf45, model.Caso@12028586, model.Caso@17776a8, model.Caso@69a10787, model.Caso@2d127a61, model.Caso@2bbaf4f0, model.Caso@11c20519, model.Caso@70beb599, model.Caso@4e41089d, model.Caso@32a068d1, model.Caso@33cb5951, model.Caso@365c30cc, model.Caso@701fc37a, model.Caso@4148db48, model.Caso@282003e1, model.Caso@7fad8c79, model.Caso@71a794e5, model.Caso@76329302, model.Caso@5e25a92e, model.Caso@4df828d7, model.Caso@b59d31, model.Caso@62fdb4a6, model.Caso@11e21d0e, model.Caso@1dd02175, model.Caso@31206beb, model.Caso@3e77a1ed, model.Caso@3ffcd140, model.Caso@23bb8443, model.Caso@1176dcec, model.Caso@120d6fe6, model.Caso@4ba2ca36, model.Caso@3444d69d, model.Caso@1372ed45, model.Caso@6a79c292, model.Caso@37574691, model.Caso@25359ed8, model.Caso@21a947fe, model.Caso@5606c0b, model.Caso@80ec1f8, model.Caso@1445d7f, model.Caso@6a396c1e, model.Caso@6c3f5566, model.Caso@12405818, model.Caso@314c508a, model.Caso@10b48321, model.Caso@6b67034, model.Caso@16267862, model.Caso@453da22c, model.Caso@71248c21, model.Caso@442675e1, model.Caso@6166e06f, model.Caso@49e202ad, model.Caso@1c72da34, model.Caso@6b0c2d26, model.Caso@3d3fcdb0, model.Caso@641147d0, model.Caso@6e38921c, model.Caso@64d7f7e0], Madrid=[model.Caso@27c6e487, model.Caso@49070868, model.Caso@6385cb26, model.Caso@38364841, model.Caso@28c4711c, model.Caso@59717824, model.Caso@146044d7, model.Caso@1e9e725a, model.Caso@15d9bc04, model.Caso@473b46c3, model.Caso@516be40f, model.Caso@3c0a50da, model.Caso@646be2c3, model.Caso@797badd3, model.Caso@77be656f, model.Caso@19dc67c2, model.Caso@221af3c0, model.Caso@62bd765, model.Caso@23a5fd2, model.Caso@78a2da20, model.Caso@dd3b207, model.Caso@551bdc27, model.Caso@58fdd99, model.Caso@6b1274d2, model.Caso@7bc1a03d, model.Caso@70b0b186, model.Caso@ba8d91c, model.Caso@7364985f, model.Caso@5d20e46, model.Caso@709ba3fb, model.Caso@3d36e4cd, model.Caso@6a472554, model.Caso@7ff2a664, model.Caso@525b461a, model.Caso@58c1c010, model.Caso@b7f23d9, model.Caso@61d47554, model.Caso@69b794e2, model.Caso@3f200884, model.Caso@4d339552, model.Caso@f0f2775, model.Caso@5a4aa2f2, model.Caso@6591f517, model.Caso@345965f2, model.Caso@429bd883, model.Caso@4d49af10, model.Caso@279ad2e3, model.Caso@58134517, model.Caso@4450d156, model.Caso@4461c7e3, model.Caso@351d0846, model.Caso@77e4c80f, model.Caso@35fc6dc4, model.Caso@7fe8ea47, model.Caso@226a82c4, model.Caso@731f8236, model.Caso@255b53dc, model.Caso@1dd92fe2, model.Caso@6b53e23f, model.Caso@64d2d351, model.Caso@1b68b9a4, model.Caso@4f9a3314, model.Caso@3b2c72c2, model.Caso@491666ad, model.Caso@176d53b2, model.Caso@971d0d8, model.Caso@51931956, model.Caso@2b4a2ec7, model.Caso@564718df, model.Caso@51b7e5df, model.Caso@18a70f16, model.Caso@62e136d3, model.Caso@c8e4bb0, model.Caso@6279cee3, model.Caso@4206a205, model.Caso@29ba4338, model.Caso@57175e74, model.Caso@7bb58ca3, model.Caso@c540f5a, model.Caso@770c2e6b, model.Caso@1a052a00, model.Caso@4d826d77, model.Caso@61009542, model.Caso@77e9807f, model.Caso@448ff1a8, model.Caso@1a38c59b, model.Caso@7f77e91b, model.Caso@44a664f2, model.Caso@7f9fcf7f, model.Caso@2357d90a, model.Caso@6328d34a, model.Caso@145eaa29, model.Caso@15bb6bea, model.Caso@8b96fde, model.Caso@2d2e5f00, model.Caso@4c40b76e, model.Caso@2ea6137, model.Caso@41ee392b, model.Caso@1e67a849, model.Caso@57d5872c, model.Caso@667a738, model.Caso@36f0f1be, model.Caso@157632c9, model.Caso@6ee12bac, model.Caso@55040f2f, model.Caso@64c87930, model.Caso@400cff1a, model.Caso@275710fc, model.Caso@525f1e4e, model.Caso@75f9eccc, model.Caso@52aa2946, model.Caso@4de5031f, model.Caso@67e2d983, model.Caso@5d47c63f, model.Caso@5ea434c8, model.Caso@3bbc39f8, model.Caso@4ae3c1cd, model.Caso@29f69090, model.Caso@568bf312, model.Caso@ca263c2, model.Caso@589b3632, model.Caso@45f45fa1, model.Caso@4c6e276e, model.Caso@534df152, model.Caso@52e677af, model.Caso@35083305, model.Caso@8e0379d, model.Caso@341b80b2, model.Caso@55a1c291, model.Caso@2145433b, model.Caso@2890c451, model.Caso@40e6dfe1, model.Caso@1b083826, model.Caso@105fece7, model.Caso@3ec300f1, model.Caso@482cd91f, model.Caso@123f1134, model.Caso@7d68ef40, model.Caso@5b0abc94, model.Caso@75c072cb, model.Caso@1f1c7bf6, model.Caso@25b485ba, model.Caso@2b546384, model.Caso@5d740a0f, model.Caso@214b199c, model.Caso@20d3d15a, model.Caso@2893de87, model.Caso@55ca8de8, model.Caso@2c34f934, model.Caso@12d3a4e9, model.Caso@240237d2, model.Caso@25a65b77, model.Caso@2ed0fbae, model.Caso@212bf671, model.Caso@14a2f921, model.Caso@3c87521, model.Caso@2aece37d, model.Caso@548a102f, model.Caso@5762806e, model.Caso@17c386de, model.Caso@5af97850, model.Caso@5ef60048, model.Caso@1d548a08, model.Caso@16aa0a0a, model.Caso@780cb77, model.Caso@691a7f8f, model.Caso@50a7bc6e, model.Caso@161b062a], Canarias=[model.Caso@17c1bced, model.Caso@2d9d4f9d, model.Caso@4034c28c, model.Caso@e50a6f6, model.Caso@14ec4505, model.Caso@53ca01a2, model.Caso@358c99f5, model.Caso@3ee0fea4, model.Caso@48524010, model.Caso@4b168fa9, model.Caso@1a84f40f, model.Caso@23282c25, model.Caso@7920ba90, model.Caso@6b419da, model.Caso@3b2da18f, model.Caso@5906ebcb, model.Caso@258e2e41, model.Caso@3d299e3, model.Caso@55a561cf, model.Caso@3b938003, model.Caso@6f3b5d16, model.Caso@78b1cc93, model.Caso@6646153, model.Caso@21507a04, model.Caso@143640d5, model.Caso@6295d394, model.Caso@475e586c, model.Caso@657c8ad9, model.Caso@436a4e4b, model.Caso@f2f2cc1, model.Caso@3a079870, model.Caso@3b2cf7ab, model.Caso@2aa5fe93, model.Caso@5c1a8622, model.Caso@5ad851c9, model.Caso@6156496, model.Caso@3c153a1, model.Caso@b62fe6d, model.Caso@13acb0d1, model.Caso@3e3047e6, model.Caso@37e547da, model.Caso@2b6856dd, model.Caso@5db45159, model.Caso@6107227e, model.Caso@7c417213, model.Caso@15761df8, model.Caso@6ab7a896, model.Caso@327b636c, model.Caso@45dd4eda, model.Caso@60611244, model.Caso@3745e5c6, model.Caso@5e4c8041, model.Caso@71c8becc, model.Caso@19d37183, model.Caso@1a0dcaa, model.Caso@3bd40a57, model.Caso@fdefd3f, model.Caso@d83da2e, model.Caso@a4102b8, model.Caso@11dc3715, model.Caso@69930714, model.Caso@7a52f2a2, model.Caso@78047b92, model.Caso@8909f18, model.Caso@79ca92b9, model.Caso@1460a8c0, model.Caso@4f638935, model.Caso@4387b79e, model.Caso@6e75aa0d, model.Caso@7fc229ab, model.Caso@2cbb3d47, model.Caso@527e5409, model.Caso@1198b989, model.Caso@7ff95560, model.Caso@add0edd, model.Caso@2aa3cd93, model.Caso@7ea37dbf, model.Caso@4b44655e, model.Caso@290d210d, model.Caso@1d76aeea, model.Caso@78dd667e, model.Caso@10db82ae, model.Caso@501edcf1, model.Caso@78b729e6, model.Caso@6b4a4e18, model.Caso@27c86f2d, model.Caso@197d671, model.Caso@402e37bc, model.Caso@79ad8b2f, model.Caso@1df82230, model.Caso@22635ba0, model.Caso@13c10b87, model.Caso@6a01e23, model.Caso@5a955565, model.Caso@6293abcc, model.Caso@7995092a, model.Caso@7fc2413d, model.Caso@f8c1ddd, model.Caso@70be0a2b, model.Caso@2133814f, model.Caso@4c15e7fd, model.Caso@23986957, model.Caso@23f7d05d, model.Caso@1e730495, model.Caso@7d3a22a9, model.Caso@1d082e88, model.Caso@60704c, model.Caso@6b19b79, model.Caso@2a32de6c, model.Caso@7692d9cc, model.Caso@75f32542, model.Caso@7f1302d6, model.Caso@43ee72e6, model.Caso@23529fee, model.Caso@4fe767f3, model.Caso@2805c96b, model.Caso@184cf7cf, model.Caso@2fd6b6c7, model.Caso@5bfa9431, model.Caso@5db250b4, model.Caso@223f3642, model.Caso@38c5cc4c, model.Caso@37918c79, model.Caso@78e94dcf, model.Caso@233fe9b6, model.Caso@358ee631, model.Caso@ec756bd, model.Caso@3c72f59f, model.Caso@60dcc9fe, model.Caso@222114ba, model.Caso@16e7dcfd, model.Caso@3d121db3, model.Caso@3b07a0d6, model.Caso@11a9e7c8, model.Caso@3901d134, model.Caso@14d3bc22, model.Caso@12d4bf7e, model.Caso@4c1d9d4b, model.Caso@7b227d8d, model.Caso@7219ec67, model.Caso@45018215, model.Caso@65d6b83b, model.Caso@d706f19, model.Caso@30b7c004, model.Caso@79efed2d, model.Caso@2928854b, model.Caso@27ae2fd0, model.Caso@29176cc1, model.Caso@2f177a4b, model.Caso@4278a03f, model.Caso@147ed70f, model.Caso@61dd025, model.Caso@124c278f, model.Caso@15b204a1, model.Caso@77167fb7, model.Caso@1fe20588, model.Caso@6ce139a4, model.Caso@6973bf95, model.Caso@2ddc8ecb, model.Caso@229d10bd, model.Caso@47542153, model.Caso@33afa13b, model.Caso@7a4ccb53, model.Caso@309e345f, model.Caso@56a6d5a6, model.Caso@18ce0030, model.Caso@4445629, model.Caso@45b9a632], Andalucia=[model.Caso@25d250c6, model.Caso@4df50bcc, model.Caso@6b26e945, model.Caso@63a65a25, model.Caso@54c562f7, model.Caso@318ba8c8, model.Caso@6dbb137d, model.Caso@3c9d0b9d, model.Caso@43301423, model.Caso@2f112965, model.Caso@1a04f701, model.Caso@4e91d63f, model.Caso@d4342c2, model.Caso@2bbf180e, model.Caso@163e4e87, model.Caso@56de5251, model.Caso@419c5f1a, model.Caso@12b0404f, model.Caso@769e7ee8, model.Caso@5276e6b0, model.Caso@71b1176b, model.Caso@6193932a, model.Caso@647fd8ce, model.Caso@159f197, model.Caso@78aab498, model.Caso@5dd6264, model.Caso@1ffe63b9, model.Caso@51e5fc98, model.Caso@7c469c48, model.Caso@12e61fe6, model.Caso@7ee955a8, model.Caso@1677d1, model.Caso@48fa0f47, model.Caso@6ac13091, model.Caso@5e316c74, model.Caso@6d2a209c, model.Caso@75329a49, model.Caso@161479c6, model.Caso@4313f5bc, model.Caso@7f010382, model.Caso@1e802ef9, model.Caso@2b6faea6, model.Caso@778d1062, model.Caso@670002, model.Caso@1f0f1111, model.Caso@49c386c8, model.Caso@56528192, model.Caso@6e0dec4a, model.Caso@96def03, model.Caso@5ccddd20, model.Caso@1ed1993a, model.Caso@1f3f4916, model.Caso@794cb805, model.Caso@4b5a5ed1, model.Caso@59d016c9, model.Caso@3cc2931c, model.Caso@20d28811, model.Caso@3967e60c, model.Caso@60d8c9b7, model.Caso@48aaecc3, model.Caso@7c0c77c7, model.Caso@7adda9cc, model.Caso@5cee5251, model.Caso@433d61fb, model.Caso@5c909414, model.Caso@4b14c583, model.Caso@65466a6a, model.Caso@4ddced80, model.Caso@1534f01b, model.Caso@78e117e3, model.Caso@2ea227af, model.Caso@4386f16, model.Caso@363ee3a2, model.Caso@4690b489, model.Caso@79b06cab, model.Caso@3eb7fc54, model.Caso@7f552bd3, model.Caso@3c22fc4c, model.Caso@460d0a57, model.Caso@47d90b9e, model.Caso@1184ab05, model.Caso@3aefe5e5, model.Caso@149e0f5d, model.Caso@1b1473ab, model.Caso@2f7c2f4f, model.Caso@6af93788, model.Caso@ef9296d, model.Caso@36c88a32, model.Caso@7880cdf3, model.Caso@5be6e01c, model.Caso@1c93084c, model.Caso@6ef888f6, model.Caso@10e92f8f, model.Caso@7ce3cb8e, model.Caso@78b66d36, model.Caso@5223e5ee, model.Caso@bef2d72, model.Caso@69b2283a, model.Caso@22a637e7, model.Caso@6fe7aac8, model.Caso@1d119efb, model.Caso@659a969b, model.Caso@76908cc0, model.Caso@2473d930, model.Caso@35047d03, model.Caso@49b0b76, model.Caso@769f71a9, model.Caso@4c9f8c13, model.Caso@5ae50ce6, model.Caso@6f96c77, model.Caso@be64738, model.Caso@3ba9ad43, model.Caso@49d904ec, model.Caso@48e4374, model.Caso@3d680b5a, model.Caso@4b5d6a01, model.Caso@4a22f9e2, model.Caso@3c419631, model.Caso@418e7838, model.Caso@61230f6a, model.Caso@3c130745, model.Caso@cd3fee8, model.Caso@3e2e18f2, model.Caso@470f1802, model.Caso@63021689, model.Caso@703580bf, model.Caso@3e92efc3, model.Caso@1622f1b, model.Caso@72a7c7e0, model.Caso@2e4b8173, model.Caso@70e8f8e, model.Caso@17046283, model.Caso@5bd03f44, model.Caso@29626d54, model.Caso@5a63f509, model.Caso@6e4784bc, model.Caso@34b7ac2f, model.Caso@e056f20, model.Caso@4b0b0854, model.Caso@19bb07ed, model.Caso@10e41621, model.Caso@353d0772, model.Caso@2667f029, model.Caso@67a20f67, model.Caso@57c758ac, model.Caso@a9cd3b1, model.Caso@13e39c73, model.Caso@64cd705f, model.Caso@9225652, model.Caso@654f0d9c, model.Caso@6a400542, model.Caso@6580cfdd, model.Caso@7e0b85f9, model.Caso@63355449, model.Caso@9353778, model.Caso@6a28ffa4, model.Caso@48ae9b55, model.Caso@1700915, model.Caso@21de60b4, model.Caso@c267ef4, model.Caso@30ee2816, model.Caso@31d7b7bf, model.Caso@635eaaf1, model.Caso@5c30a9b0, model.Caso@1ddf84b8, model.Caso@1139b2f3, model.Caso@7a69b07, model.Caso@5e82df6a], Murcia=[model.Caso@3f197a46, model.Caso@636be97c, model.Caso@50a638b5, model.Caso@1817d444, model.Caso@6ca8564a, model.Caso@50b472aa, model.Caso@31368b99, model.Caso@1725dc0f, model.Caso@3911c2a7, model.Caso@4ac3c60d, model.Caso@4facf68f, model.Caso@76508ed1, model.Caso@41e36e46, model.Caso@15c43bd9, model.Caso@3d74bf60, model.Caso@4f209819, model.Caso@15eb5ee5, model.Caso@2145b572, model.Caso@39529185, model.Caso@72f926e6, model.Caso@3daa422a, model.Caso@31c88ec8, model.Caso@1cbbffcd, model.Caso@27ce24aa, model.Caso@481a996b, model.Caso@3d51f06e, model.Caso@7ed7259e, model.Caso@28eaa59a, model.Caso@3427b02d, model.Caso@647e447, model.Caso@41fbdac4, model.Caso@3c407114, model.Caso@35ef1869, model.Caso@c33b74f, model.Caso@130161f7, model.Caso@2c767a52, model.Caso@619713e5, model.Caso@708f5957, model.Caso@68999068, model.Caso@7722c3c3, model.Caso@2ef3eef9, model.Caso@243c4f91, model.Caso@291ae, model.Caso@61df66b6, model.Caso@50eac852, model.Caso@16ec5519, model.Caso@2f7298b, model.Caso@188715b5, model.Caso@1ea9f6af, model.Caso@6a192cfe, model.Caso@5119fb47, model.Caso@7193666c, model.Caso@20deea7f, model.Caso@3835c46, model.Caso@1dde4cb2, model.Caso@7714e963, model.Caso@20ce78ec, model.Caso@393671df, model.Caso@56620197, model.Caso@6eda5c9, model.Caso@55b7a4e0, model.Caso@5f058f00, model.Caso@192d43ce, model.Caso@72057ecf, model.Caso@1afd44cb, model.Caso@6973b51b, model.Caso@1ab3a8c8, model.Caso@43195e57, model.Caso@333291e3, model.Caso@479d31f3, model.Caso@40ef3420, model.Caso@498d318c, model.Caso@6e171cd7, model.Caso@402bba4f, model.Caso@795cd85e, model.Caso@59fd97a8, model.Caso@f5ac9e4, model.Caso@123ef382, model.Caso@dbf57b3, model.Caso@384ad17b, model.Caso@61862a7f, model.Caso@441772e, model.Caso@7334aada, model.Caso@1d9b7cce, model.Caso@4d9e68d0, model.Caso@42e99e4a, model.Caso@14dd9eb7, model.Caso@52e6fdee, model.Caso@6c80d78a, model.Caso@62150f9e, model.Caso@1a451d4d, model.Caso@7fa98a66, model.Caso@15ff3e9e, model.Caso@5fdcaa40, model.Caso@6dc17b83, model.Caso@5e0826e7, model.Caso@32eff876, model.Caso@8dbdac1, model.Caso@6e20b53a, model.Caso@71809907, model.Caso@3ce1e309, model.Caso@6aba2b86, model.Caso@158da8e, model.Caso@74e52303, model.Caso@47af7f3d, model.Caso@7c729a55, model.Caso@3bb9a3ff, model.Caso@661972b0, model.Caso@5af3afd9, model.Caso@323b36e0, model.Caso@44ebcd03, model.Caso@694abbdc, model.Caso@2e005c4b, model.Caso@4567f35d, model.Caso@5ffead27, model.Caso@6356695f, model.Caso@4f18837a, model.Caso@359f7cdf, model.Caso@1fa268de, model.Caso@4f6ee6e4, model.Caso@4466af20, model.Caso@a514af7, model.Caso@6b927fb, model.Caso@3e58a80e, model.Caso@4fb61f4a, model.Caso@4fb0f2b9, model.Caso@79924b, model.Caso@7b9a4292, model.Caso@4a94ee4, model.Caso@4cc451f2, model.Caso@6379eb, model.Caso@294425a7, model.Caso@67d48005, model.Caso@9f116cc, model.Caso@12468a38, model.Caso@1aa7ecca, model.Caso@59309333, model.Caso@5876a9af, model.Caso@7ec7ffd3, model.Caso@5b239d7d, model.Caso@6572421, model.Caso@6b81ce95, model.Caso@2a798d51, model.Caso@6d763516, model.Caso@52bf72b5, model.Caso@37afeb11, model.Caso@515aebb0, model.Caso@dd8ba08, model.Caso@245b4bdc, model.Caso@6c64cb25, model.Caso@6ae5aa72, model.Caso@222545dc, model.Caso@5c5eefef, model.Caso@16293aa2, model.Caso@5158b42f, model.Caso@595b007d, model.Caso@72d1ad2e, model.Caso@2d7275fc, model.Caso@399f45b1, model.Caso@38c6f217, model.Caso@478190fc, model.Caso@79e2c065, model.Caso@3a93b025, model.Caso@35cabb2a, model.Caso@7e07db1f, model.Caso@1189dd52, model.Caso@36bc55de, model.Caso@564fabc8], Cantabria=[model.Caso@16d04d3d, model.Caso@49ec71f8, model.Caso@1d2adfbe, model.Caso@36902638, model.Caso@223d2c72, model.Caso@8f4ea7c, model.Caso@436813f3, model.Caso@74fe5c40, model.Caso@3febb011, model.Caso@10e31a9a, model.Caso@131774fe, model.Caso@158d2680, model.Caso@77847718, model.Caso@7f3b84b8, model.Caso@57a3af25, model.Caso@2b662a77, model.Caso@7f0eb4b4, model.Caso@5c33f1a9, model.Caso@1623b78d, model.Caso@c8c12ac, model.Caso@6adbc9d, model.Caso@4550bb58, model.Caso@4ec4f3a0, model.Caso@223191a6, model.Caso@49139829, model.Caso@9597028, model.Caso@6069db50, model.Caso@4efbca5a, model.Caso@1b7cc17c, model.Caso@59662a0b, model.Caso@77fbd92c, model.Caso@67c27493, model.Caso@1a482e36, model.Caso@72967906, model.Caso@5b8dfcc1, model.Caso@2f9f7dcf, model.Caso@747ddf94, model.Caso@35e2d654, model.Caso@1bd4fdd, model.Caso@55183b20, model.Caso@4f83df68, model.Caso@6cf0e0ba, model.Caso@7d8995e, model.Caso@130d63be, model.Caso@42a48628, model.Caso@293a5bf6, model.Caso@6aeb35e6, model.Caso@1283bb96, model.Caso@74f0ea28, model.Caso@f6efaab, model.Caso@3c19aaa5, model.Caso@3349e9bb, model.Caso@409bf450, model.Caso@38d8f54a, model.Caso@49e53c76, model.Caso@351d00c0, model.Caso@2a3b5b47, model.Caso@55b699ef, model.Caso@35d019a3, model.Caso@689604d9, model.Caso@18078bef, model.Caso@799f10e1, model.Caso@4c371370, model.Caso@145f66e3, model.Caso@3023df74, model.Caso@313ac989, model.Caso@4562e04d, model.Caso@2a65fe7c, model.Caso@4135c3b, model.Caso@6302bbb1, model.Caso@31304f14, model.Caso@34a3d150, model.Caso@2a4fb17b, model.Caso@5c6648b0, model.Caso@6f1de4c7, model.Caso@459e9125, model.Caso@128d2484, model.Caso@7cc0cdad, model.Caso@7c7b252e, model.Caso@4d5d943d, model.Caso@368f2016, model.Caso@4c583ecf, model.Caso@692f203f, model.Caso@48f2bd5b, model.Caso@7b2bbc3, model.Caso@a1153bc, model.Caso@1aafa419, model.Caso@47eaca72, model.Caso@55141def, model.Caso@55182842, model.Caso@3270d194, model.Caso@235834f2, model.Caso@5656be13, model.Caso@4218d6a3, model.Caso@76505305, model.Caso@14cd1699, model.Caso@77888435, model.Caso@73a1e9a9, model.Caso@71d44a3, model.Caso@7b98f307, model.Caso@4802796d, model.Caso@34123d65, model.Caso@59474f18, model.Caso@65fb9ffc, model.Caso@3e694b3f, model.Caso@1bb5a082, model.Caso@78691363, model.Caso@41d477ed, model.Caso@3590fc5b, model.Caso@397fbdb, model.Caso@33d512c1, model.Caso@515c6049, model.Caso@639c2c1d, model.Caso@5fe94a96, model.Caso@443118b0, model.Caso@765d7657, model.Caso@74235045, model.Caso@618b19ad, model.Caso@2d3379b4, model.Caso@30c15d8b, model.Caso@5e0e82ae, model.Caso@6771beb3, model.Caso@51399530, model.Caso@6b2ea799, model.Caso@411f53a0, model.Caso@2b71e916, model.Caso@36fc695d, model.Caso@28701274, model.Caso@13c9d689, model.Caso@3754a4bf, model.Caso@62379589, model.Caso@4afcd809, model.Caso@175c2241, model.Caso@5bf0d49, model.Caso@5b7a5baa, model.Caso@776aec5c, model.Caso@1d296da, model.Caso@7c7a06ec, model.Caso@75d4a5c2, model.Caso@557caf28, model.Caso@408d971b, model.Caso@6c6cb480, model.Caso@3c46e67a, model.Caso@c730b35, model.Caso@206a70ef, model.Caso@292b08d6, model.Caso@22555ebf, model.Caso@36ebc363, model.Caso@45752059, model.Caso@34e9fd99, model.Caso@3c41ed1d, model.Caso@54d9d12d, model.Caso@38425407, model.Caso@43bc63a3, model.Caso@702657cc, model.Caso@6a6cb05c, model.Caso@40a4337a, model.Caso@6025e1b6, model.Caso@22ff4249, model.Caso@2d1ef81a, model.Caso@4c402120, model.Caso@327514f, model.Caso@5b12b668, model.Caso@1165b38, model.Caso@4c12331b, model.Caso@7586beff, model.Caso@3b69e7d1, model.Caso@815b41f], Navarra=[model.Caso@5542c4ed, model.Caso@1573f9fc, model.Caso@6150c3ec, model.Caso@44c03695, model.Caso@7e6f74c, model.Caso@dd05255, model.Caso@6a78afa0, model.Caso@2f4948e4, model.Caso@1f2586d6, model.Caso@10683d9d, model.Caso@3fc2959f, model.Caso@5aa9e4eb, model.Caso@6989da5e, model.Caso@385c9627, model.Caso@139982de, model.Caso@682b2fa, model.Caso@217ed35e, model.Caso@7dcf94f8, model.Caso@229f66ed, model.Caso@31190526, model.Caso@662ac478, model.Caso@6743e411, model.Caso@3eb25e1a, model.Caso@477b4cdf, model.Caso@77c2494c, model.Caso@f5958c9, model.Caso@233795b6, model.Caso@3eb738bb, model.Caso@5bda8e08, model.Caso@1e800aaa, model.Caso@185a6e9, model.Caso@6f03482, model.Caso@9d5509a, model.Caso@179ece50, model.Caso@3b0090a4, model.Caso@3cd3e762, model.Caso@1fa121e2, model.Caso@7eac9008, model.Caso@4116aac9, model.Caso@62ddbd7e, model.Caso@74e52ef6, model.Caso@6ed3ccb2, model.Caso@1a677343, model.Caso@15de0b3c, model.Caso@489115ef, model.Caso@3857f613, model.Caso@198b6731, model.Caso@7c6908d7, model.Caso@3c9754d8, model.Caso@3bf7ca37, model.Caso@79079097, model.Caso@4d1c00d0, model.Caso@4b2bac3f, model.Caso@4e08711f, model.Caso@bcec361, model.Caso@26794848, model.Caso@302552ec, model.Caso@3d285d7e, model.Caso@40005471, model.Caso@2cd76f31, model.Caso@367ffa75, model.Caso@49438269, model.Caso@ba2f4ec, model.Caso@1c1bbc4e, model.Caso@55fe41ea, model.Caso@fbd1f6, model.Caso@1ce24091, model.Caso@5dda768f, model.Caso@7a8c8dcf, model.Caso@24269709, model.Caso@2aceadd4, model.Caso@24aed80c, model.Caso@3a52dba3, model.Caso@2a5c8d3f, model.Caso@752325ad, model.Caso@279fedbd, model.Caso@b3ca52e, model.Caso@45c7e403, model.Caso@2925bf5b, model.Caso@710f4dc7, model.Caso@1ff4931d, model.Caso@65e98b1c, model.Caso@61322f9d, model.Caso@6ad82709, model.Caso@510f3d34, model.Caso@7817fd62, model.Caso@8297b3a, model.Caso@2362f559, model.Caso@b2c9a9c, model.Caso@4c178a76, model.Caso@fa4c865, model.Caso@3bd82cf5, model.Caso@544fa968, model.Caso@247bddad, model.Caso@d35dea7, model.Caso@7770f470, model.Caso@5e5d171f, model.Caso@24313fcc, model.Caso@7d20d0b, model.Caso@77f1baf5, model.Caso@41a2befb, model.Caso@6c40365c, model.Caso@7bedc48a, model.Caso@131ef10, model.Caso@55b0dcab, model.Caso@38afe297, model.Caso@2df3b89c, model.Caso@23348b5d, model.Caso@70325e14, model.Caso@37ceb1df, model.Caso@7c9d8e2, model.Caso@20d525, model.Caso@6200f9cb, model.Caso@2002fc1d, model.Caso@69453e37, model.Caso@6f4a47c7, model.Caso@ae13544, model.Caso@3d34d211, model.Caso@7dc0f706, model.Caso@4009e306, model.Caso@43c1b556, model.Caso@587e5365, model.Caso@22fcf7ab, model.Caso@2de23121, model.Caso@63475ace, model.Caso@4988d8b8, model.Caso@c0c2f8d, model.Caso@305b7c14, model.Caso@6913c1fb, model.Caso@66d18979, model.Caso@bccb269, model.Caso@609cd4d8, model.Caso@17f7cd29, model.Caso@7d8704ef, model.Caso@13b6aecc, model.Caso@158a8276, model.Caso@3c3d9b6b, model.Caso@79d8407f, model.Caso@5fbe4146, model.Caso@1e66f1f5, model.Caso@4e50c791, model.Caso@7530ad9c, model.Caso@58a9760d, model.Caso@71e9ddb4, model.Caso@394df057, model.Caso@4961f6af, model.Caso@5aebe890, model.Caso@65d09a04, model.Caso@33c911a1, model.Caso@75db5df9, model.Caso@707194ba, model.Caso@1190200a, model.Caso@6a2f6f80, model.Caso@45b4c3a9, model.Caso@399c4be1, model.Caso@291caca8, model.Caso@385e9564, model.Caso@5b94b04d, model.Caso@8c3b9d, model.Caso@4c39bec8, model.Caso@f79e, model.Caso@7ee8290b, model.Caso@1f59a598, model.Caso@1e178745, model.Caso@192c3f1e, model.Caso@26b3fd41, model.Caso@7494f96a, model.Caso@561b6512], Extremadura=[model.Caso@2e377400, model.Caso@1757cd72, model.Caso@445b295b, model.Caso@49e5f737, model.Caso@5c671d7f, model.Caso@757277dc, model.Caso@687e99d8, model.Caso@e4487af, model.Caso@6aaceffd, model.Caso@c86b9e3, model.Caso@10aa41f2, model.Caso@3af9c5b7, model.Caso@37271612, model.Caso@ed7f8b4, model.Caso@4c309d4d, model.Caso@38102d01, model.Caso@37883b97, model.Caso@6ab778a, model.Caso@4e3958e7, model.Caso@77f80c04, model.Caso@1dac5ef, model.Caso@5c90e579, model.Caso@58ea606c, model.Caso@6f45df59, model.Caso@38e79ae3, model.Caso@63070bab, model.Caso@68e5eea7, model.Caso@291b4bf5, model.Caso@2d2ffcb7, model.Caso@762ef0ea, model.Caso@31f9b85e, model.Caso@424e1977, model.Caso@10d68fcd, model.Caso@117e949d, model.Caso@6db9f5a4, model.Caso@5f8edcc5, model.Caso@7b02881e, model.Caso@1ebd319f, model.Caso@3c0be339, model.Caso@15ca7889, model.Caso@7a675056, model.Caso@d21a74c, model.Caso@6e509ffa, model.Caso@2898ac89, model.Caso@683dbc2c, model.Caso@68267da0, model.Caso@2638011, model.Caso@6ff29830, model.Caso@6a2b953e, model.Caso@313b2ea6, model.Caso@2f465398, model.Caso@548e6d58, model.Caso@623a8092, model.Caso@a1cdc6d, model.Caso@175b9425, model.Caso@3098cf3b, model.Caso@610f7aa, model.Caso@6a03bcb1, model.Caso@21b2e768, model.Caso@57250572, model.Caso@5609159b, model.Caso@2118cddf, model.Caso@17a7f733, model.Caso@68567e20, model.Caso@76ed1b7c, model.Caso@11fc564b, model.Caso@394a2528, model.Caso@6236eb5f, model.Caso@7c1e2a9e, model.Caso@fa36558, model.Caso@672872e1, model.Caso@32910148, model.Caso@3f56875e, model.Caso@2b4bac49, model.Caso@fd07cbb, model.Caso@3571b748, model.Caso@3e96bacf, model.Caso@484970b0, model.Caso@4470f8a6, model.Caso@7c83dc97, model.Caso@7748410a, model.Caso@740773a3, model.Caso@37f1104d, model.Caso@55740540, model.Caso@60015ef5, model.Caso@2f54a33d, model.Caso@1018bde2, model.Caso@65b3f4a4, model.Caso@f2ff811, model.Caso@568ff82, model.Caso@50caa560, model.Caso@2a266d09, model.Caso@5ab9e72c, model.Caso@186f8716, model.Caso@1d8bd0de, model.Caso@45ca843, model.Caso@11c9af63, model.Caso@757acd7b, model.Caso@36b4fe2a, model.Caso@574b560f, model.Caso@ba54932, model.Caso@28975c28, model.Caso@3943a2be, model.Caso@343570b7, model.Caso@157853da, model.Caso@71c3b41, model.Caso@236e3f4e, model.Caso@3cc1435c, model.Caso@6bf0219d, model.Caso@dd0c991, model.Caso@5f16132a, model.Caso@69fb6037, model.Caso@36d585c, model.Caso@87a85e1, model.Caso@671a5887, model.Caso@5552768b, model.Caso@3c947bc5, model.Caso@609db43b, model.Caso@55f616cf, model.Caso@1356d4d4, model.Caso@c03cf28, model.Caso@1329eff, model.Caso@6497b078, model.Caso@41c2284a, model.Caso@53aad5d5, model.Caso@46fa7c39, model.Caso@1fb700ee, model.Caso@4f67eb2a, model.Caso@4a668b6e, model.Caso@5f683daf, model.Caso@78ffe6dc, model.Caso@8317c52, model.Caso@76f2bbc1, model.Caso@68e965f5, model.Caso@6f27a732, model.Caso@6c779568, model.Caso@f381794, model.Caso@2cdd0d4b, model.Caso@7e9131d5, model.Caso@2e1d27ba, model.Caso@61d6015a, model.Caso@2525ff7e, model.Caso@524d6d96, model.Caso@152aa092, model.Caso@44a7bfbc, model.Caso@4ef37659, model.Caso@776b83cc, model.Caso@37858383, model.Caso@4e268090, model.Caso@1bb266b3, model.Caso@306cf3ea, model.Caso@2beee7ff, model.Caso@5136d012, model.Caso@5939a379, model.Caso@e1de817, model.Caso@52102734, model.Caso@3541cb24, model.Caso@2177849e, model.Caso@40cb8df7, model.Caso@13b13b5d, model.Caso@2892dae4, model.Caso@355ce81c, model.Caso@29647f75, model.Caso@3315d2d7, model.Caso@d6e7bab, model.Caso@5fa07e12, model.Caso@55b53d44, model.Caso@482bce4f], Castilla Leon=[model.Caso@366647c2, model.Caso@6a6afff2, model.Caso@1649b0e6, model.Caso@865dd6, model.Caso@4da4253, model.Caso@3972a855, model.Caso@62e7f11d, model.Caso@503d687a, model.Caso@6a370f4, model.Caso@2abf4075, model.Caso@770d3326, model.Caso@4cc8eb05, model.Caso@51f116b8, model.Caso@19d481b, model.Caso@1f97cf0d, model.Caso@140c9f39, model.Caso@4d910fd6, model.Caso@26275bef, model.Caso@7690781, model.Caso@77eca502, model.Caso@3246fb96, model.Caso@2e222612, model.Caso@61386958, model.Caso@73ee04c8, model.Caso@7671cb68, model.Caso@49dc7102, model.Caso@6b8ca3c8, model.Caso@68c72235, model.Caso@10959ece, model.Caso@3a6bb9bf, model.Caso@34f7cfd9, model.Caso@65f095f8, model.Caso@59af0466, model.Caso@3e6ef8ad, model.Caso@346d61be, model.Caso@55536d9e, model.Caso@747edf66, model.Caso@3d1cfad4, model.Caso@62230c58, model.Caso@2cd2a21f, model.Caso@2e55dd0c, model.Caso@74455848, model.Caso@e7edb54, model.Caso@378542de, model.Caso@3738449f, model.Caso@69e1dd28, model.Caso@11bd0f3b, model.Caso@c333c60, model.Caso@79da8dc5, model.Caso@1eb5174b, model.Caso@67080771, model.Caso@72cde7cc, model.Caso@5fd4f8f5, model.Caso@696da30b, model.Caso@4e7912d8, model.Caso@53976f5c, model.Caso@2bfc268b, model.Caso@2f8dad04, model.Caso@29e495ff, model.Caso@41e1e210, model.Caso@be35cd9, model.Caso@4944252c, model.Caso@44821a96, model.Caso@a3d8174, model.Caso@1ba9117e, model.Caso@732c2a62, model.Caso@272ed83b, model.Caso@41fecb8b, model.Caso@120f102b, model.Caso@625732, model.Caso@51dcb805, model.Caso@66498326, model.Caso@cad498c, model.Caso@1e6454ec, model.Caso@2accdbb5, model.Caso@b62d79, model.Caso@6631f5ca, model.Caso@5ace1ed4, model.Caso@1613674b, model.Caso@27ff5d15, model.Caso@4e096385, model.Caso@649bec2e, model.Caso@693fe6c9, model.Caso@34f5090e, model.Caso@31e5415e, model.Caso@a2431d0, model.Caso@1cbb87f3, model.Caso@1a4013, model.Caso@1b6e1eff, model.Caso@306f16f3, model.Caso@702b8b12, model.Caso@22e357dc, model.Caso@49912c99, model.Caso@10163d6, model.Caso@2dde1bff, model.Caso@15bbf42f, model.Caso@550ee7e5, model.Caso@5f9b2141, model.Caso@247d8ae, model.Caso@48974e45, model.Caso@6a84a97d, model.Caso@6c130c45, model.Caso@50ad3bc1, model.Caso@223aa2f7, model.Caso@6d3a388c, model.Caso@193f604a, model.Caso@20f5239f, model.Caso@57af006c, model.Caso@6bedbc4d, model.Caso@932bc4a, model.Caso@d29f28, model.Caso@2fd1433e, model.Caso@29d89d5d, model.Caso@3514a4c0, model.Caso@212b5695, model.Caso@446293d, model.Caso@69997e9d, model.Caso@793be5ca, model.Caso@2df9b86, model.Caso@37654521, model.Caso@15aab8c6, model.Caso@33990a0c, model.Caso@4de4b452, model.Caso@50b5ac82, model.Caso@101952da, model.Caso@6babf3bf, model.Caso@3059cbc, model.Caso@7ea9e1e2, model.Caso@24fcf36f, model.Caso@10feca44, model.Caso@3fb1549b, model.Caso@ea6147e, model.Caso@4d02f94e, model.Caso@2b48a640, model.Caso@1e683a3e, model.Caso@2053d869, model.Caso@7a419da4, model.Caso@14555e0a, model.Caso@4bb33f74, model.Caso@759d26fb, model.Caso@3c73951, model.Caso@3d5c822d, model.Caso@6f46426d, model.Caso@73700b80, model.Caso@49c7b90e, model.Caso@10d307f1, model.Caso@4d5b6aac, model.Caso@3e84448c, model.Caso@4a7f959b, model.Caso@429bffaa, model.Caso@5403f35f, model.Caso@483f6d77, model.Caso@7e5afaa6, model.Caso@63a12c68, model.Caso@28f3b248, model.Caso@1b1426f4, model.Caso@32b260fa, model.Caso@581ac8a8, model.Caso@6d4e5011, model.Caso@57d7f8ca, model.Caso@76c3e77a, model.Caso@78123e82, model.Caso@67c33749, model.Caso@fba92d3, model.Caso@662b4c69, model.Caso@fa49800, model.Caso@71238fc2, model.Caso@2a54a73f], Valencia=[model.Caso@16a0ee18, model.Caso@3d6f0054, model.Caso@505fc5a4, model.Caso@5fbdfdcf, model.Caso@4efc180e, model.Caso@bd4dc25, model.Caso@25084a1e, model.Caso@156b88f5, model.Caso@3bf9ce3e, model.Caso@16610890, model.Caso@71def8f8, model.Caso@383bfa16, model.Caso@4d465b11, model.Caso@53fdffa1, model.Caso@5562c41e, model.Caso@32ee6fee, model.Caso@4d0f2471, model.Caso@7133da86, model.Caso@3232a28a, model.Caso@73e22a3d, model.Caso@47faa49c, model.Caso@28f2a10f, model.Caso@f736069, model.Caso@6da21078, model.Caso@7fee8714, model.Caso@4229bb3f, model.Caso@56cdfb3b, model.Caso@2b91004a, model.Caso@20ccf40b, model.Caso@2fb3536e, model.Caso@169e6180, model.Caso@35aea049, model.Caso@7205765b, model.Caso@47987356, model.Caso@22ef9844, model.Caso@6283d8b8, model.Caso@3b6ddd1d, model.Caso@3f6b0be5, model.Caso@611889f4, model.Caso@1da2cb77, model.Caso@48f278eb, model.Caso@2f217633, model.Caso@a530d0a, model.Caso@1a18644, model.Caso@5acf93bb, model.Caso@7e7be63f, model.Caso@6cd28fa7, model.Caso@614ca7df, model.Caso@4738a206, model.Caso@66d3eec0, model.Caso@1e04fa0a, model.Caso@1af2d44a, model.Caso@18d87d80, model.Caso@618425b5, model.Caso@58695725, model.Caso@543588e6, model.Caso@f5acb9d, model.Caso@4fb3ee4e, model.Caso@5d7148e2, model.Caso@25fb8912, model.Caso@7c24b813, model.Caso@2c35e847, model.Caso@7bd4937b, model.Caso@21e360a, model.Caso@5ba3f27a, model.Caso@58d75e99, model.Caso@74751b3, model.Caso@741a8937, model.Caso@306e95ec, model.Caso@52af26ee, model.Caso@6fd83fc1, model.Caso@4f2b503c, model.Caso@bae7dc0, model.Caso@209da20d, model.Caso@e15b7e8, model.Caso@1b2abca6, model.Caso@6392827e, model.Caso@2ed2d9cb, model.Caso@d5b810e, model.Caso@43dac38f, model.Caso@342c38f8, model.Caso@c88a337, model.Caso@5d0a1059, model.Caso@485966cc, model.Caso@1de76cc7, model.Caso@54bff557, model.Caso@593aaf41, model.Caso@5a56cdac, model.Caso@7c711375, model.Caso@57cf54e1, model.Caso@5b03b9fe, model.Caso@37d4349f, model.Caso@434a63ab, model.Caso@6e0f5f7f, model.Caso@2805d709, model.Caso@3ee37e5a, model.Caso@2ea41516, model.Caso@3a44431a, model.Caso@3c7f66c4, model.Caso@194bcebf, model.Caso@17497425, model.Caso@f0da945, model.Caso@4803b726, model.Caso@ffaa6af, model.Caso@53ce1329, model.Caso@316bcf94, model.Caso@6404f418, model.Caso@3e11f9e9, model.Caso@1de5f259, model.Caso@729d991e, model.Caso@31fa1761, model.Caso@957e06, model.Caso@32502377, model.Caso@2c1b194a, model.Caso@4dbb42b7, model.Caso@66f57048, model.Caso@550dbc7a, model.Caso@21282ed8, model.Caso@36916eb0, model.Caso@7bab3f1a, model.Caso@437da279, model.Caso@23c30a20, model.Caso@1e1a0406, model.Caso@3cebbb30, model.Caso@12aba8be, model.Caso@290222c1, model.Caso@67f639d3, model.Caso@6253c26, model.Caso@49049a04, model.Caso@71a8adcf, model.Caso@27462a88, model.Caso@82de64a, model.Caso@659499f1, model.Caso@51e69659, model.Caso@47e2e487, model.Caso@201a4587, model.Caso@61001b64, model.Caso@4310d43, model.Caso@54a7079e, model.Caso@26e356f0, model.Caso@47d9a273, model.Caso@4b8ee4de, model.Caso@27f981c6, model.Caso@1b11171f, model.Caso@1151e434, model.Caso@2dc54ad4, model.Caso@4659191b, model.Caso@55634720, model.Caso@4b0d79fc, model.Caso@4c1909a3, model.Caso@428640fa, model.Caso@d9345cd, model.Caso@2d710f1a, model.Caso@29215f06, model.Caso@59505b48, model.Caso@4efac082, model.Caso@6bd61f98, model.Caso@48aca48b, model.Caso@13fd2ccd, model.Caso@b9b00e0, model.Caso@506ae4d4, model.Caso@7d4f9aae, model.Caso@72e5a8e, model.Caso@54e1c68b, model.Caso@53aac487, model.Caso@52b1beb6, model.Caso@273e7444, model.Caso@7db12bb6], Ceuta=[model.Caso@783a467b, model.Caso@272113c4, model.Caso@73e9cf30, model.Caso@771a660, model.Caso@2d52216b, model.Caso@242b836, model.Caso@3f6f6701, model.Caso@3527942a, model.Caso@942a29c, model.Caso@1ed6388a, model.Caso@5a45133e, model.Caso@534a5a98, model.Caso@4f80542f, model.Caso@60bd273d, model.Caso@121314f7, model.Caso@130c12b7, model.Caso@5e600dd5, model.Caso@576d5deb, model.Caso@5d534f5d, model.Caso@2e3967ea, model.Caso@70e9c95d, model.Caso@4d5650ae, model.Caso@a38c7fe, model.Caso@6fdbe764, model.Caso@51c668e3, model.Caso@2e6a8155, model.Caso@6221a451, model.Caso@52719fb6, model.Caso@3012646b, model.Caso@4a883b15, model.Caso@25641d39, model.Caso@7b36aa0c, model.Caso@5824a83d, model.Caso@537f60bf, model.Caso@5677323c, model.Caso@18df8434, model.Caso@65c7a252, model.Caso@4d154ccd, model.Caso@229c6181, model.Caso@4686afc2, model.Caso@1e0b4072, model.Caso@791f145a, model.Caso@38cee291, model.Caso@4b45a2f5, model.Caso@f09733f, model.Caso@e350b40, model.Caso@41a0aa7d, model.Caso@2794eab6, model.Caso@6340e5f0, model.Caso@45099dd3, model.Caso@13e344d, model.Caso@1ffaf86, model.Caso@6574a52c, model.Caso@6c1a5b54, model.Caso@1c7696c6, model.Caso@60099951, model.Caso@20140db9, model.Caso@1e6a3214, model.Caso@368247b9, model.Caso@1a6d8329, model.Caso@1a942c18, model.Caso@55a147cc, model.Caso@71ba6d4e, model.Caso@738dc9b, model.Caso@3c77d488, model.Caso@63376bed, model.Caso@4145bad8, model.Caso@d86a6f, model.Caso@2892d68, model.Caso@5ab956d7, model.Caso@3646a422, model.Caso@750e2b97, model.Caso@3e27aa33, model.Caso@2e385cce, model.Caso@2ddc9a9f, model.Caso@298a5e20, model.Caso@2a7f1f10, model.Caso@46cdf8bd, model.Caso@f0c8a99, model.Caso@740cae06, model.Caso@26d9b808, model.Caso@f78a47e, model.Caso@644baf4a, model.Caso@7526515b, model.Caso@1ed4ae0f, model.Caso@54c5a2ff, model.Caso@6d4d66d2, model.Caso@2a265ea9, model.Caso@11392934, model.Caso@6892b3b6, model.Caso@6e6f2380, model.Caso@76a4ebf2, model.Caso@2e8c1c9b, model.Caso@53fe15ff, model.Caso@449a4f23, model.Caso@1530c739, model.Caso@5b1669c0, model.Caso@78e4deb0, model.Caso@6e9175d8, model.Caso@7d0b7e3c, model.Caso@15bb5034, model.Caso@4b741d6d, model.Caso@2eae8e6e, model.Caso@8f2ef19, model.Caso@470734c3, model.Caso@2cf3d63b, model.Caso@7674f035, model.Caso@69e153c5, model.Caso@173ed316, model.Caso@25ce9dc4, model.Caso@74ea2410, model.Caso@17f62e33, model.Caso@76b1e9b8, model.Caso@27406a17, model.Caso@2af004b, model.Caso@248e319b, model.Caso@5d0bf09b, model.Caso@793f29ff, model.Caso@3e8c3cb, model.Caso@563f38c4, model.Caso@543295b0, model.Caso@54422e18, model.Caso@117159c0, model.Caso@3e27ba32, model.Caso@7ef82753, model.Caso@3b0fe47a, model.Caso@202b0582, model.Caso@235ecd9f, model.Caso@1ca3b418, model.Caso@58cbafc2, model.Caso@2034b64c, model.Caso@75d3a5e0, model.Caso@74d1dc36, model.Caso@7161d8d1, model.Caso@74e28667, model.Caso@1cf6d1be, model.Caso@663c9e7a, model.Caso@19e4653c, model.Caso@795509d9, model.Caso@53045c6c, model.Caso@5149d738, model.Caso@6bbe85a8, model.Caso@3a7442c7, model.Caso@4be29ed9, model.Caso@548d708a, model.Caso@4b013c76, model.Caso@53fb3dab, model.Caso@cb0755b, model.Caso@33065d67, model.Caso@712625fd, model.Caso@7bba5817, model.Caso@742ff096, model.Caso@75437611, model.Caso@350aac89, model.Caso@1c5920df, model.Caso@17f9d882, model.Caso@79e4c792, model.Caso@196a42c3, model.Caso@4c60d6e9, model.Caso@15043a2f, model.Caso@4a83a74a, model.Caso@1349883, model.Caso@4b29d1d2, model.Caso@7f485fda, model.Caso@28261e8e, model.Caso@d737b89, model.Caso@8519cb4, model.Caso@35dab4eb]}
+La Rioja 31/01/2020 0 positivos
+La Rioja 01/02/2020 0 positivos
+La Rioja 02/02/2020 0 positivos
+La Rioja 03/02/2020 1 positivos
+La Rioja 04/02/2020 0 positivos
+La Rioja 05/02/2020 0 positivos
+La Rioja 06/02/2020 0 positivos
+La Rioja 07/02/2020 0 positivos
+La Rioja 08/02/2020 0 positivos
+La Rioja 09/02/2020 0 positivos
+La Rioja 10/02/2020 0 positivos
+La Rioja 11/02/2020 0 positivos
+La Rioja 12/02/2020 0 positivos
+La Rioja 13/02/2020 0 positivos
+La Rioja 14/02/2020 0 positivos
+La Rioja 15/02/2020 0 positivos
+La Rioja 16/02/2020 0 positivos
+La Rioja 17/02/2020 0 positivos
+La Rioja 18/02/2020 0 positivos
+La Rioja 19/02/2020 0 positivos
+La Rioja 20/02/2020 0 positivos
+La Rioja 21/02/2020 1 positivos
+La Rioja 22/02/2020 0 positivos
+La Rioja 23/02/2020 1 positivos
+La Rioja 24/02/2020 2 positivos
+La Rioja 25/02/2020 2 positivos
+La Rioja 26/02/2020 4 positivos
+La Rioja 27/02/2020 9 positivos
+La Rioja 28/02/2020 10 positivos
+La Rioja 29/02/2020 13 positivos
+La Rioja 01/03/2020 22 positivos
+La Rioja 02/03/2020 30 positivos
+La Rioja 03/03/2020 28 positivos
+La Rioja 04/03/2020 25 positivos
+La Rioja 05/03/2020 27 positivos
+La Rioja 06/03/2020 45 positivos
+La Rioja 07/03/2020 39 positivos
+La Rioja 08/03/2020 41 positivos
+La Rioja 09/03/2020 60 positivos
+La Rioja 10/03/2020 88 positivos
+La Rioja 11/03/2020 71 positivos
+La Rioja 12/03/2020 74 positivos
+La Rioja 13/03/2020 107 positivos
+La Rioja 14/03/2020 138 positivos
+La Rioja 15/03/2020 111 positivos
+La Rioja 16/03/2020 157 positivos
+La Rioja 17/03/2020 122 positivos
+La Rioja 18/03/2020 143 positivos
+La Rioja 19/03/2020 168 positivos
+La Rioja 20/03/2020 191 positivos
+La Rioja 21/03/2020 133 positivos
+La Rioja 22/03/2020 108 positivos
+La Rioja 23/03/2020 158 positivos
+La Rioja 24/03/2020 118 positivos
+La Rioja 25/03/2020 133 positivos
+La Rioja 26/03/2020 114 positivos
+La Rioja 27/03/2020 129 positivos
+La Rioja 28/03/2020 100 positivos
+La Rioja 29/03/2020 87 positivos
+La Rioja 30/03/2020 117 positivos
+La Rioja 31/03/2020 108 positivos
+La Rioja 01/04/2020 108 positivos
+La Rioja 02/04/2020 100 positivos
+La Rioja 03/04/2020 79 positivos
+La Rioja 04/04/2020 55 positivos
+La Rioja 05/04/2020 36 positivos
+La Rioja 06/04/2020 41 positivos
+La Rioja 07/04/2020 52 positivos
+La Rioja 08/04/2020 45 positivos
+La Rioja 09/04/2020 44 positivos
+La Rioja 10/04/2020 40 positivos
+La Rioja 11/04/2020 25 positivos
+La Rioja 12/04/2020 22 positivos
+La Rioja 13/04/2020 29 positivos
+La Rioja 14/04/2020 24 positivos
+La Rioja 15/04/2020 16 positivos
+La Rioja 16/04/2020 29 positivos
+La Rioja 17/04/2020 25 positivos
+La Rioja 18/04/2020 17 positivos
+La Rioja 19/04/2020 14 positivos
+La Rioja 20/04/2020 9 positivos
+La Rioja 21/04/2020 6 positivos
+La Rioja 22/04/2020 15 positivos
+La Rioja 23/04/2020 13 positivos
+La Rioja 24/04/2020 4 positivos
+La Rioja 25/04/2020 5 positivos
+La Rioja 26/04/2020 4 positivos
+La Rioja 27/04/2020 4 positivos
+La Rioja 28/04/2020 10 positivos
+La Rioja 29/04/2020 5 positivos
+La Rioja 30/04/2020 2 positivos
+La Rioja 01/05/2020 1 positivos
+La Rioja 02/05/2020 2 positivos
+La Rioja 03/05/2020 2 positivos
+La Rioja 04/05/2020 2 positivos
+La Rioja 05/05/2020 0 positivos
+La Rioja 06/05/2020 0 positivos
+La Rioja 07/05/2020 1 positivos
+La Rioja 08/05/2020 1 positivos
+La Rioja 09/05/2020 0 positivos
+La Rioja 10/05/2020 1 positivos
+La Rioja 11/05/2020 4 positivos
+La Rioja 12/05/2020 3 positivos
+La Rioja 13/05/2020 5 positivos
+La Rioja 14/05/2020 4 positivos
+La Rioja 15/05/2020 3 positivos
+La Rioja 16/05/2020 2 positivos
+La Rioja 17/05/2020 0 positivos
+La Rioja 18/05/2020 5 positivos
+La Rioja 19/05/2020 5 positivos
+La Rioja 20/05/2020 4 positivos
+La Rioja 21/05/2020 4 positivos
+La Rioja 22/05/2020 2 positivos
+La Rioja 23/05/2020 2 positivos
+La Rioja 24/05/2020 0 positivos
+La Rioja 25/05/2020 4 positivos
+La Rioja 26/05/2020 0 positivos
+La Rioja 27/05/2020 1 positivos
+La Rioja 28/05/2020 1 positivos
+La Rioja 29/05/2020 2 positivos
+La Rioja 30/05/2020 1 positivos
+La Rioja 31/05/2020 0 positivos
+La Rioja 01/06/2020 3 positivos
+La Rioja 02/06/2020 1 positivos
+La Rioja 03/06/2020 2 positivos
+La Rioja 04/06/2020 1 positivos
+La Rioja 05/06/2020 2 positivos
+La Rioja 06/06/2020 2 positivos
+La Rioja 07/06/2020 1 positivos
+La Rioja 08/06/2020 0 positivos
+La Rioja 09/06/2020 1 positivos
+La Rioja 10/06/2020 0 positivos
+La Rioja 11/06/2020 1 positivos
+La Rioja 12/06/2020 0 positivos
+La Rioja 13/06/2020 2 positivos
+La Rioja 14/06/2020 1 positivos
+La Rioja 15/06/2020 0 positivos
+La Rioja 16/06/2020 1 positivos
+La Rioja 17/06/2020 0 positivos
+La Rioja 18/06/2020 1 positivos
+La Rioja 19/06/2020 0 positivos
+La Rioja 20/06/2020 1 positivos
+La Rioja 21/06/2020 0 positivos
+La Rioja 22/06/2020 0 positivos
+La Rioja 23/06/2020 1 positivos
+La Rioja 24/06/2020 1 positivos
+La Rioja 25/06/2020 0 positivos
+La Rioja 26/06/2020 0 positivos
+La Rioja 27/06/2020 0 positivos
+La Rioja 28/06/2020 1 positivos
+La Rioja 29/06/2020 1 positivos
+La Rioja 30/06/2020 0 positivos
+La Rioja 01/07/2020 0 positivos
+La Rioja 02/07/2020 0 positivos
+La Rioja 03/07/2020 0 positivos
+La Rioja 04/07/2020 0 positivos
+La Rioja 05/07/2020 1 positivos
+La Rioja 06/07/2020 0 positivos
+La Rioja 07/07/2020 4 positivos
+La Rioja 08/07/2020 5 positivos
+La Rioja 09/07/2020 1 positivos
+La Rioja 10/07/2020 9 positivos
+La Rioja 11/07/2020 3 positivos
+La Rioja 12/07/2020 2 positivos
+La Rioja 13/07/2020 2 positivos
+La Rioja 14/07/2020 4 positivos
+La Rioja 15/07/2020 0 positivos
+La Rioja 16/07/2020 3 positivos
+Pais Vasco 31/01/2020 0 positivos
+Pais Vasco 01/02/2020 0 positivos
+Pais Vasco 02/02/2020 0 positivos
+Pais Vasco 03/02/2020 0 positivos
+Pais Vasco 04/02/2020 0 positivos
+Pais Vasco 05/02/2020 0 positivos
+Pais Vasco 06/02/2020 0 positivos
+Pais Vasco 07/02/2020 0 positivos
+Pais Vasco 08/02/2020 0 positivos
+Pais Vasco 09/02/2020 1 positivos
+Pais Vasco 10/02/2020 0 positivos
+Pais Vasco 11/02/2020 0 positivos
+Pais Vasco 12/02/2020 2 positivos
+Pais Vasco 13/02/2020 0 positivos
+Pais Vasco 14/02/2020 0 positivos
+Pais Vasco 15/02/2020 3 positivos
+Pais Vasco 16/02/2020 1 positivos
+Pais Vasco 17/02/2020 2 positivos
+Pais Vasco 18/02/2020 0 positivos
+Pais Vasco 19/02/2020 1 positivos
+Pais Vasco 20/02/2020 1 positivos
+Pais Vasco 21/02/2020 3 positivos
+Pais Vasco 22/02/2020 4 positivos
+Pais Vasco 23/02/2020 1 positivos
+Pais Vasco 24/02/2020 6 positivos
+Pais Vasco 25/02/2020 12 positivos
+Pais Vasco 26/02/2020 11 positivos
+Pais Vasco 27/02/2020 14 positivos
+Pais Vasco 28/02/2020 33 positivos
+Pais Vasco 29/02/2020 24 positivos
+Pais Vasco 01/03/2020 47 positivos
+Pais Vasco 02/03/2020 56 positivos
+Pais Vasco 03/03/2020 58 positivos
+Pais Vasco 04/03/2020 69 positivos
+Pais Vasco 05/03/2020 75 positivos
+Pais Vasco 06/03/2020 81 positivos
+Pais Vasco 07/03/2020 92 positivos
+Pais Vasco 08/03/2020 101 positivos
+Pais Vasco 09/03/2020 143 positivos
+Pais Vasco 10/03/2020 227 positivos
+Pais Vasco 11/03/2020 227 positivos
+Pais Vasco 12/03/2020 272 positivos
+Pais Vasco 13/03/2020 427 positivos
+Pais Vasco 14/03/2020 420 positivos
+Pais Vasco 15/03/2020 433 positivos
+Pais Vasco 16/03/2020 599 positivos
+Pais Vasco 17/03/2020 539 positivos
+Pais Vasco 18/03/2020 553 positivos
+Pais Vasco 19/03/2020 465 positivos
+Pais Vasco 20/03/2020 612 positivos
+Pais Vasco 21/03/2020 433 positivos
+Pais Vasco 22/03/2020 393 positivos
+Pais Vasco 23/03/2020 483 positivos
+Pais Vasco 24/03/2020 396 positivos
+Pais Vasco 25/03/2020 409 positivos
+Pais Vasco 26/03/2020 365 positivos
+Pais Vasco 27/03/2020 397 positivos
+Pais Vasco 28/03/2020 290 positivos
+Pais Vasco 29/03/2020 268 positivos
+Pais Vasco 30/03/2020 321 positivos
+Pais Vasco 31/03/2020 266 positivos
+Pais Vasco 01/04/2020 288 positivos
+Pais Vasco 02/04/2020 256 positivos
+Pais Vasco 03/04/2020 330 positivos
+Pais Vasco 04/04/2020 216 positivos
+Pais Vasco 05/04/2020 229 positivos
+Pais Vasco 06/04/2020 298 positivos
+Pais Vasco 07/04/2020 241 positivos
+Pais Vasco 08/04/2020 243 positivos
+Pais Vasco 09/04/2020 214 positivos
+Pais Vasco 10/04/2020 199 positivos
+Pais Vasco 11/04/2020 140 positivos
+Pais Vasco 12/04/2020 153 positivos
+Pais Vasco 13/04/2020 130 positivos
+Pais Vasco 14/04/2020 104 positivos
+Pais Vasco 15/04/2020 109 positivos
+Pais Vasco 16/04/2020 128 positivos
+Pais Vasco 17/04/2020 150 positivos
+Pais Vasco 18/04/2020 108 positivos
+Pais Vasco 19/04/2020 54 positivos
+Pais Vasco 20/04/2020 82 positivos
+Pais Vasco 21/04/2020 78 positivos
+Pais Vasco 22/04/2020 65 positivos
+Pais Vasco 23/04/2020 66 positivos
+Pais Vasco 24/04/2020 97 positivos
+Pais Vasco 25/04/2020 47 positivos
+Pais Vasco 26/04/2020 42 positivos
+Pais Vasco 27/04/2020 30 positivos
+Pais Vasco 28/04/2020 49 positivos
+Pais Vasco 29/04/2020 39 positivos
+Pais Vasco 30/04/2020 33 positivos
+Pais Vasco 01/05/2020 40 positivos
+Pais Vasco 02/05/2020 50 positivos
+Pais Vasco 03/05/2020 35 positivos
+Pais Vasco 04/05/2020 18 positivos
+Pais Vasco 05/05/2020 21 positivos
+Pais Vasco 06/05/2020 24 positivos
+Pais Vasco 07/05/2020 23 positivos
+Pais Vasco 08/05/2020 26 positivos
+Pais Vasco 09/05/2020 20 positivos
+Pais Vasco 10/05/2020 10 positivos
+Pais Vasco 11/05/2020 24 positivos
+Pais Vasco 12/05/2020 22 positivos
+Pais Vasco 13/05/2020 26 positivos
+Pais Vasco 14/05/2020 16 positivos
+Pais Vasco 15/05/2020 14 positivos
+Pais Vasco 16/05/2020 17 positivos
+Pais Vasco 17/05/2020 6 positivos
+Pais Vasco 18/05/2020 16 positivos
+Pais Vasco 19/05/2020 11 positivos
+Pais Vasco 20/05/2020 10 positivos
+Pais Vasco 21/05/2020 11 positivos
+Pais Vasco 22/05/2020 9 positivos
+Pais Vasco 23/05/2020 6 positivos
+Pais Vasco 24/05/2020 3 positivos
+Pais Vasco 25/05/2020 6 positivos
+Pais Vasco 26/05/2020 9 positivos
+Pais Vasco 27/05/2020 2 positivos
+Pais Vasco 28/05/2020 6 positivos
+Pais Vasco 29/05/2020 3 positivos
+Pais Vasco 30/05/2020 7 positivos
+Pais Vasco 31/05/2020 0 positivos
+Pais Vasco 01/06/2020 7 positivos
+Pais Vasco 02/06/2020 12 positivos
+Pais Vasco 03/06/2020 10 positivos
+Pais Vasco 04/06/2020 9 positivos
+Pais Vasco 05/06/2020 11 positivos
+Pais Vasco 06/06/2020 12 positivos
+Pais Vasco 07/06/2020 21 positivos
+Pais Vasco 08/06/2020 15 positivos
+Pais Vasco 09/06/2020 12 positivos
+Pais Vasco 10/06/2020 7 positivos
+Pais Vasco 11/06/2020 10 positivos
+Pais Vasco 12/06/2020 15 positivos
+Pais Vasco 13/06/2020 9 positivos
+Pais Vasco 14/06/2020 6 positivos
+Pais Vasco 15/06/2020 14 positivos
+Pais Vasco 16/06/2020 10 positivos
+Pais Vasco 17/06/2020 8 positivos
+Pais Vasco 18/06/2020 12 positivos
+Pais Vasco 19/06/2020 11 positivos
+Pais Vasco 20/06/2020 4 positivos
+Pais Vasco 21/06/2020 6 positivos
+Pais Vasco 22/06/2020 7 positivos
+Pais Vasco 23/06/2020 5 positivos
+Pais Vasco 24/06/2020 13 positivos
+Pais Vasco 25/06/2020 5 positivos
+Pais Vasco 26/06/2020 10 positivos
+Pais Vasco 27/06/2020 5 positivos
+Pais Vasco 28/06/2020 7 positivos
+Pais Vasco 29/06/2020 8 positivos
+Pais Vasco 30/06/2020 14 positivos
+Pais Vasco 01/07/2020 6 positivos
+Pais Vasco 02/07/2020 8 positivos
+Pais Vasco 03/07/2020 13 positivos
+Pais Vasco 04/07/2020 6 positivos
+Pais Vasco 05/07/2020 14 positivos
+Pais Vasco 06/07/2020 25 positivos
+Pais Vasco 07/07/2020 25 positivos
+Pais Vasco 08/07/2020 35 positivos
+Pais Vasco 09/07/2020 26 positivos
+Pais Vasco 10/07/2020 21 positivos
+Pais Vasco 11/07/2020 27 positivos
+Pais Vasco 12/07/2020 29 positivos
+Pais Vasco 13/07/2020 22 positivos
+Pais Vasco 14/07/2020 23 positivos
+Pais Vasco 15/07/2020 33 positivos
+Pais Vasco 16/07/2020 24 positivos
+Cataluña 31/01/2020 0 positivos
+Cataluña 01/02/2020 7 positivos
+Cataluña 02/02/2020 2 positivos
+Cataluña 03/02/2020 2 positivos
+Cataluña 04/02/2020 4 positivos
+Cataluña 05/02/2020 2 positivos
+Cataluña 06/02/2020 1 positivos
+Cataluña 07/02/2020 2 positivos
+Cataluña 08/02/2020 0 positivos
+Cataluña 09/02/2020 1 positivos
+Cataluña 10/02/2020 3 positivos
+Cataluña 11/02/2020 2 positivos
+Cataluña 12/02/2020 5 positivos
+Cataluña 13/02/2020 10 positivos
+Cataluña 14/02/2020 1 positivos
+Cataluña 15/02/2020 9 positivos
+Cataluña 16/02/2020 5 positivos
+Cataluña 17/02/2020 2 positivos
+Cataluña 18/02/2020 4 positivos
+Cataluña 19/02/2020 1 positivos
+Cataluña 20/02/2020 11 positivos
+Cataluña 21/02/2020 14 positivos
+Cataluña 22/02/2020 11 positivos
+Cataluña 23/02/2020 8 positivos
+Cataluña 24/02/2020 14 positivos
+Cataluña 25/02/2020 21 positivos
+Cataluña 26/02/2020 30 positivos
+Cataluña 27/02/2020 15 positivos
+Cataluña 28/02/2020 35 positivos
+Cataluña 29/02/2020 27 positivos
+Cataluña 01/03/2020 87 positivos
+Cataluña 02/03/2020 81 positivos
+Cataluña 03/03/2020 90 positivos
+Cataluña 04/03/2020 149 positivos
+Cataluña 05/03/2020 174 positivos
+Cataluña 06/03/2020 269 positivos
+Cataluña 07/03/2020 293 positivos
+Cataluña 08/03/2020 331 positivos
+Cataluña 09/03/2020 567 positivos
+Cataluña 10/03/2020 797 positivos
+Cataluña 11/03/2020 760 positivos
+Cataluña 12/03/2020 1030 positivos
+Cataluña 13/03/2020 1363 positivos
+Cataluña 14/03/2020 1321 positivos
+Cataluña 15/03/2020 1368 positivos
+Cataluña 16/03/2020 1705 positivos
+Cataluña 17/03/2020 1565 positivos
+Cataluña 18/03/2020 1682 positivos
+Cataluña 19/03/2020 1608 positivos
+Cataluña 20/03/2020 1895 positivos
+Cataluña 21/03/2020 1457 positivos
+Cataluña 22/03/2020 1309 positivos
+Cataluña 23/03/2020 1507 positivos
+Cataluña 24/03/2020 1411 positivos
+Cataluña 25/03/2020 1323 positivos
+Cataluña 26/03/2020 1387 positivos
+Cataluña 27/03/2020 1252 positivos
+Cataluña 28/03/2020 1326 positivos
+Cataluña 29/03/2020 1041 positivos
+Cataluña 30/03/2020 1202 positivos
+Cataluña 31/03/2020 1131 positivos
+Cataluña 01/04/2020 1281 positivos
+Cataluña 02/04/2020 1061 positivos
+Cataluña 03/04/2020 1209 positivos
+Cataluña 04/04/2020 968 positivos
+Cataluña 05/04/2020 844 positivos
+Cataluña 06/04/2020 816 positivos
+Cataluña 07/04/2020 743 positivos
+Cataluña 08/04/2020 994 positivos
+Cataluña 09/04/2020 1048 positivos
+Cataluña 10/04/2020 1008 positivos
+Cataluña 11/04/2020 1059 positivos
+Cataluña 12/04/2020 666 positivos
+Cataluña 13/04/2020 596 positivos
+Cataluña 14/04/2020 720 positivos
+Cataluña 15/04/2020 745 positivos
+Cataluña 16/04/2020 712 positivos
+Cataluña 17/04/2020 607 positivos
+Cataluña 18/04/2020 451 positivos
+Cataluña 19/04/2020 264 positivos
+Cataluña 20/04/2020 365 positivos
+Cataluña 21/04/2020 199 positivos
+Cataluña 22/04/2020 322 positivos
+Cataluña 23/04/2020 272 positivos
+Cataluña 24/04/2020 271 positivos
+Cataluña 25/04/2020 173 positivos
+Cataluña 26/04/2020 138 positivos
+Cataluña 27/04/2020 143 positivos
+Cataluña 28/04/2020 158 positivos
+Cataluña 29/04/2020 150 positivos
+Cataluña 30/04/2020 188 positivos
+Cataluña 01/05/2020 161 positivos
+Cataluña 02/05/2020 153 positivos
+Cataluña 03/05/2020 138 positivos
+Cataluña 04/05/2020 114 positivos
+Cataluña 05/05/2020 64 positivos
+Cataluña 06/05/2020 51 positivos
+Cataluña 07/05/2020 60 positivos
+Cataluña 08/05/2020 68 positivos
+Cataluña 09/05/2020 54 positivos
+Cataluña 10/05/2020 78 positivos
+Cataluña 11/05/2020 110 positivos
+Cataluña 12/05/2020 129 positivos
+Cataluña 13/05/2020 147 positivos
+Cataluña 14/05/2020 148 positivos
+Cataluña 15/05/2020 203 positivos
+Cataluña 16/05/2020 116 positivos
+Cataluña 17/05/2020 83 positivos
+Cataluña 18/05/2020 187 positivos
+Cataluña 19/05/2020 201 positivos
+Cataluña 20/05/2020 172 positivos
+Cataluña 21/05/2020 204 positivos
+Cataluña 22/05/2020 264 positivos
+Cataluña 23/05/2020 111 positivos
+Cataluña 24/05/2020 126 positivos
+Cataluña 25/05/2020 211 positivos
+Cataluña 26/05/2020 187 positivos
+Cataluña 27/05/2020 150 positivos
+Cataluña 28/05/2020 198 positivos
+Cataluña 29/05/2020 172 positivos
+Cataluña 30/05/2020 86 positivos
+Cataluña 31/05/2020 49 positivos
+Cataluña 01/06/2020 83 positivos
+Cataluña 02/06/2020 106 positivos
+Cataluña 03/06/2020 116 positivos
+Cataluña 04/06/2020 121 positivos
+Cataluña 05/06/2020 164 positivos
+Cataluña 06/06/2020 65 positivos
+Cataluña 07/06/2020 52 positivos
+Cataluña 08/06/2020 106 positivos
+Cataluña 09/06/2020 85 positivos
+Cataluña 10/06/2020 112 positivos
+Cataluña 11/06/2020 103 positivos
+Cataluña 12/06/2020 104 positivos
+Cataluña 13/06/2020 33 positivos
+Cataluña 14/06/2020 41 positivos
+Cataluña 15/06/2020 77 positivos
+Cataluña 16/06/2020 74 positivos
+Cataluña 17/06/2020 92 positivos
+Cataluña 18/06/2020 101 positivos
+Cataluña 19/06/2020 89 positivos
+Cataluña 20/06/2020 77 positivos
+Cataluña 21/06/2020 67 positivos
+Cataluña 22/06/2020 113 positivos
+Cataluña 23/06/2020 114 positivos
+Cataluña 24/06/2020 85 positivos
+Cataluña 25/06/2020 132 positivos
+Cataluña 26/06/2020 195 positivos
+Cataluña 27/06/2020 110 positivos
+Cataluña 28/06/2020 103 positivos
+Cataluña 29/06/2020 170 positivos
+Cataluña 30/06/2020 165 positivos
+Cataluña 01/07/2020 265 positivos
+Cataluña 02/07/2020 231 positivos
+Cataluña 03/07/2020 269 positivos
+Cataluña 04/07/2020 218 positivos
+Cataluña 05/07/2020 212 positivos
+Cataluña 06/07/2020 306 positivos
+Cataluña 07/07/2020 367 positivos
+Cataluña 08/07/2020 414 positivos
+Cataluña 09/07/2020 397 positivos
+Cataluña 10/07/2020 450 positivos
+Cataluña 11/07/2020 247 positivos
+Cataluña 12/07/2020 176 positivos
+Cataluña 13/07/2020 278 positivos
+Cataluña 14/07/2020 298 positivos
+Cataluña 15/07/2020 575 positivos
+Cataluña 16/07/2020 118 positivos
+Baleares 31/01/2020 0 positivos
+Baleares 01/02/2020 0 positivos
+Baleares 02/02/2020 0 positivos
+Baleares 03/02/2020 0 positivos
+Baleares 04/02/2020 0 positivos
+Baleares 05/02/2020 0 positivos
+Baleares 06/02/2020 0 positivos
+Baleares 07/02/2020 0 positivos
+Baleares 08/02/2020 0 positivos
+Baleares 09/02/2020 0 positivos
+Baleares 10/02/2020 2 positivos
+Baleares 11/02/2020 0 positivos
+Baleares 12/02/2020 0 positivos
+Baleares 13/02/2020 0 positivos
+Baleares 14/02/2020 1 positivos
+Baleares 15/02/2020 0 positivos
+Baleares 16/02/2020 0 positivos
+Baleares 17/02/2020 0 positivos
+Baleares 18/02/2020 0 positivos
+Baleares 19/02/2020 0 positivos
+Baleares 20/02/2020 1 positivos
+Baleares 21/02/2020 0 positivos
+Baleares 22/02/2020 0 positivos
+Baleares 23/02/2020 0 positivos
+Baleares 24/02/2020 0 positivos
+Baleares 25/02/2020 0 positivos
+Baleares 26/02/2020 1 positivos
+Baleares 27/02/2020 4 positivos
+Baleares 28/02/2020 4 positivos
+Baleares 29/02/2020 2 positivos
+Baleares 01/03/2020 4 positivos
+Baleares 02/03/2020 6 positivos
+Baleares 03/03/2020 7 positivos
+Baleares 04/03/2020 5 positivos
+Baleares 05/03/2020 12 positivos
+Baleares 06/03/2020 10 positivos
+Baleares 07/03/2020 7 positivos
+Baleares 08/03/2020 14 positivos
+Baleares 09/03/2020 17 positivos
+Baleares 10/03/2020 36 positivos
+Baleares 11/03/2020 42 positivos
+Baleares 12/03/2020 42 positivos
+Baleares 13/03/2020 61 positivos
+Baleares 14/03/2020 71 positivos
+Baleares 15/03/2020 85 positivos
+Baleares 16/03/2020 88 positivos
+Baleares 17/03/2020 82 positivos
+Baleares 18/03/2020 81 positivos
+Baleares 19/03/2020 105 positivos
+Baleares 20/03/2020 97 positivos
+Baleares 21/03/2020 62 positivos
+Baleares 22/03/2020 91 positivos
+Baleares 23/03/2020 82 positivos
+Baleares 24/03/2020 66 positivos
+Baleares 25/03/2020 84 positivos
+Baleares 26/03/2020 73 positivos
+Baleares 27/03/2020 40 positivos
+Baleares 28/03/2020 36 positivos
+Baleares 29/03/2020 37 positivos
+Baleares 30/03/2020 66 positivos
+Baleares 31/03/2020 48 positivos
+Baleares 01/04/2020 84 positivos
+Baleares 02/04/2020 35 positivos
+Baleares 03/04/2020 47 positivos
+Baleares 04/04/2020 25 positivos
+Baleares 05/04/2020 30 positivos
+Baleares 06/04/2020 26 positivos
+Baleares 07/04/2020 19 positivos
+Baleares 08/04/2020 23 positivos
+Baleares 09/04/2020 11 positivos
+Baleares 10/04/2020 21 positivos
+Baleares 11/04/2020 15 positivos
+Baleares 12/04/2020 15 positivos
+Baleares 13/04/2020 15 positivos
+Baleares 14/04/2020 10 positivos
+Baleares 15/04/2020 9 positivos
+Baleares 16/04/2020 14 positivos
+Baleares 17/04/2020 11 positivos
+Baleares 18/04/2020 14 positivos
+Baleares 19/04/2020 10 positivos
+Baleares 20/04/2020 18 positivos
+Baleares 21/04/2020 11 positivos
+Baleares 22/04/2020 8 positivos
+Baleares 23/04/2020 5 positivos
+Baleares 24/04/2020 9 positivos
+Baleares 25/04/2020 11 positivos
+Baleares 26/04/2020 0 positivos
+Baleares 27/04/2020 3 positivos
+Baleares 28/04/2020 5 positivos
+Baleares 29/04/2020 3 positivos
+Baleares 30/04/2020 5 positivos
+Baleares 01/05/2020 10 positivos
+Baleares 02/05/2020 3 positivos
+Baleares 03/05/2020 4 positivos
+Baleares 04/05/2020 1 positivos
+Baleares 05/05/2020 4 positivos
+Baleares 06/05/2020 4 positivos
+Baleares 07/05/2020 2 positivos
+Baleares 08/05/2020 4 positivos
+Baleares 09/05/2020 0 positivos
+Baleares 10/05/2020 7 positivos
+Baleares 11/05/2020 8 positivos
+Baleares 12/05/2020 7 positivos
+Baleares 13/05/2020 10 positivos
+Baleares 14/05/2020 7 positivos
+Baleares 15/05/2020 16 positivos
+Baleares 16/05/2020 0 positivos
+Baleares 17/05/2020 5 positivos
+Baleares 18/05/2020 5 positivos
+Baleares 19/05/2020 12 positivos
+Baleares 20/05/2020 6 positivos
+Baleares 21/05/2020 5 positivos
+Baleares 22/05/2020 3 positivos
+Baleares 23/05/2020 2 positivos
+Baleares 24/05/2020 1 positivos
+Baleares 25/05/2020 3 positivos
+Baleares 26/05/2020 4 positivos
+Baleares 27/05/2020 3 positivos
+Baleares 28/05/2020 13 positivos
+Baleares 29/05/2020 5 positivos
+Baleares 30/05/2020 1 positivos
+Baleares 31/05/2020 2 positivos
+Baleares 01/06/2020 4 positivos
+Baleares 02/06/2020 7 positivos
+Baleares 03/06/2020 3 positivos
+Baleares 04/06/2020 6 positivos
+Baleares 05/06/2020 1 positivos
+Baleares 06/06/2020 2 positivos
+Baleares 07/06/2020 3 positivos
+Baleares 08/06/2020 2 positivos
+Baleares 09/06/2020 1 positivos
+Baleares 10/06/2020 3 positivos
+Baleares 11/06/2020 4 positivos
+Baleares 12/06/2020 6 positivos
+Baleares 13/06/2020 2 positivos
+Baleares 14/06/2020 4 positivos
+Baleares 15/06/2020 3 positivos
+Baleares 16/06/2020 4 positivos
+Baleares 17/06/2020 4 positivos
+Baleares 18/06/2020 5 positivos
+Baleares 19/06/2020 8 positivos
+Baleares 20/06/2020 3 positivos
+Baleares 21/06/2020 1 positivos
+Baleares 22/06/2020 1 positivos
+Baleares 23/06/2020 5 positivos
+Baleares 24/06/2020 3 positivos
+Baleares 25/06/2020 1 positivos
+Baleares 26/06/2020 9 positivos
+Baleares 27/06/2020 5 positivos
+Baleares 28/06/2020 5 positivos
+Baleares 29/06/2020 8 positivos
+Baleares 30/06/2020 3 positivos
+Baleares 01/07/2020 4 positivos
+Baleares 02/07/2020 2 positivos
+Baleares 03/07/2020 4 positivos
+Baleares 04/07/2020 3 positivos
+Baleares 05/07/2020 3 positivos
+Baleares 06/07/2020 4 positivos
+Baleares 07/07/2020 1 positivos
+Baleares 08/07/2020 4 positivos
+Baleares 09/07/2020 5 positivos
+Baleares 10/07/2020 5 positivos
+Baleares 11/07/2020 5 positivos
+Baleares 12/07/2020 3 positivos
+Baleares 13/07/2020 2 positivos
+Baleares 14/07/2020 4 positivos
+Baleares 15/07/2020 7 positivos
+Baleares 16/07/2020 2 positivos
+Galicia 31/01/2020 0 positivos
+Galicia 01/02/2020 0 positivos
+Galicia 02/02/2020 1 positivos
+Galicia 03/02/2020 1 positivos
+Galicia 04/02/2020 1 positivos
+Galicia 05/02/2020 1 positivos
+Galicia 06/02/2020 0 positivos
+Galicia 07/02/2020 0 positivos
+Galicia 08/02/2020 0 positivos
+Galicia 09/02/2020 0 positivos
+Galicia 10/02/2020 0 positivos
+Galicia 11/02/2020 0 positivos
+Galicia 12/02/2020 0 positivos
+Galicia 13/02/2020 0 positivos
+Galicia 14/02/2020 0 positivos
+Galicia 15/02/2020 0 positivos
+Galicia 16/02/2020 1 positivos
+Galicia 17/02/2020 0 positivos
+Galicia 18/02/2020 1 positivos
+Galicia 19/02/2020 1 positivos
+Galicia 20/02/2020 3 positivos
+Galicia 21/02/2020 0 positivos
+Galicia 22/02/2020 3 positivos
+Galicia 23/02/2020 0 positivos
+Galicia 24/02/2020 1 positivos
+Galicia 25/02/2020 3 positivos
+Galicia 26/02/2020 3 positivos
+Galicia 27/02/2020 7 positivos
+Galicia 28/02/2020 6 positivos
+Galicia 29/02/2020 1 positivos
+Galicia 01/03/2020 7 positivos
+Galicia 02/03/2020 19 positivos
+Galicia 03/03/2020 16 positivos
+Galicia 04/03/2020 14 positivos
+Galicia 05/03/2020 19 positivos
+Galicia 06/03/2020 24 positivos
+Galicia 07/03/2020 33 positivos
+Galicia 08/03/2020 38 positivos
+Galicia 09/03/2020 82 positivos
+Galicia 10/03/2020 118 positivos
+Galicia 11/03/2020 131 positivos
+Galicia 12/03/2020 181 positivos
+Galicia 13/03/2020 241 positivos
+Galicia 14/03/2020 240 positivos
+Galicia 15/03/2020 270 positivos
+Galicia 16/03/2020 389 positivos
+Galicia 17/03/2020 327 positivos
+Galicia 18/03/2020 309 positivos
+Galicia 19/03/2020 294 positivos
+Galicia 20/03/2020 470 positivos
+Galicia 21/03/2020 276 positivos
+Galicia 22/03/2020 250 positivos
+Galicia 23/03/2020 383 positivos
+Galicia 24/03/2020 295 positivos
+Galicia 25/03/2020 288 positivos
+Galicia 26/03/2020 300 positivos
+Galicia 27/03/2020 306 positivos
+Galicia 28/03/2020 336 positivos
+Galicia 29/03/2020 198 positivos
+Galicia 30/03/2020 282 positivos
+Galicia 31/03/2020 167 positivos
+Galicia 01/04/2020 240 positivos
+Galicia 02/04/2020 266 positivos
+Galicia 03/04/2020 209 positivos
+Galicia 04/04/2020 134 positivos
+Galicia 05/04/2020 118 positivos
+Galicia 06/04/2020 184 positivos
+Galicia 07/04/2020 154 positivos
+Galicia 08/04/2020 150 positivos
+Galicia 09/04/2020 159 positivos
+Galicia 10/04/2020 80 positivos
+Galicia 11/04/2020 66 positivos
+Galicia 12/04/2020 66 positivos
+Galicia 13/04/2020 110 positivos
+Galicia 14/04/2020 100 positivos
+Galicia 15/04/2020 199 positivos
+Galicia 16/04/2020 108 positivos
+Galicia 17/04/2020 98 positivos
+Galicia 18/04/2020 107 positivos
+Galicia 19/04/2020 57 positivos
+Galicia 20/04/2020 89 positivos
+Galicia 21/04/2020 98 positivos
+Galicia 22/04/2020 134 positivos
+Galicia 23/04/2020 124 positivos
+Galicia 24/04/2020 124 positivos
+Galicia 25/04/2020 36 positivos
+Galicia 26/04/2020 26 positivos
+Galicia 27/04/2020 57 positivos
+Galicia 28/04/2020 80 positivos
+Galicia 29/04/2020 113 positivos
+Galicia 30/04/2020 96 positivos
+Galicia 01/05/2020 108 positivos
+Galicia 02/05/2020 84 positivos
+Galicia 03/05/2020 45 positivos
+Galicia 04/05/2020 75 positivos
+Galicia 05/05/2020 133 positivos
+Galicia 06/05/2020 60 positivos
+Galicia 07/05/2020 50 positivos
+Galicia 08/05/2020 43 positivos
+Galicia 09/05/2020 19 positivos
+Galicia 10/05/2020 10 positivos
+Galicia 11/05/2020 11 positivos
+Galicia 12/05/2020 16 positivos
+Galicia 13/05/2020 9 positivos
+Galicia 14/05/2020 7 positivos
+Galicia 15/05/2020 8 positivos
+Galicia 16/05/2020 3 positivos
+Galicia 17/05/2020 2 positivos
+Galicia 18/05/2020 7 positivos
+Galicia 19/05/2020 7 positivos
+Galicia 20/05/2020 6 positivos
+Galicia 21/05/2020 12 positivos
+Galicia 22/05/2020 3 positivos
+Galicia 23/05/2020 8 positivos
+Galicia 24/05/2020 5 positivos
+Galicia 25/05/2020 5 positivos
+Galicia 26/05/2020 2 positivos
+Galicia 27/05/2020 1 positivos
+Galicia 28/05/2020 2 positivos
+Galicia 29/05/2020 5 positivos
+Galicia 30/05/2020 0 positivos
+Galicia 31/05/2020 1 positivos
+Galicia 01/06/2020 1 positivos
+Galicia 02/06/2020 0 positivos
+Galicia 03/06/2020 1 positivos
+Galicia 04/06/2020 2 positivos
+Galicia 05/06/2020 4 positivos
+Galicia 06/06/2020 1 positivos
+Galicia 07/06/2020 2 positivos
+Galicia 08/06/2020 4 positivos
+Galicia 09/06/2020 1 positivos
+Galicia 10/06/2020 1 positivos
+Galicia 11/06/2020 2 positivos
+Galicia 12/06/2020 2 positivos
+Galicia 13/06/2020 0 positivos
+Galicia 14/06/2020 1 positivos
+Galicia 15/06/2020 3 positivos
+Galicia 16/06/2020 1 positivos
+Galicia 17/06/2020 4 positivos
+Galicia 18/06/2020 0 positivos
+Galicia 19/06/2020 1 positivos
+Galicia 20/06/2020 7 positivos
+Galicia 21/06/2020 3 positivos
+Galicia 22/06/2020 0 positivos
+Galicia 23/06/2020 5 positivos
+Galicia 24/06/2020 5 positivos
+Galicia 25/06/2020 8 positivos
+Galicia 26/06/2020 4 positivos
+Galicia 27/06/2020 9 positivos
+Galicia 28/06/2020 11 positivos
+Galicia 29/06/2020 8 positivos
+Galicia 30/06/2020 20 positivos
+Galicia 01/07/2020 12 positivos
+Galicia 02/07/2020 23 positivos
+Galicia 03/07/2020 32 positivos
+Galicia 04/07/2020 16 positivos
+Galicia 05/07/2020 11 positivos
+Galicia 06/07/2020 18 positivos
+Galicia 07/07/2020 33 positivos
+Galicia 08/07/2020 24 positivos
+Galicia 09/07/2020 18 positivos
+Galicia 10/07/2020 7 positivos
+Galicia 11/07/2020 11 positivos
+Galicia 12/07/2020 1 positivos
+Galicia 13/07/2020 5 positivos
+Galicia 14/07/2020 11 positivos
+Galicia 15/07/2020 9 positivos
+Galicia 16/07/2020 10 positivos
+Aragon 31/01/2020 0 positivos
+Aragon 01/02/2020 0 positivos
+Aragon 02/02/2020 0 positivos
+Aragon 03/02/2020 0 positivos
+Aragon 04/02/2020 0 positivos
+Aragon 05/02/2020 0 positivos
+Aragon 06/02/2020 1 positivos
+Aragon 07/02/2020 0 positivos
+Aragon 08/02/2020 0 positivos
+Aragon 09/02/2020 0 positivos
+Aragon 10/02/2020 0 positivos
+Aragon 11/02/2020 1 positivos
+Aragon 12/02/2020 0 positivos
+Aragon 13/02/2020 1 positivos
+Aragon 14/02/2020 0 positivos
+Aragon 15/02/2020 0 positivos
+Aragon 16/02/2020 1 positivos
+Aragon 17/02/2020 1 positivos
+Aragon 18/02/2020 1 positivos
+Aragon 19/02/2020 0 positivos
+Aragon 20/02/2020 0 positivos
+Aragon 21/02/2020 2 positivos
+Aragon 22/02/2020 3 positivos
+Aragon 23/02/2020 1 positivos
+Aragon 24/02/2020 1 positivos
+Aragon 25/02/2020 2 positivos
+Aragon 26/02/2020 2 positivos
+Aragon 27/02/2020 0 positivos
+Aragon 28/02/2020 3 positivos
+Aragon 29/02/2020 6 positivos
+Aragon 01/03/2020 8 positivos
+Aragon 02/03/2020 14 positivos
+Aragon 03/03/2020 7 positivos
+Aragon 04/03/2020 14 positivos
+Aragon 05/03/2020 10 positivos
+Aragon 06/03/2020 15 positivos
+Aragon 07/03/2020 21 positivos
+Aragon 08/03/2020 36 positivos
+Aragon 09/03/2020 36 positivos
+Aragon 10/03/2020 52 positivos
+Aragon 11/03/2020 65 positivos
+Aragon 12/03/2020 79 positivos
+Aragon 13/03/2020 115 positivos
+Aragon 14/03/2020 106 positivos
+Aragon 15/03/2020 126 positivos
+Aragon 16/03/2020 163 positivos
+Aragon 17/03/2020 157 positivos
+Aragon 18/03/2020 165 positivos
+Aragon 19/03/2020 166 positivos
+Aragon 20/03/2020 236 positivos
+Aragon 21/03/2020 177 positivos
+Aragon 22/03/2020 164 positivos
+Aragon 23/03/2020 266 positivos
+Aragon 24/03/2020 191 positivos
+Aragon 25/03/2020 187 positivos
+Aragon 26/03/2020 165 positivos
+Aragon 27/03/2020 211 positivos
+Aragon 28/03/2020 146 positivos
+Aragon 29/03/2020 137 positivos
+Aragon 30/03/2020 127 positivos
+Aragon 31/03/2020 116 positivos
+Aragon 01/04/2020 155 positivos
+Aragon 02/04/2020 127 positivos
+Aragon 03/04/2020 108 positivos
+Aragon 04/04/2020 94 positivos
+Aragon 05/04/2020 95 positivos
+Aragon 06/04/2020 124 positivos
+Aragon 07/04/2020 108 positivos
+Aragon 08/04/2020 109 positivos
+Aragon 09/04/2020 101 positivos
+Aragon 10/04/2020 84 positivos
+Aragon 11/04/2020 63 positivos
+Aragon 12/04/2020 53 positivos
+Aragon 13/04/2020 83 positivos
+Aragon 14/04/2020 52 positivos
+Aragon 15/04/2020 76 positivos
+Aragon 16/04/2020 63 positivos
+Aragon 17/04/2020 70 positivos
+Aragon 18/04/2020 57 positivos
+Aragon 19/04/2020 43 positivos
+Aragon 20/04/2020 49 positivos
+Aragon 21/04/2020 132 positivos
+Aragon 22/04/2020 100 positivos
+Aragon 23/04/2020 28 positivos
+Aragon 24/04/2020 25 positivos
+Aragon 25/04/2020 33 positivos
+Aragon 26/04/2020 21 positivos
+Aragon 27/04/2020 65 positivos
+Aragon 28/04/2020 126 positivos
+Aragon 29/04/2020 38 positivos
+Aragon 30/04/2020 38 positivos
+Aragon 01/05/2020 15 positivos
+Aragon 02/05/2020 20 positivos
+Aragon 03/05/2020 17 positivos
+Aragon 04/05/2020 29 positivos
+Aragon 05/05/2020 42 positivos
+Aragon 06/05/2020 44 positivos
+Aragon 07/05/2020 13 positivos
+Aragon 08/05/2020 12 positivos
+Aragon 09/05/2020 6 positivos
+Aragon 10/05/2020 7 positivos
+Aragon 11/05/2020 9 positivos
+Aragon 12/05/2020 14 positivos
+Aragon 13/05/2020 25 positivos
+Aragon 14/05/2020 25 positivos
+Aragon 15/05/2020 17 positivos
+Aragon 16/05/2020 9 positivos
+Aragon 17/05/2020 10 positivos
+Aragon 18/05/2020 15 positivos
+Aragon 19/05/2020 21 positivos
+Aragon 20/05/2020 12 positivos
+Aragon 21/05/2020 12 positivos
+Aragon 22/05/2020 14 positivos
+Aragon 23/05/2020 12 positivos
+Aragon 24/05/2020 5 positivos
+Aragon 25/05/2020 12 positivos
+Aragon 26/05/2020 11 positivos
+Aragon 27/05/2020 13 positivos
+Aragon 28/05/2020 9 positivos
+Aragon 29/05/2020 12 positivos
+Aragon 30/05/2020 4 positivos
+Aragon 31/05/2020 8 positivos
+Aragon 01/06/2020 10 positivos
+Aragon 02/06/2020 17 positivos
+Aragon 03/06/2020 7 positivos
+Aragon 04/06/2020 10 positivos
+Aragon 05/06/2020 8 positivos
+Aragon 06/06/2020 6 positivos
+Aragon 07/06/2020 5 positivos
+Aragon 08/06/2020 6 positivos
+Aragon 09/06/2020 11 positivos
+Aragon 10/06/2020 3 positivos
+Aragon 11/06/2020 6 positivos
+Aragon 12/06/2020 4 positivos
+Aragon 13/06/2020 6 positivos
+Aragon 14/06/2020 3 positivos
+Aragon 15/06/2020 8 positivos
+Aragon 16/06/2020 8 positivos
+Aragon 17/06/2020 6 positivos
+Aragon 18/06/2020 16 positivos
+Aragon 19/06/2020 27 positivos
+Aragon 20/06/2020 29 positivos
+Aragon 21/06/2020 41 positivos
+Aragon 22/06/2020 56 positivos
+Aragon 23/06/2020 47 positivos
+Aragon 24/06/2020 64 positivos
+Aragon 25/06/2020 47 positivos
+Aragon 26/06/2020 23 positivos
+Aragon 27/06/2020 56 positivos
+Aragon 28/06/2020 15 positivos
+Aragon 29/06/2020 21 positivos
+Aragon 30/06/2020 32 positivos
+Aragon 01/07/2020 32 positivos
+Aragon 02/07/2020 25 positivos
+Aragon 03/07/2020 43 positivos
+Aragon 04/07/2020 26 positivos
+Aragon 05/07/2020 30 positivos
+Aragon 06/07/2020 53 positivos
+Aragon 07/07/2020 73 positivos
+Aragon 08/07/2020 53 positivos
+Aragon 09/07/2020 56 positivos
+Aragon 10/07/2020 90 positivos
+Aragon 11/07/2020 168 positivos
+Aragon 12/07/2020 83 positivos
+Aragon 13/07/2020 109 positivos
+Aragon 14/07/2020 119 positivos
+Aragon 15/07/2020 114 positivos
+Aragon 16/07/2020 218 positivos
+Asturias 31/01/2020 0 positivos
+Asturias 01/02/2020 0 positivos
+Asturias 02/02/2020 0 positivos
+Asturias 03/02/2020 0 positivos
+Asturias 04/02/2020 0 positivos
+Asturias 05/02/2020 0 positivos
+Asturias 06/02/2020 0 positivos
+Asturias 07/02/2020 0 positivos
+Asturias 08/02/2020 0 positivos
+Asturias 09/02/2020 0 positivos
+Asturias 10/02/2020 0 positivos
+Asturias 11/02/2020 0 positivos
+Asturias 12/02/2020 0 positivos
+Asturias 13/02/2020 0 positivos
+Asturias 14/02/2020 0 positivos
+Asturias 15/02/2020 0 positivos
+Asturias 16/02/2020 0 positivos
+Asturias 17/02/2020 0 positivos
+Asturias 18/02/2020 0 positivos
+Asturias 19/02/2020 0 positivos
+Asturias 20/02/2020 0 positivos
+Asturias 21/02/2020 0 positivos
+Asturias 22/02/2020 0 positivos
+Asturias 23/02/2020 1 positivos
+Asturias 24/02/2020 0 positivos
+Asturias 25/02/2020 1 positivos
+Asturias 26/02/2020 0 positivos
+Asturias 27/02/2020 0 positivos
+Asturias 28/02/2020 1 positivos
+Asturias 29/02/2020 2 positivos
+Asturias 01/03/2020 2 positivos
+Asturias 02/03/2020 3 positivos
+Asturias 03/03/2020 2 positivos
+Asturias 04/03/2020 2 positivos
+Asturias 05/03/2020 5 positivos
+Asturias 06/03/2020 12 positivos
+Asturias 07/03/2020 12 positivos
+Asturias 08/03/2020 14 positivos
+Asturias 09/03/2020 32 positivos
+Asturias 10/03/2020 52 positivos
+Asturias 11/03/2020 43 positivos
+Asturias 12/03/2020 57 positivos
+Asturias 13/03/2020 70 positivos
+Asturias 14/03/2020 81 positivos
+Asturias 15/03/2020 89 positivos
+Asturias 16/03/2020 106 positivos
+Asturias 17/03/2020 80 positivos
+Asturias 18/03/2020 91 positivos
+Asturias 19/03/2020 101 positivos
+Asturias 20/03/2020 83 positivos
+Asturias 21/03/2020 68 positivos
+Asturias 22/03/2020 75 positivos
+Asturias 23/03/2020 70 positivos
+Asturias 24/03/2020 58 positivos
+Asturias 25/03/2020 57 positivos
+Asturias 26/03/2020 77 positivos
+Asturias 27/03/2020 70 positivos
+Asturias 28/03/2020 53 positivos
+Asturias 29/03/2020 40 positivos
+Asturias 30/03/2020 45 positivos
+Asturias 31/03/2020 42 positivos
+Asturias 01/04/2020 29 positivos
+Asturias 02/04/2020 54 positivos
+Asturias 03/04/2020 38 positivos
+Asturias 04/04/2020 45 positivos
+Asturias 05/04/2020 43 positivos
+Asturias 06/04/2020 41 positivos
+Asturias 07/04/2020 45 positivos
+Asturias 08/04/2020 48 positivos
+Asturias 09/04/2020 43 positivos
+Asturias 10/04/2020 57 positivos
+Asturias 11/04/2020 53 positivos
+Asturias 12/04/2020 23 positivos
+Asturias 13/04/2020 32 positivos
+Asturias 14/04/2020 30 positivos
+Asturias 15/04/2020 40 positivos
+Asturias 16/04/2020 12 positivos
+Asturias 17/04/2020 12 positivos
+Asturias 18/04/2020 9 positivos
+Asturias 19/04/2020 6 positivos
+Asturias 20/04/2020 7 positivos
+Asturias 21/04/2020 16 positivos
+Asturias 22/04/2020 8 positivos
+Asturias 23/04/2020 9 positivos
+Asturias 24/04/2020 17 positivos
+Asturias 25/04/2020 3 positivos
+Asturias 26/04/2020 5 positivos
+Asturias 27/04/2020 5 positivos
+Asturias 28/04/2020 10 positivos
+Asturias 29/04/2020 3 positivos
+Asturias 30/04/2020 10 positivos
+Asturias 01/05/2020 2 positivos
+Asturias 02/05/2020 3 positivos
+Asturias 03/05/2020 3 positivos
+Asturias 04/05/2020 4 positivos
+Asturias 05/05/2020 4 positivos
+Asturias 06/05/2020 4 positivos
+Asturias 07/05/2020 3 positivos
+Asturias 08/05/2020 3 positivos
+Asturias 09/05/2020 2 positivos
+Asturias 10/05/2020 1 positivos
+Asturias 11/05/2020 5 positivos
+Asturias 12/05/2020 0 positivos
+Asturias 13/05/2020 2 positivos
+Asturias 14/05/2020 2 positivos
+Asturias 15/05/2020 4 positivos
+Asturias 16/05/2020 1 positivos
+Asturias 17/05/2020 4 positivos
+Asturias 18/05/2020 0 positivos
+Asturias 19/05/2020 0 positivos
+Asturias 20/05/2020 1 positivos
+Asturias 21/05/2020 1 positivos
+Asturias 22/05/2020 1 positivos
+Asturias 23/05/2020 1 positivos
+Asturias 24/05/2020 2 positivos
+Asturias 25/05/2020 1 positivos
+Asturias 26/05/2020 2 positivos
+Asturias 27/05/2020 0 positivos
+Asturias 28/05/2020 0 positivos
+Asturias 29/05/2020 14 positivos
+Asturias 30/05/2020 4 positivos
+Asturias 31/05/2020 3 positivos
+Asturias 01/06/2020 0 positivos
+Asturias 02/06/2020 0 positivos
+Asturias 03/06/2020 0 positivos
+Asturias 04/06/2020 0 positivos
+Asturias 05/06/2020 2 positivos
+Asturias 06/06/2020 2 positivos
+Asturias 07/06/2020 1 positivos
+Asturias 08/06/2020 0 positivos
+Asturias 09/06/2020 0 positivos
+Asturias 10/06/2020 0 positivos
+Asturias 11/06/2020 3 positivos
+Asturias 12/06/2020 0 positivos
+Asturias 13/06/2020 0 positivos
+Asturias 14/06/2020 0 positivos
+Asturias 15/06/2020 0 positivos
+Asturias 16/06/2020 0 positivos
+Asturias 17/06/2020 0 positivos
+Asturias 18/06/2020 0 positivos
+Asturias 19/06/2020 0 positivos
+Asturias 20/06/2020 0 positivos
+Asturias 21/06/2020 0 positivos
+Asturias 22/06/2020 0 positivos
+Asturias 23/06/2020 0 positivos
+Asturias 24/06/2020 0 positivos
+Asturias 25/06/2020 0 positivos
+Asturias 26/06/2020 0 positivos
+Asturias 27/06/2020 0 positivos
+Asturias 28/06/2020 0 positivos
+Asturias 29/06/2020 1 positivos
+Asturias 30/06/2020 0 positivos
+Asturias 01/07/2020 1 positivos
+Asturias 02/07/2020 0 positivos
+Asturias 03/07/2020 0 positivos
+Asturias 04/07/2020 0 positivos
+Asturias 05/07/2020 0 positivos
+Asturias 06/07/2020 0 positivos
+Asturias 07/07/2020 0 positivos
+Asturias 08/07/2020 2 positivos
+Asturias 09/07/2020 0 positivos
+Asturias 10/07/2020 1 positivos
+Asturias 11/07/2020 3 positivos
+Asturias 12/07/2020 0 positivos
+Asturias 13/07/2020 0 positivos
+Asturias 14/07/2020 0 positivos
+Asturias 15/07/2020 0 positivos
+Asturias 16/07/2020 0 positivos
+Castilla la Mancha 31/01/2020 0 positivos
+Castilla la Mancha 01/02/2020 0 positivos
+Castilla la Mancha 02/02/2020 0 positivos
+Castilla la Mancha 03/02/2020 0 positivos
+Castilla la Mancha 04/02/2020 0 positivos
+Castilla la Mancha 05/02/2020 0 positivos
+Castilla la Mancha 06/02/2020 0 positivos
+Castilla la Mancha 07/02/2020 0 positivos
+Castilla la Mancha 08/02/2020 0 positivos
+Castilla la Mancha 09/02/2020 0 positivos
+Castilla la Mancha 10/02/2020 0 positivos
+Castilla la Mancha 11/02/2020 0 positivos
+Castilla la Mancha 12/02/2020 0 positivos
+Castilla la Mancha 13/02/2020 0 positivos
+Castilla la Mancha 14/02/2020 0 positivos
+Castilla la Mancha 15/02/2020 0 positivos
+Castilla la Mancha 16/02/2020 0 positivos
+Castilla la Mancha 17/02/2020 0 positivos
+Castilla la Mancha 18/02/2020 0 positivos
+Castilla la Mancha 19/02/2020 0 positivos
+Castilla la Mancha 20/02/2020 2 positivos
+Castilla la Mancha 21/02/2020 0 positivos
+Castilla la Mancha 22/02/2020 0 positivos
+Castilla la Mancha 23/02/2020 0 positivos
+Castilla la Mancha 24/02/2020 4 positivos
+Castilla la Mancha 25/02/2020 4 positivos
+Castilla la Mancha 26/02/2020 5 positivos
+Castilla la Mancha 27/02/2020 9 positivos
+Castilla la Mancha 28/02/2020 11 positivos
+Castilla la Mancha 29/02/2020 15 positivos
+Castilla la Mancha 01/03/2020 66 positivos
+Castilla la Mancha 02/03/2020 62 positivos
+Castilla la Mancha 03/03/2020 47 positivos
+Castilla la Mancha 04/03/2020 60 positivos
+Castilla la Mancha 05/03/2020 77 positivos
+Castilla la Mancha 06/03/2020 100 positivos
+Castilla la Mancha 07/03/2020 141 positivos
+Castilla la Mancha 08/03/2020 161 positivos
+Castilla la Mancha 09/03/2020 208 positivos
+Castilla la Mancha 10/03/2020 291 positivos
+Castilla la Mancha 11/03/2020 325 positivos
+Castilla la Mancha 12/03/2020 454 positivos
+Castilla la Mancha 13/03/2020 628 positivos
+Castilla la Mancha 14/03/2020 605 positivos
+Castilla la Mancha 15/03/2020 773 positivos
+Castilla la Mancha 16/03/2020 809 positivos
+Castilla la Mancha 17/03/2020 744 positivos
+Castilla la Mancha 18/03/2020 791 positivos
+Castilla la Mancha 19/03/2020 745 positivos
+Castilla la Mancha 20/03/2020 936 positivos
+Castilla la Mancha 21/03/2020 623 positivos
+Castilla la Mancha 22/03/2020 663 positivos
+Castilla la Mancha 23/03/2020 756 positivos
+Castilla la Mancha 24/03/2020 647 positivos
+Castilla la Mancha 25/03/2020 665 positivos
+Castilla la Mancha 26/03/2020 587 positivos
+Castilla la Mancha 27/03/2020 507 positivos
+Castilla la Mancha 28/03/2020 410 positivos
+Castilla la Mancha 29/03/2020 372 positivos
+Castilla la Mancha 30/03/2020 523 positivos
+Castilla la Mancha 31/03/2020 411 positivos
+Castilla la Mancha 01/04/2020 460 positivos
+Castilla la Mancha 02/04/2020 366 positivos
+Castilla la Mancha 03/04/2020 341 positivos
+Castilla la Mancha 04/04/2020 381 positivos
+Castilla la Mancha 05/04/2020 463 positivos
+Castilla la Mancha 06/04/2020 416 positivos
+Castilla la Mancha 07/04/2020 362 positivos
+Castilla la Mancha 08/04/2020 365 positivos
+Castilla la Mancha 09/04/2020 345 positivos
+Castilla la Mancha 10/04/2020 298 positivos
+Castilla la Mancha 11/04/2020 155 positivos
+Castilla la Mancha 12/04/2020 225 positivos
+Castilla la Mancha 13/04/2020 327 positivos
+Castilla la Mancha 14/04/2020 233 positivos
+Castilla la Mancha 15/04/2020 180 positivos
+Castilla la Mancha 16/04/2020 127 positivos
+Castilla la Mancha 17/04/2020 145 positivos
+Castilla la Mancha 18/04/2020 97 positivos
+Castilla la Mancha 19/04/2020 106 positivos
+Castilla la Mancha 20/04/2020 142 positivos
+Castilla la Mancha 21/04/2020 147 positivos
+Castilla la Mancha 22/04/2020 149 positivos
+Castilla la Mancha 23/04/2020 88 positivos
+Castilla la Mancha 24/04/2020 56 positivos
+Castilla la Mancha 25/04/2020 52 positivos
+Castilla la Mancha 26/04/2020 95 positivos
+Castilla la Mancha 27/04/2020 104 positivos
+Castilla la Mancha 28/04/2020 92 positivos
+Castilla la Mancha 29/04/2020 69 positivos
+Castilla la Mancha 30/04/2020 74 positivos
+Castilla la Mancha 01/05/2020 20 positivos
+Castilla la Mancha 02/05/2020 17 positivos
+Castilla la Mancha 03/05/2020 47 positivos
+Castilla la Mancha 04/05/2020 21 positivos
+Castilla la Mancha 05/05/2020 12 positivos
+Castilla la Mancha 06/05/2020 10 positivos
+Castilla la Mancha 07/05/2020 14 positivos
+Castilla la Mancha 08/05/2020 7 positivos
+Castilla la Mancha 09/05/2020 10 positivos
+Castilla la Mancha 10/05/2020 12 positivos
+Castilla la Mancha 11/05/2020 31 positivos
+Castilla la Mancha 12/05/2020 31 positivos
+Castilla la Mancha 13/05/2020 40 positivos
+Castilla la Mancha 14/05/2020 31 positivos
+Castilla la Mancha 15/05/2020 40 positivos
+Castilla la Mancha 16/05/2020 28 positivos
+Castilla la Mancha 17/05/2020 14 positivos
+Castilla la Mancha 18/05/2020 29 positivos
+Castilla la Mancha 19/05/2020 33 positivos
+Castilla la Mancha 20/05/2020 29 positivos
+Castilla la Mancha 21/05/2020 20 positivos
+Castilla la Mancha 22/05/2020 42 positivos
+Castilla la Mancha 23/05/2020 31 positivos
+Castilla la Mancha 24/05/2020 20 positivos
+Castilla la Mancha 25/05/2020 38 positivos
+Castilla la Mancha 26/05/2020 38 positivos
+Castilla la Mancha 27/05/2020 39 positivos
+Castilla la Mancha 28/05/2020 40 positivos
+Castilla la Mancha 29/05/2020 25 positivos
+Castilla la Mancha 30/05/2020 37 positivos
+Castilla la Mancha 31/05/2020 11 positivos
+Castilla la Mancha 01/06/2020 26 positivos
+Castilla la Mancha 02/06/2020 28 positivos
+Castilla la Mancha 03/06/2020 39 positivos
+Castilla la Mancha 04/06/2020 39 positivos
+Castilla la Mancha 05/06/2020 36 positivos
+Castilla la Mancha 06/06/2020 14 positivos
+Castilla la Mancha 07/06/2020 14 positivos
+Castilla la Mancha 08/06/2020 34 positivos
+Castilla la Mancha 09/06/2020 22 positivos
+Castilla la Mancha 10/06/2020 19 positivos
+Castilla la Mancha 11/06/2020 10 positivos
+Castilla la Mancha 12/06/2020 20 positivos
+Castilla la Mancha 13/06/2020 8 positivos
+Castilla la Mancha 14/06/2020 12 positivos
+Castilla la Mancha 15/06/2020 13 positivos
+Castilla la Mancha 16/06/2020 20 positivos
+Castilla la Mancha 17/06/2020 15 positivos
+Castilla la Mancha 18/06/2020 12 positivos
+Castilla la Mancha 19/06/2020 12 positivos
+Castilla la Mancha 20/06/2020 19 positivos
+Castilla la Mancha 21/06/2020 15 positivos
+Castilla la Mancha 22/06/2020 8 positivos
+Castilla la Mancha 23/06/2020 14 positivos
+Castilla la Mancha 24/06/2020 21 positivos
+Castilla la Mancha 25/06/2020 15 positivos
+Castilla la Mancha 26/06/2020 25 positivos
+Castilla la Mancha 27/06/2020 19 positivos
+Castilla la Mancha 28/06/2020 11 positivos
+Castilla la Mancha 29/06/2020 11 positivos
+Castilla la Mancha 30/06/2020 11 positivos
+Castilla la Mancha 01/07/2020 16 positivos
+Castilla la Mancha 02/07/2020 14 positivos
+Castilla la Mancha 03/07/2020 22 positivos
+Castilla la Mancha 04/07/2020 19 positivos
+Castilla la Mancha 05/07/2020 16 positivos
+Castilla la Mancha 06/07/2020 13 positivos
+Castilla la Mancha 07/07/2020 6 positivos
+Castilla la Mancha 08/07/2020 16 positivos
+Castilla la Mancha 09/07/2020 17 positivos
+Castilla la Mancha 10/07/2020 21 positivos
+Castilla la Mancha 11/07/2020 16 positivos
+Castilla la Mancha 12/07/2020 20 positivos
+Castilla la Mancha 13/07/2020 3 positivos
+Castilla la Mancha 14/07/2020 4 positivos
+Castilla la Mancha 15/07/2020 14 positivos
+Castilla la Mancha 16/07/2020 10 positivos
+Melilla 31/01/2020 0 positivos
+Melilla 01/02/2020 0 positivos
+Melilla 02/02/2020 0 positivos
+Melilla 03/02/2020 0 positivos
+Melilla 04/02/2020 0 positivos
+Melilla 05/02/2020 0 positivos
+Melilla 06/02/2020 0 positivos
+Melilla 07/02/2020 0 positivos
+Melilla 08/02/2020 0 positivos
+Melilla 09/02/2020 0 positivos
+Melilla 10/02/2020 0 positivos
+Melilla 11/02/2020 0 positivos
+Melilla 12/02/2020 0 positivos
+Melilla 13/02/2020 0 positivos
+Melilla 14/02/2020 0 positivos
+Melilla 15/02/2020 0 positivos
+Melilla 16/02/2020 0 positivos
+Melilla 17/02/2020 0 positivos
+Melilla 18/02/2020 0 positivos
+Melilla 19/02/2020 0 positivos
+Melilla 20/02/2020 0 positivos
+Melilla 21/02/2020 0 positivos
+Melilla 22/02/2020 0 positivos
+Melilla 23/02/2020 0 positivos
+Melilla 24/02/2020 0 positivos
+Melilla 25/02/2020 0 positivos
+Melilla 26/02/2020 0 positivos
+Melilla 27/02/2020 0 positivos
+Melilla 28/02/2020 0 positivos
+Melilla 29/02/2020 0 positivos
+Melilla 01/03/2020 0 positivos
+Melilla 02/03/2020 0 positivos
+Melilla 03/03/2020 0 positivos
+Melilla 04/03/2020 0 positivos
+Melilla 05/03/2020 1 positivos
+Melilla 06/03/2020 1 positivos
+Melilla 07/03/2020 3 positivos
+Melilla 08/03/2020 1 positivos
+Melilla 09/03/2020 2 positivos
+Melilla 10/03/2020 5 positivos
+Melilla 11/03/2020 4 positivos
+Melilla 12/03/2020 3 positivos
+Melilla 13/03/2020 10 positivos
+Melilla 14/03/2020 4 positivos
+Melilla 15/03/2020 3 positivos
+Melilla 16/03/2020 6 positivos
+Melilla 17/03/2020 3 positivos
+Melilla 18/03/2020 6 positivos
+Melilla 19/03/2020 6 positivos
+Melilla 20/03/2020 4 positivos
+Melilla 21/03/2020 3 positivos
+Melilla 22/03/2020 5 positivos
+Melilla 23/03/2020 5 positivos
+Melilla 24/03/2020 1 positivos
+Melilla 25/03/2020 4 positivos
+Melilla 26/03/2020 6 positivos
+Melilla 27/03/2020 5 positivos
+Melilla 28/03/2020 4 positivos
+Melilla 29/03/2020 5 positivos
+Melilla 30/03/2020 3 positivos
+Melilla 31/03/2020 3 positivos
+Melilla 01/04/2020 5 positivos
+Melilla 02/04/2020 3 positivos
+Melilla 03/04/2020 4 positivos
+Melilla 04/04/2020 3 positivos
+Melilla 05/04/2020 1 positivos
+Melilla 06/04/2020 0 positivos
+Melilla 07/04/2020 2 positivos
+Melilla 08/04/2020 0 positivos
+Melilla 09/04/2020 0 positivos
+Melilla 10/04/2020 1 positivos
+Melilla 11/04/2020 0 positivos
+Melilla 12/04/2020 1 positivos
+Melilla 13/04/2020 1 positivos
+Melilla 14/04/2020 0 positivos
+Melilla 15/04/2020 0 positivos
+Melilla 16/04/2020 0 positivos
+Melilla 17/04/2020 0 positivos
+Melilla 18/04/2020 0 positivos
+Melilla 19/04/2020 0 positivos
+Melilla 20/04/2020 2 positivos
+Melilla 21/04/2020 0 positivos
+Melilla 22/04/2020 1 positivos
+Melilla 23/04/2020 0 positivos
+Melilla 24/04/2020 1 positivos
+Melilla 25/04/2020 1 positivos
+Melilla 26/04/2020 0 positivos
+Melilla 27/04/2020 0 positivos
+Melilla 28/04/2020 0 positivos
+Melilla 29/04/2020 1 positivos
+Melilla 30/04/2020 1 positivos
+Melilla 01/05/2020 0 positivos
+Melilla 02/05/2020 0 positivos
+Melilla 03/05/2020 0 positivos
+Melilla 04/05/2020 0 positivos
+Melilla 05/05/2020 0 positivos
+Melilla 06/05/2020 0 positivos
+Melilla 07/05/2020 0 positivos
+Melilla 08/05/2020 0 positivos
+Melilla 09/05/2020 0 positivos
+Melilla 10/05/2020 0 positivos
+Melilla 11/05/2020 0 positivos
+Melilla 12/05/2020 0 positivos
+Melilla 13/05/2020 0 positivos
+Melilla 14/05/2020 0 positivos
+Melilla 15/05/2020 0 positivos
+Melilla 16/05/2020 0 positivos
+Melilla 17/05/2020 0 positivos
+Melilla 18/05/2020 1 positivos
+Melilla 19/05/2020 0 positivos
+Melilla 20/05/2020 0 positivos
+Melilla 21/05/2020 0 positivos
+Melilla 22/05/2020 0 positivos
+Melilla 23/05/2020 0 positivos
+Melilla 24/05/2020 0 positivos
+Melilla 25/05/2020 0 positivos
+Melilla 26/05/2020 0 positivos
+Melilla 27/05/2020 0 positivos
+Melilla 28/05/2020 0 positivos
+Melilla 29/05/2020 0 positivos
+Melilla 30/05/2020 0 positivos
+Melilla 31/05/2020 0 positivos
+Melilla 01/06/2020 1 positivos
+Melilla 02/06/2020 0 positivos
+Melilla 03/06/2020 0 positivos
+Melilla 04/06/2020 0 positivos
+Melilla 05/06/2020 0 positivos
+Melilla 06/06/2020 0 positivos
+Melilla 07/06/2020 0 positivos
+Melilla 08/06/2020 0 positivos
+Melilla 09/06/2020 1 positivos
+Melilla 10/06/2020 0 positivos
+Melilla 11/06/2020 0 positivos
+Melilla 12/06/2020 0 positivos
+Melilla 13/06/2020 0 positivos
+Melilla 14/06/2020 0 positivos
+Melilla 15/06/2020 1 positivos
+Melilla 16/06/2020 0 positivos
+Melilla 17/06/2020 0 positivos
+Melilla 18/06/2020 0 positivos
+Melilla 19/06/2020 0 positivos
+Melilla 20/06/2020 0 positivos
+Melilla 21/06/2020 2 positivos
+Melilla 22/06/2020 0 positivos
+Melilla 23/06/2020 0 positivos
+Melilla 24/06/2020 0 positivos
+Melilla 25/06/2020 0 positivos
+Melilla 26/06/2020 0 positivos
+Melilla 27/06/2020 0 positivos
+Melilla 28/06/2020 0 positivos
+Melilla 29/06/2020 0 positivos
+Melilla 30/06/2020 0 positivos
+Melilla 01/07/2020 0 positivos
+Melilla 02/07/2020 0 positivos
+Melilla 03/07/2020 0 positivos
+Melilla 04/07/2020 0 positivos
+Melilla 05/07/2020 0 positivos
+Melilla 06/07/2020 0 positivos
+Melilla 07/07/2020 0 positivos
+Melilla 08/07/2020 0 positivos
+Melilla 09/07/2020 0 positivos
+Melilla 10/07/2020 0 positivos
+Melilla 11/07/2020 0 positivos
+Melilla 12/07/2020 2 positivos
+Melilla 13/07/2020 0 positivos
+Melilla 14/07/2020 0 positivos
+Melilla 15/07/2020 0 positivos
+Melilla 16/07/2020 0 positivos
+Madrid 31/01/2020 4 positivos
+Madrid 01/02/2020 9 positivos
+Madrid 02/02/2020 6 positivos
+Madrid 03/02/2020 7 positivos
+Madrid 04/02/2020 3 positivos
+Madrid 05/02/2020 4 positivos
+Madrid 06/02/2020 4 positivos
+Madrid 07/02/2020 9 positivos
+Madrid 08/02/2020 8 positivos
+Madrid 09/02/2020 2 positivos
+Madrid 10/02/2020 10 positivos
+Madrid 11/02/2020 8 positivos
+Madrid 12/02/2020 9 positivos
+Madrid 13/02/2020 15 positivos
+Madrid 14/02/2020 11 positivos
+Madrid 15/02/2020 13 positivos
+Madrid 16/02/2020 14 positivos
+Madrid 17/02/2020 19 positivos
+Madrid 18/02/2020 14 positivos
+Madrid 19/02/2020 12 positivos
+Madrid 20/02/2020 22 positivos
+Madrid 21/02/2020 27 positivos
+Madrid 22/02/2020 30 positivos
+Madrid 23/02/2020 44 positivos
+Madrid 24/02/2020 57 positivos
+Madrid 25/02/2020 51 positivos
+Madrid 26/02/2020 69 positivos
+Madrid 27/02/2020 94 positivos
+Madrid 28/02/2020 162 positivos
+Madrid 29/02/2020 108 positivos
+Madrid 01/03/2020 321 positivos
+Madrid 02/03/2020 382 positivos
+Madrid 03/03/2020 395 positivos
+Madrid 04/03/2020 463 positivos
+Madrid 05/03/2020 651 positivos
+Madrid 06/03/2020 793 positivos
+Madrid 07/03/2020 843 positivos
+Madrid 08/03/2020 1054 positivos
+Madrid 09/03/2020 1519 positivos
+Madrid 10/03/2020 1989 positivos
+Madrid 11/03/2020 1970 positivos
+Madrid 12/03/2020 2343 positivos
+Madrid 13/03/2020 2837 positivos
+Madrid 14/03/2020 2562 positivos
+Madrid 15/03/2020 2682 positivos
+Madrid 16/03/2020 2965 positivos
+Madrid 17/03/2020 2789 positivos
+Madrid 18/03/2020 2649 positivos
+Madrid 19/03/2020 2439 positivos
+Madrid 20/03/2020 3104 positivos
+Madrid 21/03/2020 1924 positivos
+Madrid 22/03/2020 1658 positivos
+Madrid 23/03/2020 2130 positivos
+Madrid 24/03/2020 1993 positivos
+Madrid 25/03/2020 1777 positivos
+Madrid 26/03/2020 1552 positivos
+Madrid 27/03/2020 1493 positivos
+Madrid 28/03/2020 1255 positivos
+Madrid 29/03/2020 873 positivos
+Madrid 30/03/2020 1086 positivos
+Madrid 31/03/2020 1076 positivos
+Madrid 01/04/2020 1347 positivos
+Madrid 02/04/2020 1002 positivos
+Madrid 03/04/2020 931 positivos
+Madrid 04/04/2020 715 positivos
+Madrid 05/04/2020 635 positivos
+Madrid 06/04/2020 625 positivos
+Madrid 07/04/2020 748 positivos
+Madrid 08/04/2020 681 positivos
+Madrid 09/04/2020 641 positivos
+Madrid 10/04/2020 709 positivos
+Madrid 11/04/2020 575 positivos
+Madrid 12/04/2020 500 positivos
+Madrid 13/04/2020 382 positivos
+Madrid 14/04/2020 497 positivos
+Madrid 15/04/2020 502 positivos
+Madrid 16/04/2020 597 positivos
+Madrid 17/04/2020 389 positivos
+Madrid 18/04/2020 467 positivos
+Madrid 19/04/2020 265 positivos
+Madrid 20/04/2020 280 positivos
+Madrid 21/04/2020 476 positivos
+Madrid 22/04/2020 457 positivos
+Madrid 23/04/2020 368 positivos
+Madrid 24/04/2020 238 positivos
+Madrid 25/04/2020 131 positivos
+Madrid 26/04/2020 124 positivos
+Madrid 27/04/2020 183 positivos
+Madrid 28/04/2020 230 positivos
+Madrid 29/04/2020 213 positivos
+Madrid 30/04/2020 173 positivos
+Madrid 01/05/2020 192 positivos
+Madrid 02/05/2020 165 positivos
+Madrid 03/05/2020 71 positivos
+Madrid 04/05/2020 95 positivos
+Madrid 05/05/2020 57 positivos
+Madrid 06/05/2020 49 positivos
+Madrid 07/05/2020 64 positivos
+Madrid 08/05/2020 88 positivos
+Madrid 09/05/2020 62 positivos
+Madrid 10/05/2020 89 positivos
+Madrid 11/05/2020 154 positivos
+Madrid 12/05/2020 172 positivos
+Madrid 13/05/2020 118 positivos
+Madrid 14/05/2020 128 positivos
+Madrid 15/05/2020 109 positivos
+Madrid 16/05/2020 69 positivos
+Madrid 17/05/2020 76 positivos
+Madrid 18/05/2020 125 positivos
+Madrid 19/05/2020 116 positivos
+Madrid 20/05/2020 96 positivos
+Madrid 21/05/2020 83 positivos
+Madrid 22/05/2020 83 positivos
+Madrid 23/05/2020 80 positivos
+Madrid 24/05/2020 48 positivos
+Madrid 25/05/2020 137 positivos
+Madrid 26/05/2020 122 positivos
+Madrid 27/05/2020 67 positivos
+Madrid 28/05/2020 98 positivos
+Madrid 29/05/2020 109 positivos
+Madrid 30/05/2020 61 positivos
+Madrid 31/05/2020 57 positivos
+Madrid 01/06/2020 123 positivos
+Madrid 02/06/2020 97 positivos
+Madrid 03/06/2020 124 positivos
+Madrid 04/06/2020 88 positivos
+Madrid 05/06/2020 103 positivos
+Madrid 06/06/2020 52 positivos
+Madrid 07/06/2020 39 positivos
+Madrid 08/06/2020 111 positivos
+Madrid 09/06/2020 77 positivos
+Madrid 10/06/2020 89 positivos
+Madrid 11/06/2020 55 positivos
+Madrid 12/06/2020 127 positivos
+Madrid 13/06/2020 21 positivos
+Madrid 14/06/2020 46 positivos
+Madrid 15/06/2020 103 positivos
+Madrid 16/06/2020 51 positivos
+Madrid 17/06/2020 64 positivos
+Madrid 18/06/2020 77 positivos
+Madrid 19/06/2020 63 positivos
+Madrid 20/06/2020 50 positivos
+Madrid 21/06/2020 32 positivos
+Madrid 22/06/2020 37 positivos
+Madrid 23/06/2020 53 positivos
+Madrid 24/06/2020 35 positivos
+Madrid 25/06/2020 54 positivos
+Madrid 26/06/2020 58 positivos
+Madrid 27/06/2020 27 positivos
+Madrid 28/06/2020 23 positivos
+Madrid 29/06/2020 41 positivos
+Madrid 30/06/2020 63 positivos
+Madrid 01/07/2020 39 positivos
+Madrid 02/07/2020 31 positivos
+Madrid 03/07/2020 53 positivos
+Madrid 04/07/2020 21 positivos
+Madrid 05/07/2020 30 positivos
+Madrid 06/07/2020 44 positivos
+Madrid 07/07/2020 45 positivos
+Madrid 08/07/2020 53 positivos
+Madrid 09/07/2020 42 positivos
+Madrid 10/07/2020 44 positivos
+Madrid 11/07/2020 47 positivos
+Madrid 12/07/2020 37 positivos
+Madrid 13/07/2020 64 positivos
+Madrid 14/07/2020 29 positivos
+Madrid 15/07/2020 12 positivos
+Madrid 16/07/2020 2 positivos
+Canarias 31/01/2020 0 positivos
+Canarias 01/02/2020 0 positivos
+Canarias 02/02/2020 1 positivos
+Canarias 03/02/2020 0 positivos
+Canarias 04/02/2020 1 positivos
+Canarias 05/02/2020 0 positivos
+Canarias 06/02/2020 0 positivos
+Canarias 07/02/2020 0 positivos
+Canarias 08/02/2020 0 positivos
+Canarias 09/02/2020 0 positivos
+Canarias 10/02/2020 0 positivos
+Canarias 11/02/2020 0 positivos
+Canarias 12/02/2020 1 positivos
+Canarias 13/02/2020 0 positivos
+Canarias 14/02/2020 1 positivos
+Canarias 15/02/2020 0 positivos
+Canarias 16/02/2020 2 positivos
+Canarias 17/02/2020 0 positivos
+Canarias 18/02/2020 1 positivos
+Canarias 19/02/2020 1 positivos
+Canarias 20/02/2020 1 positivos
+Canarias 21/02/2020 0 positivos
+Canarias 22/02/2020 0 positivos
+Canarias 23/02/2020 2 positivos
+Canarias 24/02/2020 0 positivos
+Canarias 25/02/2020 2 positivos
+Canarias 26/02/2020 7 positivos
+Canarias 27/02/2020 1 positivos
+Canarias 28/02/2020 8 positivos
+Canarias 29/02/2020 6 positivos
+Canarias 01/03/2020 7 positivos
+Canarias 02/03/2020 12 positivos
+Canarias 03/03/2020 8 positivos
+Canarias 04/03/2020 14 positivos
+Canarias 05/03/2020 16 positivos
+Canarias 06/03/2020 25 positivos
+Canarias 07/03/2020 19 positivos
+Canarias 08/03/2020 34 positivos
+Canarias 09/03/2020 46 positivos
+Canarias 10/03/2020 55 positivos
+Canarias 11/03/2020 59 positivos
+Canarias 12/03/2020 73 positivos
+Canarias 13/03/2020 109 positivos
+Canarias 14/03/2020 97 positivos
+Canarias 15/03/2020 91 positivos
+Canarias 16/03/2020 132 positivos
+Canarias 17/03/2020 93 positivos
+Canarias 18/03/2020 117 positivos
+Canarias 19/03/2020 78 positivos
+Canarias 20/03/2020 117 positivos
+Canarias 21/03/2020 86 positivos
+Canarias 22/03/2020 75 positivos
+Canarias 23/03/2020 97 positivos
+Canarias 24/03/2020 63 positivos
+Canarias 25/03/2020 55 positivos
+Canarias 26/03/2020 62 positivos
+Canarias 27/03/2020 71 positivos
+Canarias 28/03/2020 36 positivos
+Canarias 29/03/2020 42 positivos
+Canarias 30/03/2020 51 positivos
+Canarias 31/03/2020 28 positivos
+Canarias 01/04/2020 51 positivos
+Canarias 02/04/2020 34 positivos
+Canarias 03/04/2020 17 positivos
+Canarias 04/04/2020 29 positivos
+Canarias 05/04/2020 17 positivos
+Canarias 06/04/2020 13 positivos
+Canarias 07/04/2020 26 positivos
+Canarias 08/04/2020 16 positivos
+Canarias 09/04/2020 26 positivos
+Canarias 10/04/2020 14 positivos
+Canarias 11/04/2020 14 positivos
+Canarias 12/04/2020 8 positivos
+Canarias 13/04/2020 13 positivos
+Canarias 14/04/2020 13 positivos
+Canarias 15/04/2020 15 positivos
+Canarias 16/04/2020 15 positivos
+Canarias 17/04/2020 8 positivos
+Canarias 18/04/2020 9 positivos
+Canarias 19/04/2020 15 positivos
+Canarias 20/04/2020 16 positivos
+Canarias 21/04/2020 7 positivos
+Canarias 22/04/2020 7 positivos
+Canarias 23/04/2020 5 positivos
+Canarias 24/04/2020 11 positivos
+Canarias 25/04/2020 4 positivos
+Canarias 26/04/2020 2 positivos
+Canarias 27/04/2020 3 positivos
+Canarias 28/04/2020 4 positivos
+Canarias 29/04/2020 4 positivos
+Canarias 30/04/2020 4 positivos
+Canarias 01/05/2020 9 positivos
+Canarias 02/05/2020 5 positivos
+Canarias 03/05/2020 0 positivos
+Canarias 04/05/2020 3 positivos
+Canarias 05/05/2020 2 positivos
+Canarias 06/05/2020 0 positivos
+Canarias 07/05/2020 1 positivos
+Canarias 08/05/2020 1 positivos
+Canarias 09/05/2020 2 positivos
+Canarias 10/05/2020 1 positivos
+Canarias 11/05/2020 2 positivos
+Canarias 12/05/2020 4 positivos
+Canarias 13/05/2020 5 positivos
+Canarias 14/05/2020 1 positivos
+Canarias 15/05/2020 3 positivos
+Canarias 16/05/2020 5 positivos
+Canarias 17/05/2020 1 positivos
+Canarias 18/05/2020 3 positivos
+Canarias 19/05/2020 9 positivos
+Canarias 20/05/2020 4 positivos
+Canarias 21/05/2020 5 positivos
+Canarias 22/05/2020 3 positivos
+Canarias 23/05/2020 1 positivos
+Canarias 24/05/2020 2 positivos
+Canarias 25/05/2020 4 positivos
+Canarias 26/05/2020 3 positivos
+Canarias 27/05/2020 2 positivos
+Canarias 28/05/2020 7 positivos
+Canarias 29/05/2020 8 positivos
+Canarias 30/05/2020 2 positivos
+Canarias 31/05/2020 1 positivos
+Canarias 01/06/2020 4 positivos
+Canarias 02/06/2020 5 positivos
+Canarias 03/06/2020 4 positivos
+Canarias 04/06/2020 1 positivos
+Canarias 05/06/2020 2 positivos
+Canarias 06/06/2020 4 positivos
+Canarias 07/06/2020 1 positivos
+Canarias 08/06/2020 2 positivos
+Canarias 09/06/2020 2 positivos
+Canarias 10/06/2020 2 positivos
+Canarias 11/06/2020 2 positivos
+Canarias 12/06/2020 3 positivos
+Canarias 13/06/2020 2 positivos
+Canarias 14/06/2020 1 positivos
+Canarias 15/06/2020 1 positivos
+Canarias 16/06/2020 2 positivos
+Canarias 17/06/2020 14 positivos
+Canarias 18/06/2020 0 positivos
+Canarias 19/06/2020 1 positivos
+Canarias 20/06/2020 11 positivos
+Canarias 21/06/2020 1 positivos
+Canarias 22/06/2020 0 positivos
+Canarias 23/06/2020 6 positivos
+Canarias 24/06/2020 1 positivos
+Canarias 25/06/2020 1 positivos
+Canarias 26/06/2020 1 positivos
+Canarias 27/06/2020 0 positivos
+Canarias 28/06/2020 0 positivos
+Canarias 29/06/2020 0 positivos
+Canarias 30/06/2020 5 positivos
+Canarias 01/07/2020 6 positivos
+Canarias 02/07/2020 1 positivos
+Canarias 03/07/2020 4 positivos
+Canarias 04/07/2020 4 positivos
+Canarias 05/07/2020 1 positivos
+Canarias 06/07/2020 1 positivos
+Canarias 07/07/2020 3 positivos
+Canarias 08/07/2020 8 positivos
+Canarias 09/07/2020 4 positivos
+Canarias 10/07/2020 2 positivos
+Canarias 11/07/2020 1 positivos
+Canarias 12/07/2020 4 positivos
+Canarias 13/07/2020 2 positivos
+Canarias 14/07/2020 1 positivos
+Canarias 15/07/2020 8 positivos
+Canarias 16/07/2020 1 positivos
+Andalucia 31/01/2020 0 positivos
+Andalucia 01/02/2020 2 positivos
+Andalucia 02/02/2020 2 positivos
+Andalucia 03/02/2020 1 positivos
+Andalucia 04/02/2020 1 positivos
+Andalucia 05/02/2020 1 positivos
+Andalucia 06/02/2020 2 positivos
+Andalucia 07/02/2020 2 positivos
+Andalucia 08/02/2020 0 positivos
+Andalucia 09/02/2020 1 positivos
+Andalucia 10/02/2020 1 positivos
+Andalucia 11/02/2020 1 positivos
+Andalucia 12/02/2020 1 positivos
+Andalucia 13/02/2020 2 positivos
+Andalucia 14/02/2020 1 positivos
+Andalucia 15/02/2020 4 positivos
+Andalucia 16/02/2020 0 positivos
+Andalucia 17/02/2020 2 positivos
+Andalucia 18/02/2020 3 positivos
+Andalucia 19/02/2020 1 positivos
+Andalucia 20/02/2020 8 positivos
+Andalucia 21/02/2020 5 positivos
+Andalucia 22/02/2020 2 positivos
+Andalucia 23/02/2020 2 positivos
+Andalucia 24/02/2020 5 positivos
+Andalucia 25/02/2020 9 positivos
+Andalucia 26/02/2020 9 positivos
+Andalucia 27/02/2020 11 positivos
+Andalucia 28/02/2020 8 positivos
+Andalucia 29/02/2020 9 positivos
+Andalucia 01/03/2020 34 positivos
+Andalucia 02/03/2020 33 positivos
+Andalucia 03/03/2020 42 positivos
+Andalucia 04/03/2020 34 positivos
+Andalucia 05/03/2020 61 positivos
+Andalucia 06/03/2020 73 positivos
+Andalucia 07/03/2020 77 positivos
+Andalucia 08/03/2020 87 positivos
+Andalucia 09/03/2020 169 positivos
+Andalucia 10/03/2020 221 positivos
+Andalucia 11/03/2020 263 positivos
+Andalucia 12/03/2020 318 positivos
+Andalucia 13/03/2020 487 positivos
+Andalucia 14/03/2020 420 positivos
+Andalucia 15/03/2020 450 positivos
+Andalucia 16/03/2020 573 positivos
+Andalucia 17/03/2020 574 positivos
+Andalucia 18/03/2020 530 positivos
+Andalucia 19/03/2020 556 positivos
+Andalucia 20/03/2020 795 positivos
+Andalucia 21/03/2020 544 positivos
+Andalucia 22/03/2020 523 positivos
+Andalucia 23/03/2020 562 positivos
+Andalucia 24/03/2020 492 positivos
+Andalucia 25/03/2020 522 positivos
+Andalucia 26/03/2020 471 positivos
+Andalucia 27/03/2020 423 positivos
+Andalucia 28/03/2020 324 positivos
+Andalucia 29/03/2020 340 positivos
+Andalucia 30/03/2020 341 positivos
+Andalucia 31/03/2020 254 positivos
+Andalucia 01/04/2020 356 positivos
+Andalucia 02/04/2020 262 positivos
+Andalucia 03/04/2020 202 positivos
+Andalucia 04/04/2020 317 positivos
+Andalucia 05/04/2020 276 positivos
+Andalucia 06/04/2020 187 positivos
+Andalucia 07/04/2020 266 positivos
+Andalucia 08/04/2020 251 positivos
+Andalucia 09/04/2020 137 positivos
+Andalucia 10/04/2020 218 positivos
+Andalucia 11/04/2020 162 positivos
+Andalucia 12/04/2020 129 positivos
+Andalucia 13/04/2020 111 positivos
+Andalucia 14/04/2020 209 positivos
+Andalucia 15/04/2020 216 positivos
+Andalucia 16/04/2020 175 positivos
+Andalucia 17/04/2020 141 positivos
+Andalucia 18/04/2020 135 positivos
+Andalucia 19/04/2020 74 positivos
+Andalucia 20/04/2020 77 positivos
+Andalucia 21/04/2020 154 positivos
+Andalucia 22/04/2020 134 positivos
+Andalucia 23/04/2020 168 positivos
+Andalucia 24/04/2020 169 positivos
+Andalucia 25/04/2020 57 positivos
+Andalucia 26/04/2020 36 positivos
+Andalucia 27/04/2020 45 positivos
+Andalucia 28/04/2020 130 positivos
+Andalucia 29/04/2020 162 positivos
+Andalucia 30/04/2020 119 positivos
+Andalucia 01/05/2020 100 positivos
+Andalucia 02/05/2020 95 positivos
+Andalucia 03/05/2020 27 positivos
+Andalucia 04/05/2020 49 positivos
+Andalucia 05/05/2020 73 positivos
+Andalucia 06/05/2020 25 positivos
+Andalucia 07/05/2020 24 positivos
+Andalucia 08/05/2020 17 positivos
+Andalucia 09/05/2020 12 positivos
+Andalucia 10/05/2020 5 positivos
+Andalucia 11/05/2020 22 positivos
+Andalucia 12/05/2020 22 positivos
+Andalucia 13/05/2020 16 positivos
+Andalucia 14/05/2020 13 positivos
+Andalucia 15/05/2020 16 positivos
+Andalucia 16/05/2020 9 positivos
+Andalucia 17/05/2020 5 positivos
+Andalucia 18/05/2020 11 positivos
+Andalucia 19/05/2020 11 positivos
+Andalucia 20/05/2020 12 positivos
+Andalucia 21/05/2020 9 positivos
+Andalucia 22/05/2020 6 positivos
+Andalucia 23/05/2020 7 positivos
+Andalucia 24/05/2020 3 positivos
+Andalucia 25/05/2020 8 positivos
+Andalucia 26/05/2020 8 positivos
+Andalucia 27/05/2020 11 positivos
+Andalucia 28/05/2020 7 positivos
+Andalucia 29/05/2020 12 positivos
+Andalucia 30/05/2020 13 positivos
+Andalucia 31/05/2020 9 positivos
+Andalucia 01/06/2020 18 positivos
+Andalucia 02/06/2020 6 positivos
+Andalucia 03/06/2020 16 positivos
+Andalucia 04/06/2020 5 positivos
+Andalucia 05/06/2020 12 positivos
+Andalucia 06/06/2020 4 positivos
+Andalucia 07/06/2020 2 positivos
+Andalucia 08/06/2020 6 positivos
+Andalucia 09/06/2020 7 positivos
+Andalucia 10/06/2020 6 positivos
+Andalucia 11/06/2020 3 positivos
+Andalucia 12/06/2020 4 positivos
+Andalucia 13/06/2020 4 positivos
+Andalucia 14/06/2020 3 positivos
+Andalucia 15/06/2020 7 positivos
+Andalucia 16/06/2020 9 positivos
+Andalucia 17/06/2020 10 positivos
+Andalucia 18/06/2020 24 positivos
+Andalucia 19/06/2020 11 positivos
+Andalucia 20/06/2020 15 positivos
+Andalucia 21/06/2020 10 positivos
+Andalucia 22/06/2020 16 positivos
+Andalucia 23/06/2020 13 positivos
+Andalucia 24/06/2020 95 positivos
+Andalucia 25/06/2020 22 positivos
+Andalucia 26/06/2020 18 positivos
+Andalucia 27/06/2020 14 positivos
+Andalucia 28/06/2020 27 positivos
+Andalucia 29/06/2020 22 positivos
+Andalucia 30/06/2020 24 positivos
+Andalucia 01/07/2020 20 positivos
+Andalucia 02/07/2020 14 positivos
+Andalucia 03/07/2020 24 positivos
+Andalucia 04/07/2020 25 positivos
+Andalucia 05/07/2020 15 positivos
+Andalucia 06/07/2020 19 positivos
+Andalucia 07/07/2020 28 positivos
+Andalucia 08/07/2020 48 positivos
+Andalucia 09/07/2020 36 positivos
+Andalucia 10/07/2020 58 positivos
+Andalucia 11/07/2020 40 positivos
+Andalucia 12/07/2020 19 positivos
+Andalucia 13/07/2020 21 positivos
+Andalucia 14/07/2020 68 positivos
+Andalucia 15/07/2020 45 positivos
+Andalucia 16/07/2020 25 positivos
+Murcia 31/01/2020 0 positivos
+Murcia 01/02/2020 0 positivos
+Murcia 02/02/2020 0 positivos
+Murcia 03/02/2020 0 positivos
+Murcia 04/02/2020 0 positivos
+Murcia 05/02/2020 2 positivos
+Murcia 06/02/2020 0 positivos
+Murcia 07/02/2020 0 positivos
+Murcia 08/02/2020 0 positivos
+Murcia 09/02/2020 0 positivos
+Murcia 10/02/2020 1 positivos
+Murcia 11/02/2020 0 positivos
+Murcia 12/02/2020 0 positivos
+Murcia 13/02/2020 0 positivos
+Murcia 14/02/2020 1 positivos
+Murcia 15/02/2020 0 positivos
+Murcia 16/02/2020 0 positivos
+Murcia 17/02/2020 3 positivos
+Murcia 18/02/2020 1 positivos
+Murcia 19/02/2020 1 positivos
+Murcia 20/02/2020 0 positivos
+Murcia 21/02/2020 0 positivos
+Murcia 22/02/2020 1 positivos
+Murcia 23/02/2020 1 positivos
+Murcia 24/02/2020 2 positivos
+Murcia 25/02/2020 3 positivos
+Murcia 26/02/2020 1 positivos
+Murcia 27/02/2020 1 positivos
+Murcia 28/02/2020 3 positivos
+Murcia 29/02/2020 3 positivos
+Murcia 01/03/2020 5 positivos
+Murcia 02/03/2020 8 positivos
+Murcia 03/03/2020 6 positivos
+Murcia 04/03/2020 11 positivos
+Murcia 05/03/2020 14 positivos
+Murcia 06/03/2020 13 positivos
+Murcia 07/03/2020 20 positivos
+Murcia 08/03/2020 19 positivos
+Murcia 09/03/2020 34 positivos
+Murcia 10/03/2020 65 positivos
+Murcia 11/03/2020 74 positivos
+Murcia 12/03/2020 62 positivos
+Murcia 13/03/2020 104 positivos
+Murcia 14/03/2020 108 positivos
+Murcia 15/03/2020 97 positivos
+Murcia 16/03/2020 130 positivos
+Murcia 17/03/2020 103 positivos
+Murcia 18/03/2020 122 positivos
+Murcia 19/03/2020 120 positivos
+Murcia 20/03/2020 122 positivos
+Murcia 21/03/2020 83 positivos
+Murcia 22/03/2020 79 positivos
+Murcia 23/03/2020 128 positivos
+Murcia 24/03/2020 78 positivos
+Murcia 25/03/2020 84 positivos
+Murcia 26/03/2020 47 positivos
+Murcia 27/03/2020 52 positivos
+Murcia 28/03/2020 40 positivos
+Murcia 29/03/2020 35 positivos
+Murcia 30/03/2020 41 positivos
+Murcia 31/03/2020 30 positivos
+Murcia 01/04/2020 28 positivos
+Murcia 02/04/2020 30 positivos
+Murcia 03/04/2020 26 positivos
+Murcia 04/04/2020 22 positivos
+Murcia 05/04/2020 29 positivos
+Murcia 06/04/2020 15 positivos
+Murcia 07/04/2020 10 positivos
+Murcia 08/04/2020 40 positivos
+Murcia 09/04/2020 27 positivos
+Murcia 10/04/2020 12 positivos
+Murcia 11/04/2020 12 positivos
+Murcia 12/04/2020 11 positivos
+Murcia 13/04/2020 7 positivos
+Murcia 14/04/2020 7 positivos
+Murcia 15/04/2020 9 positivos
+Murcia 16/04/2020 2 positivos
+Murcia 17/04/2020 6 positivos
+Murcia 18/04/2020 5 positivos
+Murcia 19/04/2020 4 positivos
+Murcia 20/04/2020 2 positivos
+Murcia 21/04/2020 7 positivos
+Murcia 22/04/2020 8 positivos
+Murcia 23/04/2020 12 positivos
+Murcia 24/04/2020 6 positivos
+Murcia 25/04/2020 3 positivos
+Murcia 26/04/2020 6 positivos
+Murcia 27/04/2020 1 positivos
+Murcia 28/04/2020 16 positivos
+Murcia 29/04/2020 10 positivos
+Murcia 30/04/2020 25 positivos
+Murcia 01/05/2020 8 positivos
+Murcia 02/05/2020 17 positivos
+Murcia 03/05/2020 4 positivos
+Murcia 04/05/2020 2 positivos
+Murcia 05/05/2020 2 positivos
+Murcia 06/05/2020 2 positivos
+Murcia 07/05/2020 2 positivos
+Murcia 08/05/2020 1 positivos
+Murcia 09/05/2020 1 positivos
+Murcia 10/05/2020 1 positivos
+Murcia 11/05/2020 2 positivos
+Murcia 12/05/2020 3 positivos
+Murcia 13/05/2020 5 positivos
+Murcia 14/05/2020 2 positivos
+Murcia 15/05/2020 0 positivos
+Murcia 16/05/2020 1 positivos
+Murcia 17/05/2020 1 positivos
+Murcia 18/05/2020 2 positivos
+Murcia 19/05/2020 2 positivos
+Murcia 20/05/2020 0 positivos
+Murcia 21/05/2020 1 positivos
+Murcia 22/05/2020 1 positivos
+Murcia 23/05/2020 2 positivos
+Murcia 24/05/2020 0 positivos
+Murcia 25/05/2020 0 positivos
+Murcia 26/05/2020 0 positivos
+Murcia 27/05/2020 3 positivos
+Murcia 28/05/2020 2 positivos
+Murcia 29/05/2020 1 positivos
+Murcia 30/05/2020 1 positivos
+Murcia 31/05/2020 0 positivos
+Murcia 01/06/2020 4 positivos
+Murcia 02/06/2020 2 positivos
+Murcia 03/06/2020 2 positivos
+Murcia 04/06/2020 3 positivos
+Murcia 05/06/2020 1 positivos
+Murcia 06/06/2020 3 positivos
+Murcia 07/06/2020 0 positivos
+Murcia 08/06/2020 2 positivos
+Murcia 09/06/2020 2 positivos
+Murcia 10/06/2020 1 positivos
+Murcia 11/06/2020 0 positivos
+Murcia 12/06/2020 0 positivos
+Murcia 13/06/2020 1 positivos
+Murcia 14/06/2020 3 positivos
+Murcia 15/06/2020 2 positivos
+Murcia 16/06/2020 1 positivos
+Murcia 17/06/2020 2 positivos
+Murcia 18/06/2020 2 positivos
+Murcia 19/06/2020 3 positivos
+Murcia 20/06/2020 3 positivos
+Murcia 21/06/2020 3 positivos
+Murcia 22/06/2020 3 positivos
+Murcia 23/06/2020 5 positivos
+Murcia 24/06/2020 7 positivos
+Murcia 25/06/2020 5 positivos
+Murcia 26/06/2020 6 positivos
+Murcia 27/06/2020 6 positivos
+Murcia 28/06/2020 3 positivos
+Murcia 29/06/2020 10 positivos
+Murcia 30/06/2020 2 positivos
+Murcia 01/07/2020 4 positivos
+Murcia 02/07/2020 1 positivos
+Murcia 03/07/2020 2 positivos
+Murcia 04/07/2020 5 positivos
+Murcia 05/07/2020 6 positivos
+Murcia 06/07/2020 6 positivos
+Murcia 07/07/2020 9 positivos
+Murcia 08/07/2020 11 positivos
+Murcia 09/07/2020 3 positivos
+Murcia 10/07/2020 5 positivos
+Murcia 11/07/2020 12 positivos
+Murcia 12/07/2020 6 positivos
+Murcia 13/07/2020 3 positivos
+Murcia 14/07/2020 2 positivos
+Murcia 15/07/2020 3 positivos
+Murcia 16/07/2020 0 positivos
+Cantabria 31/01/2020 0 positivos
+Cantabria 01/02/2020 0 positivos
+Cantabria 02/02/2020 0 positivos
+Cantabria 03/02/2020 0 positivos
+Cantabria 04/02/2020 0 positivos
+Cantabria 05/02/2020 0 positivos
+Cantabria 06/02/2020 0 positivos
+Cantabria 07/02/2020 0 positivos
+Cantabria 08/02/2020 0 positivos
+Cantabria 09/02/2020 0 positivos
+Cantabria 10/02/2020 0 positivos
+Cantabria 11/02/2020 0 positivos
+Cantabria 12/02/2020 0 positivos
+Cantabria 13/02/2020 0 positivos
+Cantabria 14/02/2020 0 positivos
+Cantabria 15/02/2020 0 positivos
+Cantabria 16/02/2020 0 positivos
+Cantabria 17/02/2020 0 positivos
+Cantabria 18/02/2020 0 positivos
+Cantabria 19/02/2020 0 positivos
+Cantabria 20/02/2020 0 positivos
+Cantabria 21/02/2020 0 positivos
+Cantabria 22/02/2020 0 positivos
+Cantabria 23/02/2020 1 positivos
+Cantabria 24/02/2020 0 positivos
+Cantabria 25/02/2020 8 positivos
+Cantabria 26/02/2020 0 positivos
+Cantabria 27/02/2020 0 positivos
+Cantabria 28/02/2020 0 positivos
+Cantabria 29/02/2020 1 positivos
+Cantabria 01/03/2020 1 positivos
+Cantabria 02/03/2020 0 positivos
+Cantabria 03/03/2020 0 positivos
+Cantabria 04/03/2020 0 positivos
+Cantabria 05/03/2020 0 positivos
+Cantabria 06/03/2020 9 positivos
+Cantabria 07/03/2020 12 positivos
+Cantabria 08/03/2020 17 positivos
+Cantabria 09/03/2020 9 positivos
+Cantabria 10/03/2020 3 positivos
+Cantabria 11/03/2020 17 positivos
+Cantabria 12/03/2020 36 positivos
+Cantabria 13/03/2020 54 positivos
+Cantabria 14/03/2020 59 positivos
+Cantabria 15/03/2020 68 positivos
+Cantabria 16/03/2020 71 positivos
+Cantabria 17/03/2020 76 positivos
+Cantabria 18/03/2020 89 positivos
+Cantabria 19/03/2020 177 positivos
+Cantabria 20/03/2020 143 positivos
+Cantabria 21/03/2020 99 positivos
+Cantabria 22/03/2020 84 positivos
+Cantabria 23/03/2020 87 positivos
+Cantabria 24/03/2020 57 positivos
+Cantabria 25/03/2020 57 positivos
+Cantabria 26/03/2020 39 positivos
+Cantabria 27/03/2020 74 positivos
+Cantabria 28/03/2020 68 positivos
+Cantabria 29/03/2020 39 positivos
+Cantabria 30/03/2020 27 positivos
+Cantabria 31/03/2020 33 positivos
+Cantabria 01/04/2020 72 positivos
+Cantabria 02/04/2020 53 positivos
+Cantabria 03/04/2020 34 positivos
+Cantabria 04/04/2020 62 positivos
+Cantabria 05/04/2020 25 positivos
+Cantabria 06/04/2020 28 positivos
+Cantabria 07/04/2020 13 positivos
+Cantabria 08/04/2020 26 positivos
+Cantabria 09/04/2020 23 positivos
+Cantabria 10/04/2020 29 positivos
+Cantabria 11/04/2020 24 positivos
+Cantabria 12/04/2020 46 positivos
+Cantabria 13/04/2020 35 positivos
+Cantabria 14/04/2020 14 positivos
+Cantabria 15/04/2020 17 positivos
+Cantabria 16/04/2020 18 positivos
+Cantabria 17/04/2020 27 positivos
+Cantabria 18/04/2020 13 positivos
+Cantabria 19/04/2020 15 positivos
+Cantabria 20/04/2020 24 positivos
+Cantabria 21/04/2020 10 positivos
+Cantabria 22/04/2020 26 positivos
+Cantabria 23/04/2020 26 positivos
+Cantabria 24/04/2020 13 positivos
+Cantabria 25/04/2020 12 positivos
+Cantabria 26/04/2020 4 positivos
+Cantabria 27/04/2020 2 positivos
+Cantabria 28/04/2020 5 positivos
+Cantabria 29/04/2020 4 positivos
+Cantabria 30/04/2020 12 positivos
+Cantabria 01/05/2020 16 positivos
+Cantabria 02/05/2020 0 positivos
+Cantabria 03/05/2020 3 positivos
+Cantabria 04/05/2020 1 positivos
+Cantabria 05/05/2020 6 positivos
+Cantabria 06/05/2020 0 positivos
+Cantabria 07/05/2020 0 positivos
+Cantabria 08/05/2020 2 positivos
+Cantabria 09/05/2020 1 positivos
+Cantabria 10/05/2020 2 positivos
+Cantabria 11/05/2020 7 positivos
+Cantabria 12/05/2020 7 positivos
+Cantabria 13/05/2020 2 positivos
+Cantabria 14/05/2020 2 positivos
+Cantabria 15/05/2020 2 positivos
+Cantabria 16/05/2020 4 positivos
+Cantabria 17/05/2020 0 positivos
+Cantabria 18/05/2020 2 positivos
+Cantabria 19/05/2020 2 positivos
+Cantabria 20/05/2020 0 positivos
+Cantabria 21/05/2020 3 positivos
+Cantabria 22/05/2020 1 positivos
+Cantabria 23/05/2020 2 positivos
+Cantabria 24/05/2020 0 positivos
+Cantabria 25/05/2020 1 positivos
+Cantabria 26/05/2020 4 positivos
+Cantabria 27/05/2020 2 positivos
+Cantabria 28/05/2020 1 positivos
+Cantabria 29/05/2020 3 positivos
+Cantabria 30/05/2020 2 positivos
+Cantabria 31/05/2020 1 positivos
+Cantabria 01/06/2020 4 positivos
+Cantabria 02/06/2020 2 positivos
+Cantabria 03/06/2020 0 positivos
+Cantabria 04/06/2020 1 positivos
+Cantabria 05/06/2020 2 positivos
+Cantabria 06/06/2020 0 positivos
+Cantabria 07/06/2020 3 positivos
+Cantabria 08/06/2020 1 positivos
+Cantabria 09/06/2020 0 positivos
+Cantabria 10/06/2020 1 positivos
+Cantabria 11/06/2020 3 positivos
+Cantabria 12/06/2020 2 positivos
+Cantabria 13/06/2020 1 positivos
+Cantabria 14/06/2020 2 positivos
+Cantabria 15/06/2020 1 positivos
+Cantabria 16/06/2020 2 positivos
+Cantabria 17/06/2020 3 positivos
+Cantabria 18/06/2020 5 positivos
+Cantabria 19/06/2020 0 positivos
+Cantabria 20/06/2020 3 positivos
+Cantabria 21/06/2020 2 positivos
+Cantabria 22/06/2020 1 positivos
+Cantabria 23/06/2020 2 positivos
+Cantabria 24/06/2020 2 positivos
+Cantabria 25/06/2020 0 positivos
+Cantabria 26/06/2020 3 positivos
+Cantabria 27/06/2020 2 positivos
+Cantabria 28/06/2020 0 positivos
+Cantabria 29/06/2020 0 positivos
+Cantabria 30/06/2020 1 positivos
+Cantabria 01/07/2020 1 positivos
+Cantabria 02/07/2020 0 positivos
+Cantabria 03/07/2020 3 positivos
+Cantabria 04/07/2020 0 positivos
+Cantabria 05/07/2020 2 positivos
+Cantabria 06/07/2020 0 positivos
+Cantabria 07/07/2020 0 positivos
+Cantabria 08/07/2020 2 positivos
+Cantabria 09/07/2020 1 positivos
+Cantabria 10/07/2020 1 positivos
+Cantabria 11/07/2020 1 positivos
+Cantabria 12/07/2020 2 positivos
+Cantabria 13/07/2020 1 positivos
+Cantabria 14/07/2020 2 positivos
+Cantabria 15/07/2020 2 positivos
+Cantabria 16/07/2020 0 positivos
+Navarra 31/01/2020 0 positivos
+Navarra 01/02/2020 0 positivos
+Navarra 02/02/2020 0 positivos
+Navarra 03/02/2020 0 positivos
+Navarra 04/02/2020 1 positivos
+Navarra 05/02/2020 0 positivos
+Navarra 06/02/2020 0 positivos
+Navarra 07/02/2020 0 positivos
+Navarra 08/02/2020 0 positivos
+Navarra 09/02/2020 0 positivos
+Navarra 10/02/2020 1 positivos
+Navarra 11/02/2020 0 positivos
+Navarra 12/02/2020 0 positivos
+Navarra 13/02/2020 0 positivos
+Navarra 14/02/2020 0 positivos
+Navarra 15/02/2020 0 positivos
+Navarra 16/02/2020 0 positivos
+Navarra 17/02/2020 0 positivos
+Navarra 18/02/2020 0 positivos
+Navarra 19/02/2020 0 positivos
+Navarra 20/02/2020 1 positivos
+Navarra 21/02/2020 2 positivos
+Navarra 22/02/2020 1 positivos
+Navarra 23/02/2020 1 positivos
+Navarra 24/02/2020 3 positivos
+Navarra 25/02/2020 4 positivos
+Navarra 26/02/2020 5 positivos
+Navarra 27/02/2020 5 positivos
+Navarra 28/02/2020 3 positivos
+Navarra 29/02/2020 5 positivos
+Navarra 01/03/2020 13 positivos
+Navarra 02/03/2020 14 positivos
+Navarra 03/03/2020 18 positivos
+Navarra 04/03/2020 22 positivos
+Navarra 05/03/2020 28 positivos
+Navarra 06/03/2020 26 positivos
+Navarra 07/03/2020 49 positivos
+Navarra 08/03/2020 51 positivos
+Navarra 09/03/2020 97 positivos
+Navarra 10/03/2020 109 positivos
+Navarra 11/03/2020 129 positivos
+Navarra 12/03/2020 178 positivos
+Navarra 13/03/2020 208 positivos
+Navarra 14/03/2020 176 positivos
+Navarra 15/03/2020 252 positivos
+Navarra 16/03/2020 270 positivos
+Navarra 17/03/2020 267 positivos
+Navarra 18/03/2020 247 positivos
+Navarra 19/03/2020 232 positivos
+Navarra 20/03/2020 322 positivos
+Navarra 21/03/2020 205 positivos
+Navarra 22/03/2020 194 positivos
+Navarra 23/03/2020 235 positivos
+Navarra 24/03/2020 274 positivos
+Navarra 25/03/2020 242 positivos
+Navarra 26/03/2020 166 positivos
+Navarra 27/03/2020 158 positivos
+Navarra 28/03/2020 138 positivos
+Navarra 29/03/2020 96 positivos
+Navarra 30/03/2020 243 positivos
+Navarra 31/03/2020 149 positivos
+Navarra 01/04/2020 231 positivos
+Navarra 02/04/2020 143 positivos
+Navarra 03/04/2020 138 positivos
+Navarra 04/04/2020 88 positivos
+Navarra 05/04/2020 99 positivos
+Navarra 06/04/2020 149 positivos
+Navarra 07/04/2020 118 positivos
+Navarra 08/04/2020 118 positivos
+Navarra 09/04/2020 111 positivos
+Navarra 10/04/2020 106 positivos
+Navarra 11/04/2020 84 positivos
+Navarra 12/04/2020 90 positivos
+Navarra 13/04/2020 86 positivos
+Navarra 14/04/2020 100 positivos
+Navarra 15/04/2020 74 positivos
+Navarra 16/04/2020 60 positivos
+Navarra 17/04/2020 86 positivos
+Navarra 18/04/2020 64 positivos
+Navarra 19/04/2020 46 positivos
+Navarra 20/04/2020 61 positivos
+Navarra 21/04/2020 30 positivos
+Navarra 22/04/2020 53 positivos
+Navarra 23/04/2020 56 positivos
+Navarra 24/04/2020 62 positivos
+Navarra 25/04/2020 39 positivos
+Navarra 26/04/2020 11 positivos
+Navarra 27/04/2020 23 positivos
+Navarra 28/04/2020 32 positivos
+Navarra 29/04/2020 49 positivos
+Navarra 30/04/2020 56 positivos
+Navarra 01/05/2020 72 positivos
+Navarra 02/05/2020 70 positivos
+Navarra 03/05/2020 21 positivos
+Navarra 04/05/2020 18 positivos
+Navarra 05/05/2020 4 positivos
+Navarra 06/05/2020 7 positivos
+Navarra 07/05/2020 0 positivos
+Navarra 08/05/2020 1 positivos
+Navarra 09/05/2020 1 positivos
+Navarra 10/05/2020 1 positivos
+Navarra 11/05/2020 12 positivos
+Navarra 12/05/2020 2 positivos
+Navarra 13/05/2020 9 positivos
+Navarra 14/05/2020 19 positivos
+Navarra 15/05/2020 11 positivos
+Navarra 16/05/2020 4 positivos
+Navarra 17/05/2020 21 positivos
+Navarra 18/05/2020 6 positivos
+Navarra 19/05/2020 9 positivos
+Navarra 20/05/2020 4 positivos
+Navarra 21/05/2020 3 positivos
+Navarra 22/05/2020 6 positivos
+Navarra 23/05/2020 12 positivos
+Navarra 24/05/2020 2 positivos
+Navarra 25/05/2020 5 positivos
+Navarra 26/05/2020 4 positivos
+Navarra 27/05/2020 11 positivos
+Navarra 28/05/2020 9 positivos
+Navarra 29/05/2020 5 positivos
+Navarra 30/05/2020 7 positivos
+Navarra 31/05/2020 3 positivos
+Navarra 01/06/2020 1 positivos
+Navarra 02/06/2020 3 positivos
+Navarra 03/06/2020 6 positivos
+Navarra 04/06/2020 7 positivos
+Navarra 05/06/2020 6 positivos
+Navarra 06/06/2020 1 positivos
+Navarra 07/06/2020 2 positivos
+Navarra 08/06/2020 0 positivos
+Navarra 09/06/2020 4 positivos
+Navarra 10/06/2020 4 positivos
+Navarra 11/06/2020 2 positivos
+Navarra 12/06/2020 1 positivos
+Navarra 13/06/2020 1 positivos
+Navarra 14/06/2020 2 positivos
+Navarra 15/06/2020 4 positivos
+Navarra 16/06/2020 12 positivos
+Navarra 17/06/2020 3 positivos
+Navarra 18/06/2020 6 positivos
+Navarra 19/06/2020 7 positivos
+Navarra 20/06/2020 5 positivos
+Navarra 21/06/2020 18 positivos
+Navarra 22/06/2020 16 positivos
+Navarra 23/06/2020 11 positivos
+Navarra 24/06/2020 8 positivos
+Navarra 25/06/2020 5 positivos
+Navarra 26/06/2020 5 positivos
+Navarra 27/06/2020 7 positivos
+Navarra 28/06/2020 3 positivos
+Navarra 29/06/2020 1 positivos
+Navarra 30/06/2020 2 positivos
+Navarra 01/07/2020 6 positivos
+Navarra 02/07/2020 4 positivos
+Navarra 03/07/2020 6 positivos
+Navarra 04/07/2020 5 positivos
+Navarra 05/07/2020 0 positivos
+Navarra 06/07/2020 10 positivos
+Navarra 07/07/2020 12 positivos
+Navarra 08/07/2020 8 positivos
+Navarra 09/07/2020 29 positivos
+Navarra 10/07/2020 16 positivos
+Navarra 11/07/2020 28 positivos
+Navarra 12/07/2020 18 positivos
+Navarra 13/07/2020 13 positivos
+Navarra 14/07/2020 3 positivos
+Navarra 15/07/2020 1 positivos
+Navarra 16/07/2020 0 positivos
+Extremadura 31/01/2020 0 positivos
+Extremadura 01/02/2020 0 positivos
+Extremadura 02/02/2020 2 positivos
+Extremadura 03/02/2020 0 positivos
+Extremadura 04/02/2020 0 positivos
+Extremadura 05/02/2020 0 positivos
+Extremadura 06/02/2020 0 positivos
+Extremadura 07/02/2020 0 positivos
+Extremadura 08/02/2020 1 positivos
+Extremadura 09/02/2020 0 positivos
+Extremadura 10/02/2020 0 positivos
+Extremadura 11/02/2020 0 positivos
+Extremadura 12/02/2020 0 positivos
+Extremadura 13/02/2020 1 positivos
+Extremadura 14/02/2020 1 positivos
+Extremadura 15/02/2020 2 positivos
+Extremadura 16/02/2020 0 positivos
+Extremadura 17/02/2020 1 positivos
+Extremadura 18/02/2020 0 positivos
+Extremadura 19/02/2020 1 positivos
+Extremadura 20/02/2020 1 positivos
+Extremadura 21/02/2020 1 positivos
+Extremadura 22/02/2020 0 positivos
+Extremadura 23/02/2020 0 positivos
+Extremadura 24/02/2020 0 positivos
+Extremadura 25/02/2020 5 positivos
+Extremadura 26/02/2020 1 positivos
+Extremadura 27/02/2020 3 positivos
+Extremadura 28/02/2020 8 positivos
+Extremadura 29/02/2020 4 positivos
+Extremadura 01/03/2020 5 positivos
+Extremadura 02/03/2020 7 positivos
+Extremadura 03/03/2020 9 positivos
+Extremadura 04/03/2020 9 positivos
+Extremadura 05/03/2020 6 positivos
+Extremadura 06/03/2020 20 positivos
+Extremadura 07/03/2020 15 positivos
+Extremadura 08/03/2020 19 positivos
+Extremadura 09/03/2020 38 positivos
+Extremadura 10/03/2020 44 positivos
+Extremadura 11/03/2020 74 positivos
+Extremadura 12/03/2020 87 positivos
+Extremadura 13/03/2020 94 positivos
+Extremadura 14/03/2020 89 positivos
+Extremadura 15/03/2020 86 positivos
+Extremadura 16/03/2020 117 positivos
+Extremadura 17/03/2020 107 positivos
+Extremadura 18/03/2020 127 positivos
+Extremadura 19/03/2020 126 positivos
+Extremadura 20/03/2020 173 positivos
+Extremadura 21/03/2020 131 positivos
+Extremadura 22/03/2020 131 positivos
+Extremadura 23/03/2020 245 positivos
+Extremadura 24/03/2020 160 positivos
+Extremadura 25/03/2020 153 positivos
+Extremadura 26/03/2020 138 positivos
+Extremadura 27/03/2020 109 positivos
+Extremadura 28/03/2020 96 positivos
+Extremadura 29/03/2020 62 positivos
+Extremadura 30/03/2020 107 positivos
+Extremadura 31/03/2020 61 positivos
+Extremadura 01/04/2020 134 positivos
+Extremadura 02/04/2020 76 positivos
+Extremadura 03/04/2020 104 positivos
+Extremadura 04/04/2020 75 positivos
+Extremadura 05/04/2020 53 positivos
+Extremadura 06/04/2020 78 positivos
+Extremadura 07/04/2020 72 positivos
+Extremadura 08/04/2020 83 positivos
+Extremadura 09/04/2020 76 positivos
+Extremadura 10/04/2020 98 positivos
+Extremadura 11/04/2020 71 positivos
+Extremadura 12/04/2020 47 positivos
+Extremadura 13/04/2020 68 positivos
+Extremadura 14/04/2020 87 positivos
+Extremadura 15/04/2020 97 positivos
+Extremadura 16/04/2020 69 positivos
+Extremadura 17/04/2020 101 positivos
+Extremadura 18/04/2020 90 positivos
+Extremadura 19/04/2020 48 positivos
+Extremadura 20/04/2020 49 positivos
+Extremadura 21/04/2020 69 positivos
+Extremadura 22/04/2020 85 positivos
+Extremadura 23/04/2020 84 positivos
+Extremadura 24/04/2020 112 positivos
+Extremadura 25/04/2020 87 positivos
+Extremadura 26/04/2020 24 positivos
+Extremadura 27/04/2020 20 positivos
+Extremadura 28/04/2020 26 positivos
+Extremadura 29/04/2020 59 positivos
+Extremadura 30/04/2020 86 positivos
+Extremadura 01/05/2020 97 positivos
+Extremadura 02/05/2020 58 positivos
+Extremadura 03/05/2020 11 positivos
+Extremadura 04/05/2020 20 positivos
+Extremadura 05/05/2020 41 positivos
+Extremadura 06/05/2020 36 positivos
+Extremadura 07/05/2020 50 positivos
+Extremadura 08/05/2020 33 positivos
+Extremadura 09/05/2020 52 positivos
+Extremadura 10/05/2020 5 positivos
+Extremadura 11/05/2020 9 positivos
+Extremadura 12/05/2020 38 positivos
+Extremadura 13/05/2020 38 positivos
+Extremadura 14/05/2020 23 positivos
+Extremadura 15/05/2020 24 positivos
+Extremadura 16/05/2020 21 positivos
+Extremadura 17/05/2020 5 positivos
+Extremadura 18/05/2020 4 positivos
+Extremadura 19/05/2020 11 positivos
+Extremadura 20/05/2020 14 positivos
+Extremadura 21/05/2020 9 positivos
+Extremadura 22/05/2020 11 positivos
+Extremadura 23/05/2020 7 positivos
+Extremadura 24/05/2020 5 positivos
+Extremadura 25/05/2020 5 positivos
+Extremadura 26/05/2020 13 positivos
+Extremadura 27/05/2020 8 positivos
+Extremadura 28/05/2020 0 positivos
+Extremadura 29/05/2020 8 positivos
+Extremadura 30/05/2020 8 positivos
+Extremadura 31/05/2020 2 positivos
+Extremadura 01/06/2020 4 positivos
+Extremadura 02/06/2020 10 positivos
+Extremadura 03/06/2020 6 positivos
+Extremadura 04/06/2020 4 positivos
+Extremadura 05/06/2020 0 positivos
+Extremadura 06/06/2020 0 positivos
+Extremadura 07/06/2020 4 positivos
+Extremadura 08/06/2020 1 positivos
+Extremadura 09/06/2020 2 positivos
+Extremadura 10/06/2020 1 positivos
+Extremadura 11/06/2020 0 positivos
+Extremadura 12/06/2020 1 positivos
+Extremadura 13/06/2020 1 positivos
+Extremadura 14/06/2020 0 positivos
+Extremadura 15/06/2020 5 positivos
+Extremadura 16/06/2020 2 positivos
+Extremadura 17/06/2020 7 positivos
+Extremadura 18/06/2020 4 positivos
+Extremadura 19/06/2020 2 positivos
+Extremadura 20/06/2020 1 positivos
+Extremadura 21/06/2020 5 positivos
+Extremadura 22/06/2020 1 positivos
+Extremadura 23/06/2020 6 positivos
+Extremadura 24/06/2020 1 positivos
+Extremadura 25/06/2020 4 positivos
+Extremadura 26/06/2020 0 positivos
+Extremadura 27/06/2020 5 positivos
+Extremadura 28/06/2020 3 positivos
+Extremadura 29/06/2020 5 positivos
+Extremadura 30/06/2020 7 positivos
+Extremadura 01/07/2020 9 positivos
+Extremadura 02/07/2020 4 positivos
+Extremadura 03/07/2020 8 positivos
+Extremadura 04/07/2020 4 positivos
+Extremadura 05/07/2020 6 positivos
+Extremadura 06/07/2020 2 positivos
+Extremadura 07/07/2020 13 positivos
+Extremadura 08/07/2020 5 positivos
+Extremadura 09/07/2020 23 positivos
+Extremadura 10/07/2020 45 positivos
+Extremadura 11/07/2020 17 positivos
+Extremadura 12/07/2020 12 positivos
+Extremadura 13/07/2020 12 positivos
+Extremadura 14/07/2020 3 positivos
+Extremadura 15/07/2020 8 positivos
+Extremadura 16/07/2020 0 positivos
+Castilla Leon 31/01/2020 0 positivos
+Castilla Leon 01/02/2020 0 positivos
+Castilla Leon 02/02/2020 0 positivos
+Castilla Leon 03/02/2020 1 positivos
+Castilla Leon 04/02/2020 1 positivos
+Castilla Leon 05/02/2020 1 positivos
+Castilla Leon 06/02/2020 0 positivos
+Castilla Leon 07/02/2020 1 positivos
+Castilla Leon 08/02/2020 0 positivos
+Castilla Leon 09/02/2020 0 positivos
+Castilla Leon 10/02/2020 1 positivos
+Castilla Leon 11/02/2020 1 positivos
+Castilla Leon 12/02/2020 2 positivos
+Castilla Leon 13/02/2020 3 positivos
+Castilla Leon 14/02/2020 1 positivos
+Castilla Leon 15/02/2020 0 positivos
+Castilla Leon 16/02/2020 0 positivos
+Castilla Leon 17/02/2020 0 positivos
+Castilla Leon 18/02/2020 1 positivos
+Castilla Leon 19/02/2020 1 positivos
+Castilla Leon 20/02/2020 3 positivos
+Castilla Leon 21/02/2020 5 positivos
+Castilla Leon 22/02/2020 2 positivos
+Castilla Leon 23/02/2020 5 positivos
+Castilla Leon 24/02/2020 5 positivos
+Castilla Leon 25/02/2020 6 positivos
+Castilla Leon 26/02/2020 8 positivos
+Castilla Leon 27/02/2020 7 positivos
+Castilla Leon 28/02/2020 11 positivos
+Castilla Leon 29/02/2020 10 positivos
+Castilla Leon 01/03/2020 32 positivos
+Castilla Leon 02/03/2020 44 positivos
+Castilla Leon 03/03/2020 29 positivos
+Castilla Leon 04/03/2020 35 positivos
+Castilla Leon 05/03/2020 55 positivos
+Castilla Leon 06/03/2020 57 positivos
+Castilla Leon 07/03/2020 83 positivos
+Castilla Leon 08/03/2020 80 positivos
+Castilla Leon 09/03/2020 167 positivos
+Castilla Leon 10/03/2020 213 positivos
+Castilla Leon 11/03/2020 257 positivos
+Castilla Leon 12/03/2020 344 positivos
+Castilla Leon 13/03/2020 505 positivos
+Castilla Leon 14/03/2020 521 positivos
+Castilla Leon 15/03/2020 538 positivos
+Castilla Leon 16/03/2020 779 positivos
+Castilla Leon 17/03/2020 730 positivos
+Castilla Leon 18/03/2020 815 positivos
+Castilla Leon 19/03/2020 866 positivos
+Castilla Leon 20/03/2020 954 positivos
+Castilla Leon 21/03/2020 765 positivos
+Castilla Leon 22/03/2020 707 positivos
+Castilla Leon 23/03/2020 769 positivos
+Castilla Leon 24/03/2020 664 positivos
+Castilla Leon 25/03/2020 694 positivos
+Castilla Leon 26/03/2020 555 positivos
+Castilla Leon 27/03/2020 524 positivos
+Castilla Leon 28/03/2020 523 positivos
+Castilla Leon 29/03/2020 423 positivos
+Castilla Leon 30/03/2020 496 positivos
+Castilla Leon 31/03/2020 399 positivos
+Castilla Leon 01/04/2020 561 positivos
+Castilla Leon 02/04/2020 518 positivos
+Castilla Leon 03/04/2020 566 positivos
+Castilla Leon 04/04/2020 569 positivos
+Castilla Leon 05/04/2020 390 positivos
+Castilla Leon 06/04/2020 594 positivos
+Castilla Leon 07/04/2020 429 positivos
+Castilla Leon 08/04/2020 507 positivos
+Castilla Leon 09/04/2020 537 positivos
+Castilla Leon 10/04/2020 558 positivos
+Castilla Leon 11/04/2020 481 positivos
+Castilla Leon 12/04/2020 326 positivos
+Castilla Leon 13/04/2020 511 positivos
+Castilla Leon 14/04/2020 460 positivos
+Castilla Leon 15/04/2020 342 positivos
+Castilla Leon 16/04/2020 297 positivos
+Castilla Leon 17/04/2020 204 positivos
+Castilla Leon 18/04/2020 171 positivos
+Castilla Leon 19/04/2020 217 positivos
+Castilla Leon 20/04/2020 260 positivos
+Castilla Leon 21/04/2020 278 positivos
+Castilla Leon 22/04/2020 255 positivos
+Castilla Leon 23/04/2020 212 positivos
+Castilla Leon 24/04/2020 292 positivos
+Castilla Leon 25/04/2020 139 positivos
+Castilla Leon 26/04/2020 108 positivos
+Castilla Leon 27/04/2020 132 positivos
+Castilla Leon 28/04/2020 323 positivos
+Castilla Leon 29/04/2020 244 positivos
+Castilla Leon 30/04/2020 235 positivos
+Castilla Leon 01/05/2020 336 positivos
+Castilla Leon 02/05/2020 344 positivos
+Castilla Leon 03/05/2020 113 positivos
+Castilla Leon 04/05/2020 92 positivos
+Castilla Leon 05/05/2020 43 positivos
+Castilla Leon 06/05/2020 27 positivos
+Castilla Leon 07/05/2020 30 positivos
+Castilla Leon 08/05/2020 30 positivos
+Castilla Leon 09/05/2020 14 positivos
+Castilla Leon 10/05/2020 12 positivos
+Castilla Leon 11/05/2020 27 positivos
+Castilla Leon 12/05/2020 34 positivos
+Castilla Leon 13/05/2020 57 positivos
+Castilla Leon 14/05/2020 39 positivos
+Castilla Leon 15/05/2020 35 positivos
+Castilla Leon 16/05/2020 30 positivos
+Castilla Leon 17/05/2020 5 positivos
+Castilla Leon 18/05/2020 32 positivos
+Castilla Leon 19/05/2020 35 positivos
+Castilla Leon 20/05/2020 27 positivos
+Castilla Leon 21/05/2020 39 positivos
+Castilla Leon 22/05/2020 40 positivos
+Castilla Leon 23/05/2020 16 positivos
+Castilla Leon 24/05/2020 12 positivos
+Castilla Leon 25/05/2020 34 positivos
+Castilla Leon 26/05/2020 46 positivos
+Castilla Leon 27/05/2020 25 positivos
+Castilla Leon 28/05/2020 44 positivos
+Castilla Leon 29/05/2020 42 positivos
+Castilla Leon 30/05/2020 36 positivos
+Castilla Leon 31/05/2020 19 positivos
+Castilla Leon 01/06/2020 28 positivos
+Castilla Leon 02/06/2020 19 positivos
+Castilla Leon 03/06/2020 27 positivos
+Castilla Leon 04/06/2020 27 positivos
+Castilla Leon 05/06/2020 36 positivos
+Castilla Leon 06/06/2020 12 positivos
+Castilla Leon 07/06/2020 12 positivos
+Castilla Leon 08/06/2020 34 positivos
+Castilla Leon 09/06/2020 26 positivos
+Castilla Leon 10/06/2020 18 positivos
+Castilla Leon 11/06/2020 17 positivos
+Castilla Leon 12/06/2020 21 positivos
+Castilla Leon 13/06/2020 12 positivos
+Castilla Leon 14/06/2020 7 positivos
+Castilla Leon 15/06/2020 15 positivos
+Castilla Leon 16/06/2020 41 positivos
+Castilla Leon 17/06/2020 18 positivos
+Castilla Leon 18/06/2020 11 positivos
+Castilla Leon 19/06/2020 14 positivos
+Castilla Leon 20/06/2020 15 positivos
+Castilla Leon 21/06/2020 7 positivos
+Castilla Leon 22/06/2020 14 positivos
+Castilla Leon 23/06/2020 30 positivos
+Castilla Leon 24/06/2020 14 positivos
+Castilla Leon 25/06/2020 15 positivos
+Castilla Leon 26/06/2020 16 positivos
+Castilla Leon 27/06/2020 13 positivos
+Castilla Leon 28/06/2020 5 positivos
+Castilla Leon 29/06/2020 11 positivos
+Castilla Leon 30/06/2020 13 positivos
+Castilla Leon 01/07/2020 10 positivos
+Castilla Leon 02/07/2020 9 positivos
+Castilla Leon 03/07/2020 12 positivos
+Castilla Leon 04/07/2020 7 positivos
+Castilla Leon 05/07/2020 3 positivos
+Castilla Leon 06/07/2020 9 positivos
+Castilla Leon 07/07/2020 10 positivos
+Castilla Leon 08/07/2020 11 positivos
+Castilla Leon 09/07/2020 7 positivos
+Castilla Leon 10/07/2020 15 positivos
+Castilla Leon 11/07/2020 12 positivos
+Castilla Leon 12/07/2020 6 positivos
+Castilla Leon 13/07/2020 21 positivos
+Castilla Leon 14/07/2020 14 positivos
+Castilla Leon 15/07/2020 5 positivos
+Castilla Leon 16/07/2020 3 positivos
+Valencia 31/01/2020 4 positivos
+Valencia 01/02/2020 2 positivos
+Valencia 02/02/2020 0 positivos
+Valencia 03/02/2020 5 positivos
+Valencia 04/02/2020 1 positivos
+Valencia 05/02/2020 3 positivos
+Valencia 06/02/2020 2 positivos
+Valencia 07/02/2020 1 positivos
+Valencia 08/02/2020 0 positivos
+Valencia 09/02/2020 0 positivos
+Valencia 10/02/2020 4 positivos
+Valencia 11/02/2020 1 positivos
+Valencia 12/02/2020 1 positivos
+Valencia 13/02/2020 2 positivos
+Valencia 14/02/2020 2 positivos
+Valencia 15/02/2020 4 positivos
+Valencia 16/02/2020 1 positivos
+Valencia 17/02/2020 5 positivos
+Valencia 18/02/2020 2 positivos
+Valencia 19/02/2020 2 positivos
+Valencia 20/02/2020 6 positivos
+Valencia 21/02/2020 3 positivos
+Valencia 22/02/2020 2 positivos
+Valencia 23/02/2020 5 positivos
+Valencia 24/02/2020 15 positivos
+Valencia 25/02/2020 10 positivos
+Valencia 26/02/2020 9 positivos
+Valencia 27/02/2020 15 positivos
+Valencia 28/02/2020 28 positivos
+Valencia 29/02/2020 17 positivos
+Valencia 01/03/2020 44 positivos
+Valencia 02/03/2020 46 positivos
+Valencia 03/03/2020 37 positivos
+Valencia 04/03/2020 37 positivos
+Valencia 05/03/2020 56 positivos
+Valencia 06/03/2020 78 positivos
+Valencia 07/03/2020 80 positivos
+Valencia 08/03/2020 118 positivos
+Valencia 09/03/2020 186 positivos
+Valencia 10/03/2020 305 positivos
+Valencia 11/03/2020 294 positivos
+Valencia 12/03/2020 389 positivos
+Valencia 13/03/2020 498 positivos
+Valencia 14/03/2020 496 positivos
+Valencia 15/03/2020 529 positivos
+Valencia 16/03/2020 633 positivos
+Valencia 17/03/2020 558 positivos
+Valencia 18/03/2020 534 positivos
+Valencia 19/03/2020 495 positivos
+Valencia 20/03/2020 572 positivos
+Valencia 21/03/2020 452 positivos
+Valencia 22/03/2020 397 positivos
+Valencia 23/03/2020 485 positivos
+Valencia 24/03/2020 339 positivos
+Valencia 25/03/2020 411 positivos
+Valencia 26/03/2020 309 positivos
+Valencia 27/03/2020 333 positivos
+Valencia 28/03/2020 245 positivos
+Valencia 29/03/2020 217 positivos
+Valencia 30/03/2020 256 positivos
+Valencia 31/03/2020 181 positivos
+Valencia 01/04/2020 240 positivos
+Valencia 02/04/2020 217 positivos
+Valencia 03/04/2020 215 positivos
+Valencia 04/04/2020 142 positivos
+Valencia 05/04/2020 122 positivos
+Valencia 06/04/2020 180 positivos
+Valencia 07/04/2020 171 positivos
+Valencia 08/04/2020 170 positivos
+Valencia 09/04/2020 173 positivos
+Valencia 10/04/2020 141 positivos
+Valencia 11/04/2020 133 positivos
+Valencia 12/04/2020 83 positivos
+Valencia 13/04/2020 99 positivos
+Valencia 14/04/2020 98 positivos
+Valencia 15/04/2020 151 positivos
+Valencia 16/04/2020 130 positivos
+Valencia 17/04/2020 157 positivos
+Valencia 18/04/2020 198 positivos
+Valencia 19/04/2020 71 positivos
+Valencia 20/04/2020 71 positivos
+Valencia 21/04/2020 178 positivos
+Valencia 22/04/2020 156 positivos
+Valencia 23/04/2020 191 positivos
+Valencia 24/04/2020 230 positivos
+Valencia 25/04/2020 106 positivos
+Valencia 26/04/2020 38 positivos
+Valencia 27/04/2020 51 positivos
+Valencia 28/04/2020 120 positivos
+Valencia 29/04/2020 138 positivos
+Valencia 30/04/2020 114 positivos
+Valencia 01/05/2020 94 positivos
+Valencia 02/05/2020 110 positivos
+Valencia 03/05/2020 45 positivos
+Valencia 04/05/2020 28 positivos
+Valencia 05/05/2020 20 positivos
+Valencia 06/05/2020 15 positivos
+Valencia 07/05/2020 13 positivos
+Valencia 08/05/2020 12 positivos
+Valencia 09/05/2020 8 positivos
+Valencia 10/05/2020 8 positivos
+Valencia 11/05/2020 21 positivos
+Valencia 12/05/2020 18 positivos
+Valencia 13/05/2020 12 positivos
+Valencia 14/05/2020 19 positivos
+Valencia 15/05/2020 13 positivos
+Valencia 16/05/2020 8 positivos
+Valencia 17/05/2020 7 positivos
+Valencia 18/05/2020 10 positivos
+Valencia 19/05/2020 13 positivos
+Valencia 20/05/2020 14 positivos
+Valencia 21/05/2020 7 positivos
+Valencia 22/05/2020 17 positivos
+Valencia 23/05/2020 7 positivos
+Valencia 24/05/2020 10 positivos
+Valencia 25/05/2020 5 positivos
+Valencia 26/05/2020 13 positivos
+Valencia 27/05/2020 16 positivos
+Valencia 28/05/2020 9 positivos
+Valencia 29/05/2020 8 positivos
+Valencia 30/05/2020 5 positivos
+Valencia 31/05/2020 7 positivos
+Valencia 01/06/2020 13 positivos
+Valencia 02/06/2020 19 positivos
+Valencia 03/06/2020 11 positivos
+Valencia 04/06/2020 9 positivos
+Valencia 05/06/2020 8 positivos
+Valencia 06/06/2020 8 positivos
+Valencia 07/06/2020 7 positivos
+Valencia 08/06/2020 5 positivos
+Valencia 09/06/2020 8 positivos
+Valencia 10/06/2020 3 positivos
+Valencia 11/06/2020 10 positivos
+Valencia 12/06/2020 11 positivos
+Valencia 13/06/2020 3 positivos
+Valencia 14/06/2020 1 positivos
+Valencia 15/06/2020 11 positivos
+Valencia 16/06/2020 10 positivos
+Valencia 17/06/2020 8 positivos
+Valencia 18/06/2020 8 positivos
+Valencia 19/06/2020 10 positivos
+Valencia 20/06/2020 5 positivos
+Valencia 21/06/2020 9 positivos
+Valencia 22/06/2020 7 positivos
+Valencia 23/06/2020 11 positivos
+Valencia 24/06/2020 6 positivos
+Valencia 25/06/2020 7 positivos
+Valencia 26/06/2020 12 positivos
+Valencia 27/06/2020 13 positivos
+Valencia 28/06/2020 13 positivos
+Valencia 29/06/2020 17 positivos
+Valencia 30/06/2020 16 positivos
+Valencia 01/07/2020 19 positivos
+Valencia 02/07/2020 20 positivos
+Valencia 03/07/2020 13 positivos
+Valencia 04/07/2020 6 positivos
+Valencia 05/07/2020 10 positivos
+Valencia 06/07/2020 17 positivos
+Valencia 07/07/2020 21 positivos
+Valencia 08/07/2020 24 positivos
+Valencia 09/07/2020 18 positivos
+Valencia 10/07/2020 24 positivos
+Valencia 11/07/2020 21 positivos
+Valencia 12/07/2020 8 positivos
+Valencia 13/07/2020 13 positivos
+Valencia 14/07/2020 14 positivos
+Valencia 15/07/2020 17 positivos
+Valencia 16/07/2020 12 positivos
+Ceuta 31/01/2020 0 positivos
+Ceuta 01/02/2020 0 positivos
+Ceuta 02/02/2020 0 positivos
+Ceuta 03/02/2020 0 positivos
+Ceuta 04/02/2020 0 positivos
+Ceuta 05/02/2020 1 positivos
+Ceuta 06/02/2020 0 positivos
+Ceuta 07/02/2020 0 positivos
+Ceuta 08/02/2020 0 positivos
+Ceuta 09/02/2020 0 positivos
+Ceuta 10/02/2020 0 positivos
+Ceuta 11/02/2020 0 positivos
+Ceuta 12/02/2020 0 positivos
+Ceuta 13/02/2020 1 positivos
+Ceuta 14/02/2020 0 positivos
+Ceuta 15/02/2020 0 positivos
+Ceuta 16/02/2020 0 positivos
+Ceuta 17/02/2020 0 positivos
+Ceuta 18/02/2020 0 positivos
+Ceuta 19/02/2020 0 positivos
+Ceuta 20/02/2020 0 positivos
+Ceuta 21/02/2020 0 positivos
+Ceuta 22/02/2020 0 positivos
+Ceuta 23/02/2020 0 positivos
+Ceuta 24/02/2020 0 positivos
+Ceuta 25/02/2020 0 positivos
+Ceuta 26/02/2020 0 positivos
+Ceuta 27/02/2020 0 positivos
+Ceuta 28/02/2020 0 positivos
+Ceuta 29/02/2020 0 positivos
+Ceuta 01/03/2020 0 positivos
+Ceuta 02/03/2020 0 positivos
+Ceuta 03/03/2020 2 positivos
+Ceuta 04/03/2020 0 positivos
+Ceuta 05/03/2020 1 positivos
+Ceuta 06/03/2020 0 positivos
+Ceuta 07/03/2020 0 positivos
+Ceuta 08/03/2020 1 positivos
+Ceuta 09/03/2020 1 positivos
+Ceuta 10/03/2020 1 positivos
+Ceuta 11/03/2020 3 positivos
+Ceuta 12/03/2020 1 positivos
+Ceuta 13/03/2020 6 positivos
+Ceuta 14/03/2020 4 positivos
+Ceuta 15/03/2020 2 positivos
+Ceuta 16/03/2020 6 positivos
+Ceuta 17/03/2020 5 positivos
+Ceuta 18/03/2020 6 positivos
+Ceuta 19/03/2020 5 positivos
+Ceuta 20/03/2020 7 positivos
+Ceuta 21/03/2020 7 positivos
+Ceuta 22/03/2020 7 positivos
+Ceuta 23/03/2020 9 positivos
+Ceuta 24/03/2020 8 positivos
+Ceuta 25/03/2020 9 positivos
+Ceuta 26/03/2020 5 positivos
+Ceuta 27/03/2020 2 positivos
+Ceuta 28/03/2020 5 positivos
+Ceuta 29/03/2020 7 positivos
+Ceuta 30/03/2020 5 positivos
+Ceuta 31/03/2020 2 positivos
+Ceuta 01/04/2020 8 positivos
+Ceuta 02/04/2020 2 positivos
+Ceuta 03/04/2020 2 positivos
+Ceuta 04/04/2020 2 positivos
+Ceuta 05/04/2020 2 positivos
+Ceuta 06/04/2020 3 positivos
+Ceuta 07/04/2020 2 positivos
+Ceuta 08/04/2020 1 positivos
+Ceuta 09/04/2020 3 positivos
+Ceuta 10/04/2020 1 positivos
+Ceuta 11/04/2020 2 positivos
+Ceuta 12/04/2020 0 positivos
+Ceuta 13/04/2020 2 positivos
+Ceuta 14/04/2020 0 positivos
+Ceuta 15/04/2020 0 positivos
+Ceuta 16/04/2020 1 positivos
+Ceuta 17/04/2020 1 positivos
+Ceuta 18/04/2020 1 positivos
+Ceuta 19/04/2020 0 positivos
+Ceuta 20/04/2020 1 positivos
+Ceuta 21/04/2020 2 positivos
+Ceuta 22/04/2020 3 positivos
+Ceuta 23/04/2020 3 positivos
+Ceuta 24/04/2020 1 positivos
+Ceuta 25/04/2020 1 positivos
+Ceuta 26/04/2020 0 positivos
+Ceuta 27/04/2020 1 positivos
+Ceuta 28/04/2020 2 positivos
+Ceuta 29/04/2020 4 positivos
+Ceuta 30/04/2020 0 positivos
+Ceuta 01/05/2020 1 positivos
+Ceuta 02/05/2020 2 positivos
+Ceuta 03/05/2020 0 positivos
+Ceuta 04/05/2020 0 positivos
+Ceuta 05/05/2020 0 positivos
+Ceuta 06/05/2020 1 positivos
+Ceuta 07/05/2020 1 positivos
+Ceuta 08/05/2020 0 positivos
+Ceuta 09/05/2020 0 positivos
+Ceuta 10/05/2020 0 positivos
+Ceuta 11/05/2020 1 positivos
+Ceuta 12/05/2020 2 positivos
+Ceuta 13/05/2020 0 positivos
+Ceuta 14/05/2020 0 positivos
+Ceuta 15/05/2020 0 positivos
+Ceuta 16/05/2020 1 positivos
+Ceuta 17/05/2020 0 positivos
+Ceuta 18/05/2020 2 positivos
+Ceuta 19/05/2020 3 positivos
+Ceuta 20/05/2020 1 positivos
+Ceuta 21/05/2020 1 positivos
+Ceuta 22/05/2020 0 positivos
+Ceuta 23/05/2020 5 positivos
+Ceuta 24/05/2020 2 positivos
+Ceuta 25/05/2020 5 positivos
+Ceuta 26/05/2020 1 positivos
+Ceuta 27/05/2020 2 positivos
+Ceuta 28/05/2020 5 positivos
+Ceuta 29/05/2020 2 positivos
+Ceuta 30/05/2020 3 positivos
+Ceuta 31/05/2020 1 positivos
+Ceuta 01/06/2020 4 positivos
+Ceuta 02/06/2020 2 positivos
+Ceuta 03/06/2020 4 positivos
+Ceuta 04/06/2020 0 positivos
+Ceuta 05/06/2020 0 positivos
+Ceuta 06/06/2020 0 positivos
+Ceuta 07/06/2020 0 positivos
+Ceuta 08/06/2020 0 positivos
+Ceuta 09/06/2020 0 positivos
+Ceuta 10/06/2020 0 positivos
+Ceuta 11/06/2020 0 positivos
+Ceuta 12/06/2020 0 positivos
+Ceuta 13/06/2020 0 positivos
+Ceuta 14/06/2020 0 positivos
+Ceuta 15/06/2020 0 positivos
+Ceuta 16/06/2020 0 positivos
+Ceuta 17/06/2020 0 positivos
+Ceuta 18/06/2020 0 positivos
+Ceuta 19/06/2020 0 positivos
+Ceuta 20/06/2020 0 positivos
+Ceuta 21/06/2020 0 positivos
+Ceuta 22/06/2020 0 positivos
+Ceuta 23/06/2020 0 positivos
+Ceuta 24/06/2020 0 positivos
+Ceuta 25/06/2020 0 positivos
+Ceuta 26/06/2020 0 positivos
+Ceuta 27/06/2020 0 positivos
+Ceuta 28/06/2020 0 positivos
+Ceuta 29/06/2020 0 positivos
+Ceuta 30/06/2020 0 positivos
+Ceuta 01/07/2020 0 positivos
+Ceuta 02/07/2020 0 positivos
+Ceuta 03/07/2020 0 positivos
+Ceuta 04/07/2020 0 positivos
+Ceuta 05/07/2020 0 positivos
+Ceuta 06/07/2020 0 positivos
+Ceuta 07/07/2020 0 positivos
+Ceuta 08/07/2020 0 positivos
+Ceuta 09/07/2020 0 positivos
+Ceuta 10/07/2020 0 positivos
+Ceuta 11/07/2020 0 positivos
+Ceuta 12/07/2020 0 positivos
+Ceuta 13/07/2020 0 positivos
+Ceuta 14/07/2020 1 positivos
+Ceuta 15/07/2020 0 positivos
+Ceuta 16/07/2020 0 positivos
