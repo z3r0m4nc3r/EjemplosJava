@@ -17,11 +17,12 @@ import util.Utilidades;
 
 public class Test {
 	static CovidService service = new CovidService();
-	
-	public static void main(String[] args) {
-		
-int opcion=0;
 
+	public static void main(String[] args) {
+
+		int opcion=0;
+		
+		System.out.println("Ejecuntado programa en: "+System.getProperty("os.name")+" "+System.getProperty("os.arch")+" Version "+System.getProperty("os.version"));
 
 		do{		
 			opcion = menu();
@@ -70,6 +71,7 @@ int opcion=0;
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
 		Utilidades.pulsarTeclaParaContinuar();
+		
 	}
 	
 	static void mediaPositivosDiarios() {
@@ -98,6 +100,7 @@ int opcion=0;
 			e.printStackTrace();
 		}
 		Utilidades.pulsarTeclaParaContinuar();
+		
 			
 	}
 	
@@ -135,6 +138,7 @@ int opcion=0;
 		Utilidades.pulsarTeclaParaContinuar();
 		
 		
+		
 	}
 	
 	static void positivosDia() {
@@ -154,10 +158,12 @@ int opcion=0;
 			e.printStackTrace();
 		}
 		Utilidades.pulsarTeclaParaContinuar();
+		
 	}
 	
 	static void listaCasosComunidad() {
 		String archCSV = "Casos_por_Comunidad.csv";
+		
 		try (CSVWriter writer = new CSVWriter(new FileWriter(archCSV))){
 			String [] cabecera = {"nombreComunidad","fecha","positivos"};
 			writer.writeNext(cabecera);
@@ -169,9 +175,10 @@ int opcion=0;
 		}
 		System.out.println("Lista creada en el archivo "+archCSV);
 		Utilidades.pulsarTeclaParaContinuar();
+		
 	}
 	
-static int menu() {
+	static int menu() {
 		
 		int op=0;
 		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");

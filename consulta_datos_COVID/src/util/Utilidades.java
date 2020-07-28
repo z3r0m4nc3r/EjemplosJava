@@ -136,6 +136,7 @@ public static void pulsarTeclaParaContinuar(){
     	 System.out.println("Pulsa Enter para continuar...");
          String seguir = sc.nextLine();
         
+        
     }
     catch(Exception e){
     	
@@ -155,6 +156,8 @@ public static String [] mapToArray (Caso c) {
 	return mapa;
 
 	}
-	}
+
+
+}
 
 
