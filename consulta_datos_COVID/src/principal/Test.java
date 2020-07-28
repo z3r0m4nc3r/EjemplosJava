@@ -21,15 +21,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 int opcion=0;
-SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
-		
-System.out.println("*******************************************************");
-System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
-System.out.println("* Datos disponibles desde "+sdt.format(
-		Utilidades.crearStream().map(c -> c.getFecha()).findFirst().get())
-+" Hasta "+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
-		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" *");
-System.out.println("*******************************************************");
+
 
 		do{		
 			opcion = menu();
@@ -182,6 +174,15 @@ System.out.println("*******************************************************");
 static int menu() {
 		
 		int op=0;
+		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
+		
+		System.out.println("*******************************************************");
+		System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
+		System.out.println("* Datos disponibles desde "+sdt.format(
+				Utilidades.crearStream().map(c -> c.getFecha()).findFirst().get())
+		+" Hasta "+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
+				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" *");
+		System.out.println("*******************************************************");
 		System.out.println("1.- Lista de Casos entre dos fechas");
 		System.out.println("2.- Total de casos en un dia");
 		System.out.println("3.- Fecha del pico de contagios");
