@@ -59,7 +59,7 @@ public class Utilidades {
 			 nombreComunidad="Castilla la Mancha";
 			 break;
 		 case "CL":
-			 nombreComunidad="Castilla Leon";
+			 nombreComunidad="Castilla y Leon";
 			 break;
 		 case "CT":
 			 nombreComunidad="Cataluña";
@@ -97,6 +97,7 @@ public class Utilidades {
 		}
 		return nombreComunidad;
 	}
+	
 	
 public static Caso crearCaso(JSONObject jo) {
 	

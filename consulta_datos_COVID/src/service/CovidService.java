@@ -29,20 +29,20 @@ public class CovidService {
 		 .get().get(0).getFecha();
 	}
 	
-	public double mediaPositivosDiarios() {
+	public long mediaPositivosDiarios() {
 		return Utilidades.crearStream()
 				.collect(Collectors.groupingBy(c -> c.getFecha()))
 				.values().stream()
 				.collect(Collectors.averagingDouble(lc -> lc.stream()
-						.mapToDouble(c -> c.getPositivos()).sum()))
-				.doubleValue();
+						.mapToLong(c -> c.getPositivos()).sum()))
+				.longValue();
 					
 	}
 	
 	public long totalPositivosComunidad(String comunidad) {
 		return Utilidades.crearStream()
 				.filter(c -> c.getNombreComunidad().toLowerCase().contentEquals(comunidad.toLowerCase())
-						|c.getNombreComunidad().toLowerCase().endsWith(comunidad))
+						||c.getNombreComunidad().toLowerCase().endsWith(comunidad))
 				.mapToLong(c -> c.getPositivos()).sum();
 		
 	}

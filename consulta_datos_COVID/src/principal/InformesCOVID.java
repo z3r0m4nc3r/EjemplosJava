@@ -15,7 +15,7 @@ import com.opencsv.CSVWriter;
 import service.CovidService;
 import util.Utilidades;
 
-public class Test {
+public class InformesCOVID {
 	static CovidService service = new CovidService();
 
 	public static void main(String[] args) {
@@ -79,7 +79,7 @@ public class Test {
 		System.out.println("La media de positivos diarios hasta el "
 		+sdt.format(Utilidades.crearStream().map(c -> c.getFecha())
 				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
-	+Utilidades.redondearDouble(service.mediaPositivosDiarios()));
+				+service.mediaPositivosDiarios());
 		Utilidades.pulsarTeclaParaContinuar();
 	}
 	
@@ -136,8 +136,6 @@ public class Test {
 			e.printStackTrace();
 		}
 		Utilidades.pulsarTeclaParaContinuar();
-		
-		
 		
 	}
 	
