@@ -9,33 +9,20 @@ import tareas.Factorial;
 
 public class TestFactorial {
 
-	public static void main(String[] args) {
-		
-		ExecutorService executor = Executors.newCachedThreadPool();
-		
-		Future<Long> f = executor.submit(new Factorial(7));
-		
+	public static void main(String[] args) throws InterruptedException, ExecutionException {
+		ExecutorService exec=Executors.newCachedThreadPool();
+		Future<Long> f=exec.submit(new Factorial(7));
 		while(!f.isDone()) {
-			System.out.println("Haciendo otras tareas....");
+			System.out.println("Haciendo cosas en el main");
 			try {
-				Thread.sleep(25);
+				Thread.sleep(50);
 			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-		
-		try {
-			System.out.println("El resultado es: "+f.get());
-		} catch (InterruptedException e) {
-			
-			e.printStackTrace();
-		} catch (ExecutionException e) {
-			
-			e.printStackTrace();
-		}
-		
-		executor.shutdown();
-
+		System.out.println("El resultado del factorial es "+f.get());
+		exec.shutdown();
 	}
 
 }
