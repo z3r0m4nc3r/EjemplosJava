@@ -135,8 +135,8 @@ public static void pulsarTeclaParaContinuar(){
     	Scanner sc = new Scanner(System.in);
     	 System.out.println("");
     	 System.out.println("Pulsa Enter para continuar...");
-         String seguir = sc.nextLine();
-        
+         sc.nextLine();
+     
         
     }
     catch(Exception e){
