@@ -1,28 +1,31 @@
 package model;
 
-public class Contacto {
-	private int idContacto;
+public class Alumno {
+	private int dni;
 	private String nombre;
 	private String email;
 	private int edad;
-	public Contacto(int idContacto, String nombre, String email, int edad) {
+	private int idCurso;
+	public Alumno(int dni, String nombre, String email, int edad, int idCurso) {
 		super();
-		this.idContacto = idContacto;
+		this.dni = dni;
+		this.nombre = nombre;
+		this.email = email;
+		this.edad = edad;
+		this.idCurso = idCurso;
+	}
+	public Alumno(int dni, String nombre, String email, int edad) {
+		super();
+		this.dni = dni;
 		this.nombre = nombre;
 		this.email = email;
 		this.edad = edad;
 	}
-	public Contacto(String nombre, String email, int edad) {
-		super();
-		this.nombre = nombre;
-		this.email = email;
-		this.edad = edad;
+	public int getDni() {
+		return dni;
 	}
-	public int getIdContacto() {
-		return idContacto;
-	}
-	public void setIdContacto(int idContacto) {
-		this.idContacto = idContacto;
+	public void setDni(int dni) {
+		this.dni = dni;
 	}
 	public String getNombre() {
 		return nombre;
@@ -42,5 +45,13 @@ public class Contacto {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	public int getIdCurso() {
+		return idCurso;
+	}
+	public void setIdCurso(int idCurso) {
+		this.idCurso = idCurso;
+	}
 	
+	
+
 }
