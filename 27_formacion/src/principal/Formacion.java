@@ -16,20 +16,25 @@ public class Formacion {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Numero Total de cursos: "+service.totalCursos());
-		Utilidades.pulsarTeclaParaContinuar();
-		
-		System.out.println("Alta de nuevo Curso:");
-		nuevoCurso();
-		Utilidades.pulsarTeclaParaContinuar();
-		
-		System.out.println("Lista Completa de Cursos:");
-		mostrarCursos(service.recuperarCursos());
-		Utilidades.pulsarTeclaParaContinuar();
-		
-		System.out.println("Lista de Cursos entre dos fechas dadas:");
-		listaCursos();
-		Utilidades.pulsarTeclaParaContinuar();
+		/*
+		 * System.out.println("Numero Total de cursos: "+service.totalCursos());
+		 * 
+		 * 
+		 * 
+		 * System.out.println("Alta de nuevo Curso:"); nuevoCurso();
+		 * Utilidades.pulsarTeclaParaContinuar();
+		 * 
+		 * System.out.println("Lista Completa de Cursos:");
+		 * mostrarCursos(service.recuperarCursos());
+		 * Utilidades.pulsarTeclaParaContinuar();
+		 * 
+		 * System.out.println("Lista de Cursos entre dos fechas dadas:"); listaCursos();
+		 * Utilidades.pulsarTeclaParaContinuar();
+		 */
+			
+			  System.out.println("Lista de Alumnos matriculados en un curso:");
+			  alumnosCursos();
+			 
 
 	}
 	
@@ -82,6 +87,15 @@ public class Formacion {
 		mostrarCursos(service.listaCursos(Utilidades.localDateToDate(fechaInicio)
 				, Utilidades.localDateToDate(fechaFin)));
 		
+	}
+	
+	public static void alumnosCursos() {
+		String curso;
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduzca denominacion del curso");
+		curso=sc.nextLine();
+		alumnoService.alumnoPorCurso(curso).forEach(a -> System.out.println(a.getNombre()));;
 	}
 		
 	}

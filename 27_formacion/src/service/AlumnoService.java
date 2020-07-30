@@ -14,7 +14,7 @@ public class AlumnoService {
 	public List<Alumno> alumnoPorCurso (String curso){
 		try(Connection con = Datos.getConnection()) {
 			List<Alumno> alumnos = new ArrayList<>();
-			String sql = "Select alumnos.* from alumnos, cursos where alumnos.idCurso=cursos.idCurso AND cursos.denominacion=?";
+			String sql = "Select alumnos.* from alumnos,cursos where cursos.denominacion=? AND alumnos.idCurso=cursos.idCurso";
 			PreparedStatement st=con.prepareStatement(sql);
 			st.setString(1, curso);
 			ResultSet rs = st.executeQuery(sql);
