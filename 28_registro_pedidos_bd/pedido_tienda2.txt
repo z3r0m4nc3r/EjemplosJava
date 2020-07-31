@@ -1,0 +1,3 @@
+p11,15,7,alimentación,31/07/2020
+p6,3,2,alimentación,15/05/2020
+p3,5,3,musica,27/07/2020
