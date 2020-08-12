@@ -11,6 +11,7 @@ import model.Caso;
 public abstract class BaseService {
 	
 	public abstract Stream<Caso> streamCaso();
+	
 	public List<Caso> casosEntreFechas(Date fechaini, Date fechafin){
 		return streamCaso()
 			.filter(c->(c.getFecha().getTime()>=fechaini.getTime())&&(c.getFecha().getTime()<=fechafin.getTime()))
