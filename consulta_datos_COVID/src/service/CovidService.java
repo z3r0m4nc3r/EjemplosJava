@@ -7,6 +7,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -28,6 +31,8 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
 import model.Caso;
+import model.Pedido;
+import model.PedidoTienda;
 
 public class CovidService {
 	static String ruta;	
@@ -42,7 +47,7 @@ public class CovidService {
 
 	public List<Caso> listaCasos (Date fecha1, Date fecha2){
 		return crearStream()
-		.filter(c -> c.getFecha().getTime()>fecha1.getTime()&&c.getFecha().getTime()<fecha2.getTime())
+		.filter(c -> c.getFecha().getTime()>=fecha1.getTime()&&c.getFecha().getTime()<=fecha2.getTime())
 		.collect(Collectors.toList());
 	}
 	
@@ -153,7 +158,7 @@ public class CovidService {
 			 nombreComunidad="Castilla Leon";
 			 break;
 		 case "CT":
-			 nombreComunidad="Cataluña";
+			 nombreComunidad="Cataluï¿½a";
 			 break;
 		 case "VC":
 			 nombreComunidad="Valencia";
@@ -259,4 +264,30 @@ private static void csvAJson (String csvFile) {
         e.printStackTrace();
      }
 }
+
+public boolean grabarCasos(List<Caso> casos) {
+	try (Connection con = Datos.getConnection()) {
+		
+		String sql = "INSERT INTO casos(fecha, nombreComunidad, positivos) VALUES(?,?,?)";
+		
+		PreparedStatement st = con.prepareStatement(sql);
+		
+		for (Caso c : casos) {	
+			
+			st.setDate(1, new java.sql.Date(casos.get(0).getFecha().getTime()));
+			st.setString(2, c.getNombreComunidad());
+			st.setInt(3, (int) c.getPositivos());
+			
+			st.executeUpdate();
+		}
+	return true;
+	} catch (SQLException e) {
+
+		e.printStackTrace();
+		return false;
+	}
+
+
+} 
+
 }

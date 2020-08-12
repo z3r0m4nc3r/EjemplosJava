@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.stream.Collectors;
 
 import com.opencsv.CSVWriter;
 
@@ -58,13 +59,16 @@ System.out.println("*******************************************************");
 				listaCasosComunidad();
 			case 7:
 				System.out.println("");
+				actualizarBD();
+			case 8:
+				System.out.println("");
 				System.out.println("Programa Finalizado");
 				break;
 			default:
 				System.out.println("");
 				System.out.println("debes escribir una opcion valida");
 			}
-		}while(opcion!=7);
+		}while(opcion!=8);
 
 	}
 	
@@ -72,7 +76,7 @@ System.out.println("*******************************************************");
 	
 		LocalDate dia = CovidService.dateToLocalDate(service.picoContagios());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		System.out.println("Fecha en la que se notificaron más contagios: "
+		System.out.println("Fecha en la que se notificaron mï¿½s contagios: "
 		+dia.format(dtf)+
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
@@ -96,9 +100,9 @@ System.out.println("*******************************************************");
 		try {
 			ciudad = bf.readLine();
 			System.out.println("El total de casos notificados en "+ciudad+" es de "
-			+service.totalPositivosComunidad(ciudad)+" Total en España: "+service.totalPositivosPais());
+			+service.totalPositivosComunidad(ciudad)+" Total en Espaï¿½a: "+service.totalPositivosPais());
 			System.out.println("Porcentaje de contagiados de "+ciudad
-					+" respecto del total en España "+(service.totalPositivosComunidad(ciudad)*100)
+					+" respecto del total en Espaï¿½a "+(service.totalPositivosComunidad(ciudad)*100)
 					/service.totalPositivosPais()+"%");
 		} catch (IOException e) {
 			
@@ -178,6 +182,14 @@ System.out.println("*******************************************************");
 		CovidService.pulsarTeclaParaContinuar();
 	}
 	
+	static void actualizarBD() {
+		
+		if(service.grabarCasos(CovidService.crearStream().collect(Collectors.toList()))) {
+			System.out.println("Base de Datos actualizada con exito");
+		}else System.out.println("Error!!, no se pudo actualizar");
+		
+	}
+	
 static int menu() {
 		
 		int op=0;
@@ -187,7 +199,8 @@ static int menu() {
 		System.out.println("4.- Media de positivos diarios");
 		System.out.println("5.- Total de positivos en una comunidad");
 		System.out.println("6.- Tabla con listas de Casos por comunidad");
-		System.out.println("7.- Salir");
+		System.out.println("7.- Actualizar Base de Datos");
+		System.out.println("8.- Salir");
 		
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader bf=new BufferedReader(isr);
