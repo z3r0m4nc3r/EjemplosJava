@@ -25,8 +25,8 @@ SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 System.out.println("*******************************************************");
 System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
 System.out.println("* Datos disponibles desde "+sdt.format(
-		service.crearStream().map(c -> c.getFecha()).findFirst().get())
-+" Hasta "+sdt.format(service.crearStream().map(c -> c.getFecha())
+		CovidService.crearStream().map(c -> c.getFecha()).findFirst().get())
++" Hasta "+sdt.format(CovidService.crearStream().map(c -> c.getFecha())
 		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" *");
 System.out.println("*******************************************************");
 
@@ -70,22 +70,22 @@ System.out.println("*******************************************************");
 	
 	static void picoContagios() {
 	
-		LocalDate dia = service.dateToLocalDate(service.picoContagios());
+		LocalDate dia = CovidService.dateToLocalDate(service.picoContagios());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		System.out.println("Fecha en la que se notificaron más contagios: "
 		+dia.format(dtf)+
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
-		service.pulsarTeclaParaContinuar();
+		CovidService.pulsarTeclaParaContinuar();
 	}
 	
 	static void mediaPositivosDiarios() {
 		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 		System.out.println("La media de positivos diarios hasta el "
-		+sdt.format(service.crearStream().map(c -> c.getFecha())
+		+sdt.format(CovidService.crearStream().map(c -> c.getFecha())
 				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
-	+service.redondearDouble(service.mediaPositivosDiarios()));
-		service.pulsarTeclaParaContinuar();
+	+service.mediaPositivosDiarios());
+		CovidService.pulsarTeclaParaContinuar();
 	}
 	
 	static void totalPositivosComunidad() {
@@ -104,7 +104,7 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
-		service.pulsarTeclaParaContinuar();
+		CovidService.pulsarTeclaParaContinuar();
 			
 	}
 	
@@ -128,7 +128,7 @@ System.out.println("*******************************************************");
 			System.out.println("");
 			service.listaCasos(fechaInicial, fechaFinal).stream()
 			.forEach(c -> System.out.println(c.getNombreComunidad()+" "
-			+service.dateToLocalDate(c.getFecha()).format(dtf)+" "
+			+CovidService.dateToLocalDate(c.getFecha()).format(dtf)+" "
 					+c.getPositivos()+" positivos"));
 			
 			
@@ -139,7 +139,7 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
-		service.pulsarTeclaParaContinuar();
+		CovidService.pulsarTeclaParaContinuar();
 		
 		
 	}
@@ -160,7 +160,7 @@ System.out.println("*******************************************************");
 			
 			e.printStackTrace();
 		}
-		service.pulsarTeclaParaContinuar();
+		CovidService.pulsarTeclaParaContinuar();
 	}
 	
 	static void listaCasosComunidad() {
@@ -170,12 +170,12 @@ System.out.println("*******************************************************");
 			writer.writeNext(cabecera);
 			
 			service.listaCasosComunidad().values().stream()
-			.forEach(c -> c.forEach(d -> writer.writeNext(service.mapToArray(d))));
+			.forEach(c -> c.forEach(d -> writer.writeNext(CovidService.mapToArray(d))));
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		System.out.println("Lista creada en el archivo "+archCSV);
-		service.pulsarTeclaParaContinuar();
+		CovidService.pulsarTeclaParaContinuar();
 	}
 	
 static int menu() {

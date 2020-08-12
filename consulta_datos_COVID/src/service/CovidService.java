@@ -20,8 +20,6 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.json.simple.JSONObject;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -37,7 +35,7 @@ public class CovidService {
 	
 	public CovidService(String ruta) {
 		super();
-		this.ruta = ruta;
+		CovidService.ruta = ruta;
 	}
 
 
@@ -60,10 +58,10 @@ public class CovidService {
 		
 	}
 	
-	public double mediaPositivosDiarios() {
-		return crearStream()
-				.mapToDouble(c -> (double)c.getPositivos())
-				.average().orElse(0);
+	public long mediaPositivosDiarios() {
+		return Math.round(crearStream()
+				.mapToLong(c -> c.getPositivos())
+				.average().getAsDouble());
 		
 	}
 	
@@ -191,7 +189,7 @@ public class CovidService {
 		return nombreComunidad;
 	}
 	
-public static Caso crearCaso(ObjectNode jo) {
+private static Caso crearCaso(ObjectNode jo) {
 	
 	SimpleDateFormat sdt = new SimpleDateFormat("yyyy-MM-dd");
 	Date nuevaFecha=null;
@@ -220,6 +218,7 @@ public static Date localDateToDate (LocalDate ld) {
 			.toInstant());
 }
 
+@SuppressWarnings("resource")
 public static void pulsarTeclaParaContinuar(){
    
   
@@ -227,7 +226,7 @@ public static void pulsarTeclaParaContinuar(){
    	Scanner sc = new Scanner(System.in);
    	 System.out.println("");
    	 System.out.println("Pulsa Enter para continuar...");
-        String seguir = sc.nextLine();
+     sc.nextLine();
        
    }
    catch(Exception e){
@@ -235,9 +234,6 @@ public static void pulsarTeclaParaContinuar(){
    }
 }
 
-public static double redondearDouble(double d) {
-	return (double) Math.round(d*100d/100d);
-}
 
 public static String [] mapToArray (Caso c) {
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
