@@ -31,17 +31,23 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
 import model.Caso;
-import model.Pedido;
-import model.PedidoTienda;
 
 public class CovidService {
 	static String ruta;	
 	
 	
-	public CovidService(String ruta) {
-		super();
+	public CovidService() {
+		
+	}
+
+	public static String getRuta() {
+		return ruta;
+	}
+
+	public static void setRuta(String ruta) {
 		CovidService.ruta = ruta;
 	}
+
 
 
 
@@ -265,22 +271,27 @@ private static void csvAJson (String csvFile) {
      }
 }
 
+
 public boolean grabarCasos(List<Caso> casos) {
 	try (Connection con = Datos.getConnection()) {
-		
-		String sql = "INSERT INTO casos(fecha, nombreComunidad, positivos) VALUES(?,?,?)";
-		
+
+		String sql = "INSERT INTO registro (fecha, nombreComunidad, positivos) VALUES(?,?,?)";
+
 		PreparedStatement st = con.prepareStatement(sql);
-		
+
 		for (Caso c : casos) {	
-			
-			st.setDate(1, new java.sql.Date(casos.get(0).getFecha().getTime()));
+
+			st.setDate(1, new java.sql.Date(c.getFecha().getTime()));
 			st.setString(2, c.getNombreComunidad());
 			st.setInt(3, (int) c.getPositivos());
-			
-			st.executeUpdate();
+
+			try {
+				st.executeUpdate();
+			} catch (java.sql.SQLIntegrityConstraintViolationException e) {
+
+			}
 		}
-	return true;
+		return true;
 	} catch (SQLException e) {
 
 		e.printStackTrace();

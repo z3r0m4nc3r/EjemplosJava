@@ -1,15 +1,14 @@
 package service;
 
-import java.io.IOException;
-import java.nio.file.Paths;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 
 public class Datos  {
 	static String driver;
@@ -24,10 +23,18 @@ public class Datos  {
 		try {
 			cargarPropiedades();
 			Class.forName(driver);
-		} catch (ClassNotFoundException | IOException e) {
+		} catch (ClassNotFoundException e) {
 			
 			e.printStackTrace();
-		
+		} catch (JsonIOException e) {
+			
+			e.printStackTrace();
+		} catch (JsonSyntaxException e) {
+			
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
 		}
 	}
 	
@@ -35,14 +42,12 @@ public class Datos  {
 		return DriverManager.getConnection(cadenaConexion, user, password);
 	}
 
-	private static void cargarPropiedades() throws JsonParseException, JsonMappingException, IOException {
-		ObjectMapper objectMapper = new ObjectMapper();
-		
-		ObjectNode conn = objectMapper.readValue(Paths.get("config.json").toFile(), ObjectNode.class);
-		driver 		= conn.get("driver").asText();
-		cadenaConexion 	= conn.get("cadenaConexion").asText();
-		user 		= conn.get("user").asText();
-		password 		= conn.get("password").asText();
+	private static void cargarPropiedades() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
+		JsonObject conn = JsonParser.parseReader(new FileReader(FILE)).getAsJsonObject();
+		driver 		= conn.get("driver").getAsString();
+		cadenaConexion 	= conn.get("cadenaConexion").getAsString();
+		user 		= conn.get("user").getAsString();
+		password 		= conn.get("password").getAsString();
 
 	}
 }

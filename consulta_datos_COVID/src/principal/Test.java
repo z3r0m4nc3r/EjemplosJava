@@ -8,17 +8,21 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import com.opencsv.CSVWriter;
 
+import model.Caso;
 import service.CovidService;
 
 public class Test {
-	static CovidService service = new CovidService("resultado.csv");
+	static CovidService service = new CovidService();
 	
 	public static void main(String[] args) {
+		seleccionarArchivo();
 		
 int opcion=0;
 SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
@@ -57,9 +61,11 @@ System.out.println("*******************************************************");
 			case 6:
 				System.out.println("");
 				listaCasosComunidad();
+				break;
 			case 7:
 				System.out.println("");
 				actualizarBD();
+				break;
 			case 8:
 				System.out.println("");
 				System.out.println("Programa Finalizado");
@@ -76,7 +82,7 @@ System.out.println("*******************************************************");
 	
 		LocalDate dia = CovidService.dateToLocalDate(service.picoContagios());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		System.out.println("Fecha en la que se notificaron mï¿½s contagios: "
+		System.out.println("Fecha en la que se notificaron mas contagios: "
 		+dia.format(dtf)+
 		" Total de positivos : "
 		+service.totalPositivosDia(service.picoContagios()));
@@ -100,9 +106,9 @@ System.out.println("*******************************************************");
 		try {
 			ciudad = bf.readLine();
 			System.out.println("El total de casos notificados en "+ciudad+" es de "
-			+service.totalPositivosComunidad(ciudad)+" Total en Espaï¿½a: "+service.totalPositivosPais());
+			+service.totalPositivosComunidad(ciudad)+" Total en España: "+service.totalPositivosPais());
 			System.out.println("Porcentaje de contagiados de "+ciudad
-					+" respecto del total en Espaï¿½a "+(service.totalPositivosComunidad(ciudad)*100)
+					+" respecto del total en España "+(service.totalPositivosComunidad(ciudad)*100)
 					/service.totalPositivosPais()+"%");
 		} catch (IOException e) {
 			
@@ -183,8 +189,9 @@ System.out.println("*******************************************************");
 	}
 	
 	static void actualizarBD() {
-		
-		if(service.grabarCasos(CovidService.crearStream().collect(Collectors.toList()))) {
+		List <Caso> listaCompleta = new ArrayList<Caso>();
+		listaCompleta = CovidService.crearStream().collect(Collectors.toList());
+		if(service.grabarCasos(listaCompleta)) {
 			System.out.println("Base de Datos actualizada con exito");
 		}else System.out.println("Error!!, no se pudo actualizar");
 		
@@ -215,5 +222,22 @@ static int menu() {
 		return op;
 		
 	}
+
+static void seleccionarArchivo() {
+	String ruta;
+	InputStreamReader isr = new InputStreamReader(System.in);
+	BufferedReader bf=new BufferedReader(isr);
+	System.out.println("Introduzca nombre del archivo con su extesion (.json o .csv):");
+	
+	try {
+		ruta=bf.readLine();
+		CovidService.setRuta(ruta);
+	} catch (IOException e) {
+		
+		e.printStackTrace();
+	}
+	System.out.println("");
+	
+}
 
 }
