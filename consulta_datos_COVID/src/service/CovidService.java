@@ -9,12 +9,15 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -52,7 +55,7 @@ public class CovidService {
 
 
 	public List<Caso> listaCasos (Date fecha1, Date fecha2){
-		return crearStream()
+		return crearStreamSQL()
 		.filter(c -> c.getFecha().getTime()>=fecha1.getTime()&&c.getFecha().getTime()<=fecha2.getTime())
 		.collect(Collectors.toList());
 	}
@@ -61,7 +64,7 @@ public class CovidService {
 	
 	public Date picoContagios () {
 		
-		return crearStream().collect(Collectors.groupingBy(c -> c.getFecha()))
+		return crearStreamSQL().collect(Collectors.groupingBy(c -> c.getFecha()))
 				.values().stream()
 				.max((c1,c2) -> c1.stream().mapToLong(e -> e.getPositivos()).sum() 
 						< c2.stream().mapToLong(e -> e.getPositivos()).sum()?-1:1)
@@ -70,14 +73,14 @@ public class CovidService {
 	}
 	
 	public long mediaPositivosDiarios() {
-		return Math.round(crearStream()
+		return Math.round(crearStreamSQL()
 				.mapToLong(c -> c.getPositivos())
 				.average().getAsDouble());
 		
 	}
 	
 	public long totalPositivosComunidad(String comunidad) {
-		return crearStream()
+		return crearStreamSQL()
 				.filter(c -> c.getNombreComunidad().toLowerCase().contentEquals(comunidad.toLowerCase())
 						|c.getNombreComunidad().toLowerCase().endsWith(comunidad))
 				.mapToLong(c -> c.getPositivos()).sum();
@@ -85,22 +88,49 @@ public class CovidService {
 	}
 	
 	public long totalPositivosDia (Date fecha) {
-		return crearStream().collect(Collectors.groupingBy(c -> c.getFecha()))
+		return crearStreamSQL().collect(Collectors.groupingBy(c -> c.getFecha()))
 				.get(fecha).stream().mapToLong(e -> e.getPositivos()).sum();
 				
 	}
 	
 	public long totalPositivosPais() {
-		return crearStream()
+		return crearStreamSQL()
 				.mapToLong(c -> c.getPositivos())
 				.sum();
 	}
 	
 	public Map<String,List<Caso>> listaCasosComunidad(){
-		return crearStream()
+		return crearStreamSQL()
 		.collect(Collectors.groupingBy(c -> c.getNombreComunidad()));
 	}
 	
+	public static Stream <Caso> crearStreamSQL(){
+		List<Caso> casos = new ArrayList<>();
+		SimpleDateFormat sdt = new SimpleDateFormat("yyyy-MM-dd");
+		try (Connection con = Datos.getConnection()) {
+
+			String sql = "SELECT * FROM registro";
+
+			PreparedStatement st = con.prepareStatement(sql);
+			ResultSet rs = st.executeQuery();
+
+			while(rs.next()) {	
+				try {
+					casos.add(new Caso(rs.getString("nombreComunidad"),sdt.parse(rs.getDate("fecha").toString()),rs.getLong("positivos")));
+				} catch (ParseException e) {
+				
+					e.printStackTrace();
+				}
+
+			}
+			return casos.stream();
+		} catch (SQLException e) {
+
+			e.printStackTrace();
+			return null;
+		}
+
+	}
 	public static Stream <Caso> crearStream(){
 		 Path origenPath = FileSystems.getDefault().getPath(ruta);
 		 Path destinoPath = FileSystems.getDefault().getPath("datos.json");
@@ -135,10 +165,10 @@ public class CovidService {
 		
 	}
 	
-	private static String nombreComunidad(ObjectNode jo) {
+	private static String nombreComunidad(String nombre) {
 		String nombreComunidad ="";
 		
-		switch (jo.get("ccaa_iso").asText()){
+		switch (nombre){
 		 case "AN":
 			 nombreComunidad="Andalucia";
 			 break;
@@ -164,7 +194,7 @@ public class CovidService {
 			 nombreComunidad="Castilla Leon";
 			 break;
 		 case "CT":
-			 nombreComunidad="Cataluï¿½a";
+			 nombreComunidad="Cataluña";
 			 break;
 		 case "VC":
 			 nombreComunidad="Valencia";
@@ -204,7 +234,7 @@ private static Caso crearCaso(ObjectNode jo) {
 	
 	SimpleDateFormat sdt = new SimpleDateFormat("yyyy-MM-dd");
 	Date nuevaFecha=null;
-	String nombreComunidad=nombreComunidad(jo);
+	String nombreComunidad=nombreComunidad(jo.get("ccaa_iso").asText());
 	
 	try {
 		nuevaFecha = sdt.parse(jo.get("fecha").asText());

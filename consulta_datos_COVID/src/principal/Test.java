@@ -22,7 +22,7 @@ public class Test {
 	static CovidService service = new CovidService();
 	
 	public static void main(String[] args) {
-		seleccionarArchivo();
+		
 		
 int opcion=0;
 SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
@@ -30,8 +30,8 @@ SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 System.out.println("*******************************************************");
 System.out.println("* Sistema de gestion de datos pandemia COVID-19       *");
 System.out.println("* Datos disponibles desde "+sdt.format(
-		CovidService.crearStream().map(c -> c.getFecha()).findFirst().get())
-+" Hasta "+sdt.format(CovidService.crearStream().map(c -> c.getFecha())
+		CovidService.crearStreamSQL().map(c -> c.getFecha()).findFirst().get())
++" Hasta "+sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
 		.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" *");
 System.out.println("*******************************************************");
 
@@ -92,7 +92,7 @@ System.out.println("*******************************************************");
 	static void mediaPositivosDiarios() {
 		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 		System.out.println("La media de positivos diarios hasta el "
-		+sdt.format(CovidService.crearStream().map(c -> c.getFecha())
+		+sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
 				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
 	+service.mediaPositivosDiarios());
 		CovidService.pulsarTeclaParaContinuar();
@@ -189,6 +189,7 @@ System.out.println("*******************************************************");
 	}
 	
 	static void actualizarBD() {
+		seleccionarArchivo();
 		List <Caso> listaCompleta = new ArrayList<Caso>();
 		listaCompleta = CovidService.crearStream().collect(Collectors.toList());
 		if(service.grabarCasos(listaCompleta)) {
