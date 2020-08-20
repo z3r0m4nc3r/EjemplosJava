@@ -1,14 +1,15 @@
 package service;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import com.google.gson.JsonIOException;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.JsonSyntaxException;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 public class Datos  {
 	static String driver;
@@ -26,13 +27,13 @@ public class Datos  {
 		} catch (ClassNotFoundException e) {
 			
 			e.printStackTrace();
-		} catch (JsonIOException e) {
+		} catch (JsonParseException e) {
 			
 			e.printStackTrace();
-		} catch (JsonSyntaxException e) {
+		} catch (JsonMappingException e) {
 			
 			e.printStackTrace();
-		} catch (FileNotFoundException e) {
+		} catch (IOException e) {
 			
 			e.printStackTrace();
 		}
@@ -42,12 +43,14 @@ public class Datos  {
 		return DriverManager.getConnection(cadenaConexion, user, password);
 	}
 
-	private static void cargarPropiedades() throws JsonIOException, JsonSyntaxException, FileNotFoundException {
-		JsonObject conn = JsonParser.parseReader(new FileReader(FILE)).getAsJsonObject();
-		driver 		= conn.get("driver").getAsString();
-		cadenaConexion 	= conn.get("cadenaConexion").getAsString();
-		user 		= conn.get("user").getAsString();
-		password 		= conn.get("password").getAsString();
+	private static void cargarPropiedades() throws JsonParseException, JsonMappingException, IOException {
+		
+		 ObjectMapper objectMapper = new ObjectMapper();
+		 ObjectNode conn = objectMapper.readValue(Paths.get("config.json").toFile(), ObjectNode.class);
+		 driver = conn.get("driver").asText(); 
+		 cadenaConexion = conn.get("cadenaConexion").asText(); 
+		 user =	 conn.get("user").asText();
+		 password =	 conn.get("password").asText();
 
 	}
 }
