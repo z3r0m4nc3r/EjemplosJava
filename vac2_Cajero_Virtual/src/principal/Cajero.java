@@ -28,7 +28,7 @@ public class Cajero {
 			System.out.println("La cuenta numero "+numero+" se encuentra en la base de datos");
 			
 			do{		
-				opcion = menu();
+				opcion = menuCliente();
 				switch(opcion){
 				case 1:
 					System.out.println("");
@@ -100,7 +100,7 @@ public class Cajero {
 		mostrarSaldo(cuenta);
 	}
 	
-static int menu() {
+static int menuCliente() {
 		
 		int op=0;
 		System.out.println("1.- Sacar Dinero");
