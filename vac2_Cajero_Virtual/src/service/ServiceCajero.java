@@ -5,8 +5,12 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import model.Movimiento;
 
@@ -115,7 +119,10 @@ public class ServiceCajero {
 			while (rs.next()){
 				mvlist.add(new Movimiento(rs.getInt("idMovimiento"), rs.getInt("idCuenta"), rs.getDate("fecha"), rs.getInt("cantidad"), rs.getString("operacion")));
 			}
-			return mvlist;
+			return mvlist.parallelStream()
+					.filter(mv -> mv.getFecha().getTime()
+							>localDateToDate(LocalDate.now().minusDays(30)).getTime())
+					.collect(Collectors.toList());
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
@@ -154,5 +161,11 @@ public class ServiceCajero {
 		
 	}
 	
+	private Date localDateToDate (LocalDate ld) {
+		//Recibe un objeto java.util.LocalDate y lo transforma en java.util.Date
+		return Date.from(
+				ld.atStartOfDay(ZoneId.systemDefault())
+				.toInstant());
+	}
 
 }

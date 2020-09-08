@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 import service.ServiceCajero;
 
-public class Cajero {
+public class CajeroConsola {
 	static ServiceCajero service = new ServiceCajero ();
 	
 	public static void main(String[] args) {
