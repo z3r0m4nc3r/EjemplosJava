@@ -99,7 +99,7 @@ public class CovidService {
 				.sum();
 	}
 	
-	public Map<String,List<Caso>> listaCasosComunidad(){
+	public static Map<String,List<Caso>> listaCasosComunidad(){
 		return crearStreamSQL()
 		.collect(Collectors.groupingBy(c -> c.getNombreComunidad()));
 	}
