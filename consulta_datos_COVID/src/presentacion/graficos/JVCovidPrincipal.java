@@ -6,9 +6,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import java.awt.Dimension;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
@@ -49,6 +46,7 @@ public class JVCovidPrincipal extends JFrame {
 		contentPane.setLayout(null);
 		
 		JComboBox <String>comboBoxComunidades = new JComboBox<String>();
+		
 		comboBoxComunidades.setModel(new DefaultComboBoxModel<String>(CovidService.arrayComunidades()));
 		comboBoxComunidades.setBounds(10, 44, 176, 22);
 		contentPane.add(comboBoxComunidades);
@@ -111,6 +109,25 @@ public class JVCovidPrincipal extends JFrame {
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 12));
 		
+		JPanel panel_1 = new JPanel();
+		panel_1.setVisible(false);
+		panel_1.setBounds(10, 208, 613, 218);
+		contentPane.add(panel_1);
+		panel_1.setLayout(null);
+		
+		JLabel lblNombreComunidad = new JLabel("");
+		lblNombreComunidad.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblNombreComunidad.setBounds(10, 11, 161, 32);
+		panel_1.add(lblNombreComunidad);
+		
+		JLabel lblNewLabel_2 = new JLabel("Total Positivos:");
+		lblNewLabel_2.setBounds(10, 54, 97, 14);
+		panel_1.add(lblNewLabel_2);
+		
+		JLabel lblTotalPositivos = new JLabel("");
+		lblTotalPositivos.setBounds(123, 54, 48, 14);
+		panel_1.add(lblTotalPositivos);
+		
 		rdbtnRango.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent e) {
 				if(rdbtnRango.isSelected()) {
@@ -132,6 +149,14 @@ public class JVCovidPrincipal extends JFrame {
 						}
 					}
 				});
+			}
+		});
+		
+		comboBoxComunidades.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				panel_1.setVisible(true);
+				lblNombreComunidad.setText(comboBoxComunidades.getSelectedItem().toString());			
+				lblTotalPositivos.setText(""+CovidService.totalPositivosComunidad(comboBoxComunidades.getSelectedItem().toString()));
 			}
 		});
 		
