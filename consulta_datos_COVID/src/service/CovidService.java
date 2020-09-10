@@ -62,7 +62,7 @@ public class CovidService {
 	
 	
 	
-	public Date picoContagios () {
+	public static Date picoContagios () {
 		
 		return crearStreamSQL().collect(Collectors.groupingBy(c -> c.getFecha()))
 				.values().stream()
@@ -72,14 +72,14 @@ public class CovidService {
 		
 	}
 	
-	public long mediaPositivosDiarios() {
+	public static long mediaPositivosDiarios() {
 		return Math.round(crearStreamSQL()
 				.mapToLong(c -> c.getPositivos())
 				.average().getAsDouble());
 		
 	}
 	
-	public long totalPositivosComunidad(String comunidad) {
+	public static long totalPositivosComunidad(String comunidad) {
 		return crearStreamSQL()
 				.filter(c -> c.getNombreComunidad().toLowerCase().contentEquals(comunidad.toLowerCase())
 						|c.getNombreComunidad().toLowerCase().endsWith(comunidad))
@@ -87,13 +87,13 @@ public class CovidService {
 		
 	}
 	
-	public long totalPositivosDia (Date fecha) {
+	public static long totalPositivosDia (Date fecha) {
 		return crearStreamSQL().collect(Collectors.groupingBy(c -> c.getFecha()))
 				.get(fecha).stream().mapToLong(e -> e.getPositivos()).sum();
 				
 	}
 	
-	public long totalPositivosPais() {
+	public static long totalPositivosPais() {
 		return crearStreamSQL()
 				.mapToLong(c -> c.getPositivos())
 				.sum();
@@ -163,6 +163,14 @@ public class CovidService {
 		
 		
 		
+	}
+	
+	public static String [] arrayComunidades() {
+		String [] comunidades = new String [19];
+		for(int i=0;i<comunidades.length;i++) {
+		comunidades [i]=crearStreamSQL().map(c -> c.getNombreComunidad()).distinct().collect(Collectors.toList()).get(i);
+		}
+		return comunidades;
 	}
 	
 	private static String nombreComunidad(String nombre) {
@@ -302,7 +310,7 @@ private static void csvAJson (String csvFile) {
 }
 
 
-public boolean grabarCasos(List<Caso> casos) {
+public static boolean grabarCasos(List<Caso> casos) {
 	try (Connection con = Datos.getConnection()) {
 
 		String sql = "INSERT INTO registro (fecha, nombreComunidad, positivos) VALUES(?,?,?)";

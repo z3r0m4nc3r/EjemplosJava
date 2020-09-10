@@ -80,12 +80,12 @@ System.out.println("*******************************************************");
 	
 	static void picoContagios() {
 	
-		LocalDate dia = CovidService.dateToLocalDate(service.picoContagios());
+		LocalDate dia = CovidService.dateToLocalDate(CovidService.picoContagios());
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		System.out.println("Fecha en la que se notificaron mas contagios: "
 		+dia.format(dtf)+
 		" Total de positivos : "
-		+service.totalPositivosDia(service.picoContagios()));
+		+CovidService.totalPositivosDia(CovidService.picoContagios()));
 		CovidService.pulsarTeclaParaContinuar();
 	}
 	
@@ -94,7 +94,7 @@ System.out.println("*******************************************************");
 		System.out.println("La media de positivos diarios hasta el "
 		+sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
 				.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get())+" es de: "
-	+service.mediaPositivosDiarios());
+	+CovidService.mediaPositivosDiarios());
 		CovidService.pulsarTeclaParaContinuar();
 	}
 	
@@ -106,10 +106,10 @@ System.out.println("*******************************************************");
 		try {
 			ciudad = bf.readLine();
 			System.out.println("El total de casos notificados en "+ciudad+" es de "
-			+service.totalPositivosComunidad(ciudad)+" Total en España: "+service.totalPositivosPais());
+			+CovidService.totalPositivosComunidad(ciudad)+" Total en España: "+CovidService.totalPositivosPais());
 			System.out.println("Porcentaje de contagiados de "+ciudad
-					+" respecto del total en España "+(service.totalPositivosComunidad(ciudad)*100)
-					/service.totalPositivosPais()+"%");
+					+" respecto del total en España "+(CovidService.totalPositivosComunidad(ciudad)*100)
+					/CovidService.totalPositivosPais()+"%");
 		} catch (IOException e) {
 			
 			e.printStackTrace();
@@ -162,7 +162,7 @@ System.out.println("*******************************************************");
 		System.out.println("");
 		try {
 			Date fecha = sdt.parse(bf.readLine());
-			System.out.println("Total de positivos : "+service.totalPositivosDia(fecha));
+			System.out.println("Total de positivos : "+CovidService.totalPositivosDia(fecha));
 		} catch (ParseException e) {
 			
 			e.printStackTrace();
@@ -192,7 +192,7 @@ System.out.println("*******************************************************");
 		seleccionarArchivo();
 		List <Caso> listaCompleta = new ArrayList<Caso>();
 		listaCompleta = CovidService.crearStream().collect(Collectors.toList());
-		if(service.grabarCasos(listaCompleta)) {
+		if(CovidService.grabarCasos(listaCompleta)) {
 			System.out.println("Base de Datos actualizada con exito");
 		}else System.out.println("Error!!, no se pudo actualizar");
 		
