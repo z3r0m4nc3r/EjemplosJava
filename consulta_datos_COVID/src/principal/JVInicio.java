@@ -139,7 +139,7 @@ public class JVInicio extends JFrame {
 				int b = 0;
 				String ruta;
 				String url ="https://cnecovid.isciii.es/covid19/resources/datos_ccaas.csv";
-				File file =  new File(System.getProperty("user.dir")+System.getProperty("file.separator")+System.getProperty("file.separator")+ NAME);
+				File file =  new File(System.getProperty("user.dir")+System.getProperty("file.separator")+ NAME);
 				URLConnection conn; 
 				try { 
 					conn = new  URL(url).openConnection(); 
@@ -162,7 +162,8 @@ public class JVInicio extends JFrame {
 					listaCompleta = CovidService.crearStream().collect(Collectors.toList());
 					if(CovidService.grabarCasos(listaCompleta)) {
 						JOptionPane.showMessageDialog(JVInicio.this, "Base de Datos actualizada con exito");
-						
+						lblFechaFin.setText(sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
+								.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get()));
 					}else JOptionPane.showMessageDialog(JVInicio.this, "Error!! No se pudo actualizar");
 				}
 				

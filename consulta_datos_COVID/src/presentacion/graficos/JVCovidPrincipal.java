@@ -60,14 +60,14 @@ public class JVCovidPrincipal extends JFrame {
 		JRadioButton rdbtnTodas = new JRadioButton("Rango de Fechas Completo");
 		rdbtnTodas.setSelected(true);
 		buttonGroup.add(rdbtnTodas);
-		rdbtnTodas.setBounds(321, 44, 159, 23);
+		rdbtnTodas.setBounds(321, 44, 274, 23);
 		contentPane.add(rdbtnTodas);
 		
 		JRadioButton rdbtnRango = new JRadioButton("Seleccionar Fechas");
 		
 		
 		buttonGroup.add(rdbtnRango);
-		rdbtnRango.setBounds(321, 70, 159, 23);
+		rdbtnRango.setBounds(321, 70, 274, 23);
 		contentPane.add(rdbtnRango);
 		
 		JButton btnMostrar = new JButton("Mostrar Casos");
@@ -156,7 +156,7 @@ public class JVCovidPrincipal extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				panel_1.setVisible(true);
 				lblNombreComunidad.setText(comboBoxComunidades.getSelectedItem().toString());			
-				lblTotalPositivos.setText(""+CovidService.totalPositivosComunidad(comboBoxComunidades.getSelectedItem().toString()));
+				lblTotalPositivos.setText(""+String.format("%,d",CovidService.totalPositivosComunidad(comboBoxComunidades.getSelectedItem().toString())));
 			}
 		});
 		

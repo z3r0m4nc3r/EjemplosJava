@@ -1,14 +1,14 @@
 package presentacion.graficos;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import service.CovidService;
+
 import javax.swing.JLabel;
 import java.awt.Font;
 import java.text.SimpleDateFormat;
@@ -16,6 +16,7 @@ import java.util.Date;
 
 public class JVCovidInforme extends JFrame {
 
+	private static final long serialVersionUID = -529092281196046127L;
 	private JPanel contentPane;
 
 	
@@ -64,5 +65,15 @@ public class JVCovidInforme extends JFrame {
 		SimpleDateFormat sdt = new SimpleDateFormat("dd/MM/yyyy");
 		lblPico.setText(sdt.format(fecha));
 		contentPane.add(lblPico);
+		
+		JLabel lblNewLabel_1 = new JLabel("Total de Contagios en Espa\u00F1a");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblNewLabel_1.setBounds(10, 89, 232, 27);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblTotalContagios = new JLabel((String) null);
+		lblTotalContagios.setBounds(252, 97, 176, 14);
+		lblTotalContagios.setText(String.format("%,d",CovidService.totalPositivosPais())+"");
+		contentPane.add(lblTotalContagios);
 	}
 }

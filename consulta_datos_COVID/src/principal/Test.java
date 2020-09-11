@@ -179,7 +179,7 @@ System.out.println("*******************************************************");
 			String [] cabecera = {"nombreComunidad","fecha","positivos"};
 			writer.writeNext(cabecera);
 			
-			service.listaCasosComunidad().values().stream()
+			CovidService.listaCasosComunidad().values().stream()
 			.forEach(c -> c.forEach(d -> writer.writeNext(CovidService.mapToArray(d))));
 		} catch (IOException e1) {
 			e1.printStackTrace();
