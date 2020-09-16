@@ -36,8 +36,7 @@ import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import model.Caso;
 
 public class CovidService {
-	static String ruta;	
-	
+	static String ruta;
 	
 	public CovidService() {
 		
@@ -50,9 +49,6 @@ public class CovidService {
 	public static void setRuta(String ruta) {
 		CovidService.ruta = ruta;
 	}
-
-
-
 
 	public List<Caso> listaCasos (Date fecha1, Date fecha2){
 		return crearStreamSQL()
@@ -337,6 +333,7 @@ public static boolean grabarCasos(List<Caso> casos) {
 	}
 
 
-} 
+}
+
 
 }

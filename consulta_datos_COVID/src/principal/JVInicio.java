@@ -38,8 +38,7 @@ public class JVInicio extends JFrame {
 	private static final long serialVersionUID = -2941550157403693402L;
 	private JPanel contentPane;
 	static final String NAME="datos_ccaas.csv";
-
-
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -139,8 +138,9 @@ public class JVInicio extends JFrame {
 				int b = 0;
 				String ruta;
 				String url ="https://cnecovid.isciii.es/covid19/resources/datos_ccaas.csv";
-				File file =  new File(System.getProperty("user.dir")+System.getProperty("file.separator")+ NAME);
+				File file =  new File(NAME);
 				URLConnection conn; 
+				
 				try { 
 					conn = new  URL(url).openConnection(); 
 					conn.connect();
@@ -160,11 +160,12 @@ public class JVInicio extends JFrame {
 					CovidService.setRuta(ruta);
 					List <Caso> listaCompleta = new ArrayList<Caso>();
 					listaCompleta = CovidService.crearStream().collect(Collectors.toList());
-					if(CovidService.grabarCasos(listaCompleta)) {
-						JOptionPane.showMessageDialog(JVInicio.this, "Base de Datos actualizada con exito");
-						lblFechaFin.setText(sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
-								.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get()));
-					}else JOptionPane.showMessageDialog(JVInicio.this, "Error!! No se pudo actualizar");
+			       
+				if(CovidService.grabarCasos(listaCompleta)) {
+					JOptionPane.showMessageDialog(JVInicio.this, "Base de Datos actualizada con exito");
+					lblFechaFin.setText(sdt.format(CovidService.crearStreamSQL().map(c -> c.getFecha())
+							.max((c1,c2) ->c1.getTime()<c2.getTime()?-1:1).get()));
+				}else JOptionPane.showMessageDialog(JVInicio.this, "Error!! No se pudo actualizar");
 				}
 				
 				catch (MalformedURLException ex1) {
@@ -175,8 +176,12 @@ public class JVInicio extends JFrame {
 
 					ex1.printStackTrace(); 
 				}
+				
 			}
+			
 		});
+		
+		
 		
 		mntmInformes.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -193,4 +198,5 @@ public class JVInicio extends JFrame {
 			}
 		});
 	}
+
 }

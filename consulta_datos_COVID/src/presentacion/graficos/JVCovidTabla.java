@@ -26,7 +26,7 @@ public class JVCovidTabla extends JFrame {
 	private static final long serialVersionUID = -7882805253701402685L;
 	private JPanel contentPane;
 	private JTable table;
-
+	
 	
 	public JVCovidTabla(Date fecha1, Date fecha2, String comunidad) {
 		setTitle("Relacion de Casos");
@@ -60,7 +60,7 @@ public class JVCovidTabla extends JFrame {
 					
 					CovidService.listaCasosComunidad().get(comunidad)
 					.forEach(c -> writer.writeNext(CovidService.mapToArray(c)));
-					JOptionPane.showMessageDialog(JVCovidTabla.this, "Lista creada en el archivo "+System.getProperty("user.dir")+System.getProperty("file.separator")+archCSV);
+					JOptionPane.showMessageDialog(JVCovidTabla.this, "Lista creada en el archivo "+archCSV);
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}

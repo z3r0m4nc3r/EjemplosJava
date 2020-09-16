@@ -25,21 +25,6 @@ public class JVCovidInforme extends JFrame {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(740, 50, 640, 480);
 		
-		JMenuBar menuBar = new JMenuBar();
-		setJMenuBar(menuBar);
-		
-		JMenu mnConsultas = new JMenu("Consultas");
-		menuBar.add(mnConsultas);
-		
-		JMenuItem mntmComunidad = new JMenuItem("Por Comunidad");
-		mnConsultas.add(mntmComunidad);
-		
-		JMenu mnEstadisticas = new JMenu("Estadisticas");
-		menuBar.add(mnEstadisticas);
-		
-		JMenuItem mntmInformes = new JMenuItem("Informes");
-		mnEstadisticas.add(mntmInformes);
-		
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

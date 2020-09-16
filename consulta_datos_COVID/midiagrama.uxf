@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>24</y>
+      <w>252</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>service::Datos
+--
+_~driver: String_
+_~cadenaConexion: String_
+_~user: String_
+_~password: String_
+_~FILE: String_
+--
+_+getConnection(): Connection_
+_+cargarPropiedades(): void_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>24</y>
+      <w>300</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>service::CovidService
+--
+_-ruta: String_
+
+--
++CovidService():_
+_+getRuta(): String_
+_+setRuta(String): void_
++listaCasos(Date,Date): List&lt;Caso&gt;
+_+picoContagios(): Date_
+_+mediaPositivosDiarios(): long_
+_+totalPositivosComunidad(String)_
+_+totalPositivosDia(Date): long_
+_+totalPositivosPais(): long_
+_+crearStreamSQL(): Stream&lt;Caso&gt;_
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>408</x>
+      <y>396</y>
+      <w>252</w>
+      <h>276</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+model::Caso
+
+--
+-nombreComunidad: String
+-fecha: Date
+-positivos: long
+--
++Caso(String,Date,long)
++getNomnreComunidad(): String
++getFecha(): Date
++getPositivos(): long
++setNombreComunidad(String): void
++setFecha(Date): void
++setPositivos(long): void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>336</y>
+      <w>72</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.&gt;
+Uses</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>
